@@ -21,17 +21,25 @@ public class PlayerBehaviour : MonoBehaviour
         // da sostituire con evento per animazione 
 
         if(collision.transform.CompareTag("Fantasma"))
-        {
-            GameManager.fantasma_count++;
+        {   
             GameManager.zombie_count = 0;
             GameManager.armatura_count = 0;
-            GameManager.UpdateText();            
+            if (!GameManager.powerUptaken)
+            {
+                GameManager.fantasma_count++;
+            }
+
+            GameManager.UpdateText();
             Destroy(collision.gameObject);            
         }
 
         if (collision.transform.CompareTag("Zombie"))
         {
-            GameManager.zombie_count++;
+            if (!GameManager.powerUptaken)
+            {
+                GameManager.zombie_count++;
+            }
+            
             GameManager.fantasma_count = 0;
             GameManager.armatura_count = 0;
             GameManager.UpdateText();
@@ -40,7 +48,11 @@ public class PlayerBehaviour : MonoBehaviour
 
         if (collision.transform.CompareTag("Armatura"))
         {
-            GameManager.armatura_count++;
+            if (!GameManager.powerUptaken)
+            {
+                GameManager.armatura_count++;
+            }
+            
             GameManager.fantasma_count = 0;
             GameManager.zombie_count = 0;
             GameManager.UpdateText();

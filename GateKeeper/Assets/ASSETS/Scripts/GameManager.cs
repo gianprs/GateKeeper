@@ -8,15 +8,14 @@ public class GameManager : MonoBehaviour
     public static GameManager instanceGM = null;
     public static int fantasma_count = 0;
     public static int zombie_count = 0;
-    public static int armatura_count = 0;
-    public static Text staticEnemiesKilledCount;
-    public static Text staticScoreText;
+    public static int armatura_count = 0;    
 
     static int enemyCount;
-    static bool powerUptaken;
+    public static bool powerUptaken;
     
     public Text enemiesKilledCount;
     public Text scoreText;
+    public float powerUpTime = 5f;
 
     float score;
 
@@ -41,10 +40,8 @@ public class GameManager : MonoBehaviour
         score = 0;
         powerUptaken = false;
 
-        staticEnemiesKilledCount = enemiesKilledCount;
-        staticScoreText = scoreText;
-        staticEnemiesKilledCount.text = ("Nemici uccisi: " + enemyCount);
-        staticScoreText.text = ("Score: " + enemyCount);
+        instanceGM.enemiesKilledCount.text = ("Nemici uccisi: " + enemyCount);
+        instanceGM.scoreText.text = ("Score: " + enemyCount);
     }
 
     
@@ -58,28 +55,16 @@ public class GameManager : MonoBehaviour
         }
     }
 
-
-
     public static void UpdateText()
-    {
-        if (fantasma_count == 3)
-        {
-            // power up del fantasma
-            print("fantasma");
-        }
-        else if (zombie_count == 3)
-        {
-            // power up zombie
-            print("zombie");
-        }
-        else if (armatura_count == 3)
-        {
-            // power up armatura
-            print("armatura");
-        }
-
+    {   
         // in base al nemico che colpisco azzero il count degli altri
-        if (!powerUptaken)
+
+        if (powerUptaken)
+        {
+            instanceGM.enemiesKilledCount.text = ("POWER UP ATTIVO");
+            instanceGM.StartCoroutine(instanceGM.powerUpCountdown());
+        } 
+        else
         {
             if (zombie_count == 0 && armatura_count == 0)
             {
@@ -96,15 +81,20 @@ public class GameManager : MonoBehaviour
 
             // aggiorno la UI
 
-            staticEnemiesKilledCount.text = ("Nemici uccisi: " + enemyCount);
+            instanceGM.enemiesKilledCount.text = ("Nemici uccisi: " + enemyCount);
         }
 
+        instanceGM.updateScore();
+    }
+
+    public void updateScore ()
+    {
         #region GESTIONE PUNTEGGI PER NEMICI IN SERIE
 
         if (fantasma_count == 1)
         {
             instanceGM.score += 100;
-        } 
+        }
         else if (fantasma_count == 2)
         {
             instanceGM.score += 200;
@@ -112,10 +102,12 @@ public class GameManager : MonoBehaviour
         else if (fantasma_count == 3)
         {
             instanceGM.score += 500;
-        } 
+            print("aaaaa");
+        }
         else if (fantasma_count > 3)
         {
             instanceGM.score += 500;
+            print("bbbb");
         }
 
         if (zombie_count == 1)
@@ -129,7 +121,7 @@ public class GameManager : MonoBehaviour
         else if (zombie_count == 3)
         {
             instanceGM.score += 500;
-        } 
+        }
         else if (zombie_count > 3)
         {
             instanceGM.score += 500;
@@ -147,13 +139,39 @@ public class GameManager : MonoBehaviour
         {
             instanceGM.score += 500;
         }
-        else if(armatura_count > 3)
+        else if (armatura_count > 3)
         {
             instanceGM.score += 500;
         }
 
-        staticScoreText.text = "Score: " + instanceGM.score;
-
         #endregion
+
+        instanceGM.scoreText.text = "Score: " + instanceGM.score;
+    }
+
+    IEnumerator powerUpCountdown()
+    {
+        if (fantasma_count == 3)
+        {
+            // power up del fantasma
+            print("fantasma");
+        }
+        else if (zombie_count == 3)
+        {
+            // power up zombie
+            print("zombie");
+        }
+        else if (armatura_count == 3)
+        {
+            // power up armatura
+            print("armatura");
+        }
+
+        yield return new WaitForSeconds(powerUpTime);
+        powerUptaken = false;
+        fantasma_count = 0;
+        zombie_count = 0;
+        armatura_count = 0;
+        UpdateText();
     }
 }
