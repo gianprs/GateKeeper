@@ -10,14 +10,15 @@ public class GameManager : MonoBehaviour
     public static int zombie_count = 0;
     public static int armatura_count = 0;    
 
-    static int enemyCount;
+    public static int enemyCount;
     public static bool powerUptaken;
     
     public Text enemiesKilledCount;
     public Text scoreText;
     public float powerUpTime = 5f;
 
-    float score;
+    public static float score;
+    //bool powerUpAlreadyTaken = false;
 
     void Awake()
     {
@@ -41,28 +42,33 @@ public class GameManager : MonoBehaviour
         powerUptaken = false;
 
         instanceGM.enemiesKilledCount.text = ("Nemici uccisi: " + enemyCount);
-        instanceGM.scoreText.text = ("Score: " + enemyCount);
+        instanceGM.scoreText.text = ("Score: " + score);
     }
 
     
     void Update()
     {
+        instanceGM.scoreText.text = "Score: " + score;
         // se uccido tre nemici uguali di fila sblocco il powerUp
-        if (enemyCount == 3)
-        {
+        if (enemyCount == 3 && !powerUptaken)
+        {            
+            print("powerup");            
             powerUptaken = true;
-            print("powerup");
+            UpdateText();
         }
+        
     }
 
     public static void UpdateText()
-    {   
+    {
+        
         // in base al nemico che colpisco azzero il count degli altri
 
         if (powerUptaken)
         {
             instanceGM.enemiesKilledCount.text = ("POWER UP ATTIVO");
             instanceGM.StartCoroutine(instanceGM.powerUpCountdown());
+            //instanceGM.UpdateScore();
         } 
         else
         {
@@ -80,17 +86,22 @@ public class GameManager : MonoBehaviour
             }
 
             // aggiorno la UI
-
+            //instanceGM.UpdateScore();
             instanceGM.enemiesKilledCount.text = ("Nemici uccisi: " + enemyCount);
         }
 
-        instanceGM.updateScore();
+        //instanceGM.scoreText.text = "Score: " + score;
+        //instanceGM.UpdateScore();
+
     }
 
-    public void updateScore ()
-    {
-        #region GESTIONE PUNTEGGI PER NEMICI IN SERIE
 
+    /*
+    public void UpdateScore ()
+    {
+
+        #region GESTIONE PUNTEGGI PER NEMICI IN SERIE
+        
         if (fantasma_count == 1)
         {
             instanceGM.score += 100;
@@ -102,12 +113,12 @@ public class GameManager : MonoBehaviour
         else if (fantasma_count == 3)
         {
             instanceGM.score += 500;
-            print("aaaaa");
+            print("dio");
         }
         else if (fantasma_count > 3)
         {
             instanceGM.score += 500;
-            print("bbbb");
+            print("cane");
         }
 
         if (zombie_count == 1)
@@ -143,12 +154,14 @@ public class GameManager : MonoBehaviour
         {
             instanceGM.score += 500;
         }
+        
+        
+        instanceGM.scoreText.text = "Score: " + score;
 
-        #endregion
-
-        instanceGM.scoreText.text = "Score: " + instanceGM.score;
     }
-
+    */
+    
+        
     IEnumerator powerUpCountdown()
     {
         if (fantasma_count == 3)
