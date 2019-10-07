@@ -68,7 +68,6 @@ public class GameManager : MonoBehaviour
         {
             instanceGM.enemiesKilledCount.text = ("POWER UP ATTIVO");
             instanceGM.StartCoroutine(instanceGM.powerUpCountdown());
-            //instanceGM.UpdateScore();
         } 
         else
         {
@@ -86,12 +85,9 @@ public class GameManager : MonoBehaviour
             }
 
             // aggiorno la UI
-            //instanceGM.UpdateScore();
+
             instanceGM.enemiesKilledCount.text = ("Nemici uccisi: " + enemyCount);
         }
-
-        //instanceGM.scoreText.text = "Score: " + score;
-        //instanceGM.UpdateScore();
 
     }
 

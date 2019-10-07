@@ -16,11 +16,13 @@ public class PlayerBehaviour : MonoBehaviour
         
     }
 
+
+    
+
     void OnCollisionEnter2D(Collision2D collision)
     {
-        // da sostituire con evento per animazione 
-        
 
+        #region //---  DA SOSTITUIRE CON EVENTO DA ANIMAZIONE  ---//
         if (collision.transform.CompareTag("Fantasma"))
         {   
             GameManager.zombie_count = 0;
@@ -110,5 +112,7 @@ public class PlayerBehaviour : MonoBehaviour
 
             Destroy(collision.gameObject);
         }
+        #endregion
+
     }
 }
