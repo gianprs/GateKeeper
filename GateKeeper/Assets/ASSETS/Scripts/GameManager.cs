@@ -6,19 +6,23 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instanceGM = null;
+
     public static int fantasma_count = 0;
     public static int zombie_count = 0;
     public static int armatura_count = 0;    
 
-    public static int enemyCount;
+    public static int enemiesCount;
     public static bool powerUptaken;
-    
+
+    public static float score;
+
+    public PlayerBehaviour _playerBehaviour;
+
     public Text enemiesKilledCount;
     public Text scoreText;
     public float powerUpTime = 5f;
 
-    public static float score;
-    //bool powerUpAlreadyTaken = false;
+    int enemiesCountSprite;
 
     void Awake()
     {
@@ -37,12 +41,12 @@ public class GameManager : MonoBehaviour
         fantasma_count = 0;
         zombie_count = 0;
         armatura_count = 0;
-        enemyCount = 0;
+        enemiesCount = 0;
         score = 0;
         powerUptaken = false;
 
-        instanceGM.enemiesKilledCount.text = ("Nemici uccisi: " + enemyCount);
-        instanceGM.scoreText.text = ("Score: " + score);
+        instanceGM.enemiesKilledCount.text = ("no power");
+        instanceGM.scoreText.text = ("Score: " + score);        
     }
 
     
@@ -50,11 +54,16 @@ public class GameManager : MonoBehaviour
     {
         instanceGM.scoreText.text = "Score: " + score;
         // se uccido tre nemici uguali di fila sblocco il powerUp
-        if (enemyCount == 3 && !powerUptaken)
+        if (enemiesCount == 3 && !powerUptaken)
         {            
             print("powerup");            
             powerUptaken = true;
             UpdateText();
+        } 
+        if (enemiesCountSprite == 3 && !powerUptaken)
+        {
+            print("cancella");
+            ResetSlotSprite();
         }
         
     }
@@ -71,93 +80,37 @@ public class GameManager : MonoBehaviour
         } 
         else
         {
+            instanceGM.enemiesCountSprite++;
+
             if (zombie_count == 0 && armatura_count == 0)
             {
-                enemyCount = fantasma_count;
+                enemiesCount = fantasma_count;
             }
             else if (fantasma_count == 0 && armatura_count == 0)
             {
-                enemyCount = zombie_count;
+                enemiesCount = zombie_count;
             }
             else if (fantasma_count == 0 && zombie_count == 0)
             {
-                enemyCount = armatura_count;
+                enemiesCount = armatura_count;
             }
 
             // aggiorno la UI
-
-            instanceGM.enemiesKilledCount.text = ("Nemici uccisi: " + enemyCount);
+            //instanceGM.enemiesKilledCount.text = ("Nemici uccisi: " + enemiesCount);
         }
 
     }
 
-
-    /*
-    public void UpdateScore ()
+    void ResetSlotSprite()
     {
+        enemiesCountSprite = 0;
 
-        #region GESTIONE PUNTEGGI PER NEMICI IN SERIE
-        
-        if (fantasma_count == 1)
-        {
-            instanceGM.score += 100;
-        }
-        else if (fantasma_count == 2)
-        {
-            instanceGM.score += 200;
-        }
-        else if (fantasma_count == 3)
-        {
-            instanceGM.score += 500;
-            print("dio");
-        }
-        else if (fantasma_count > 3)
-        {
-            instanceGM.score += 500;
-            print("cane");
-        }
-
-        if (zombie_count == 1)
-        {
-            instanceGM.score += 100;
-        }
-        else if (zombie_count == 2)
-        {
-            instanceGM.score += 200;
-        }
-        else if (zombie_count == 3)
-        {
-            instanceGM.score += 500;
-        }
-        else if (zombie_count > 3)
-        {
-            instanceGM.score += 500;
-        }
-
-        if (armatura_count == 1)
-        {
-            instanceGM.score += 100;
-        }
-        else if (armatura_count == 2)
-        {
-            instanceGM.score += 200;
-        }
-        else if (armatura_count == 3)
-        {
-            instanceGM.score += 500;
-        }
-        else if (armatura_count > 3)
-        {
-            instanceGM.score += 500;
-        }
-        
-        
-        instanceGM.scoreText.text = "Score: " + score;
-
+        // resetto le sprite nella slot
+        _playerBehaviour.slot_01.sprite = null;
+        _playerBehaviour.slot_02.sprite = null;
+        _playerBehaviour.slot_03.sprite = null;
     }
-    */
-    
-        
+
     IEnumerator powerUpCountdown()
     {
         if (fantasma_count == 3)
@@ -177,10 +130,19 @@ public class GameManager : MonoBehaviour
         }
 
         yield return new WaitForSeconds(powerUpTime);
+
+        ResetSlotSprite();
+
+        // annullo il powerUp
         powerUptaken = false;
+
+        // riporto il counter dei nemici a zero
         fantasma_count = 0;
         zombie_count = 0;
         armatura_count = 0;
+
+        // aggiorno la UI
+        enemiesKilledCount.text = ("no power");
         UpdateText();
     }
 }
