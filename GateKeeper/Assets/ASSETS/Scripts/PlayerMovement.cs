@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-
-    public float playerSpeed = 2;
-
+    
     public Rigidbody2D playerRB;
     public Animator playerAC;
+
+    public float playerSpeed = 2;
 
     Vector2 movement;
     
@@ -40,6 +40,7 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (PlayerBehaviour.instancePB.playerLife >= 1)
         playerRB.MovePosition(playerRB.position + movement * playerSpeed * Time.fixedDeltaTime);
     }
 }

@@ -24,6 +24,10 @@ public class GameManager : MonoBehaviour
 
     int enemiesCountSprite;
 
+    public Image firstHeart, secondHeart, thirdHeart;
+    public Sprite fullheart, halfHeart, emptyHeart;
+
+
     void Awake()
     {
         if (instanceGM == null)
@@ -44,6 +48,10 @@ public class GameManager : MonoBehaviour
         enemiesCount = 0;
         score = 0;
         powerUptaken = false;
+
+        firstHeart.sprite = fullheart;
+        secondHeart.sprite = fullheart;
+        thirdHeart.sprite = fullheart;
 
         instanceGM.enemiesKilledCount.text = ("no power");
         instanceGM.scoreText.text = ("Score: " + score);        
@@ -66,10 +74,6 @@ public class GameManager : MonoBehaviour
         {
             ResetSlotSprite();           
         }
-
-
-        print("enemiesCount = " + enemiesCount);
-        print("enemiesCountSprite = " + enemiesCountSprite);
     }
 
     void PowerUpText()
@@ -95,44 +99,11 @@ public class GameManager : MonoBehaviour
             {
                 enemiesCount = armatura_count;
             }
-
             
 
             if(enemiesCount != 0)            
             instanceGM.enemiesCountSprite++;
         }
-
-
-
-
-
-        //// in base al nemico che colpisco azzero il count degli altri
-
-        //if (powerUptaken)
-        //{
-        //    instanceGM.enemiesKilledCount.text = ("POWER UP ATTIVO");
-        //    instanceGM.StartCoroutine(instanceGM.powerUpCountdown());            
-        //} 
-        //else
-        //{
-        //    if (zombie_count == 0 && armatura_count == 0)
-        //    {
-        //        enemiesCount = fantasma_count;
-        //    }
-        //    else if (fantasma_count == 0 && armatura_count == 0)
-        //    {
-        //        enemiesCount = zombie_count;
-        //    }
-        //    else if (fantasma_count == 0 && zombie_count == 0)
-        //    {
-        //        enemiesCount = armatura_count;
-        //    }           
-
-        //    ////////////////////////////////
-        //    instanceGM.enemiesCountSprite++;
-        //    ////////////////////////////////
-        //}
-
     }
 
     void ResetSlotSprite()
@@ -178,9 +149,37 @@ public class GameManager : MonoBehaviour
         // aggiorno la UI
         enemiesKilledCount.text = ("no power");
         UpdateText();
+    }
 
-        
-
-        
+    public void UpdateHeart()
+    {
+        if (PlayerBehaviour.instancePB.playerLife == 6)
+        {
+            firstHeart.sprite = fullheart;
+        }
+        else if (PlayerBehaviour.instancePB.playerLife == 5)
+        {
+            firstHeart.sprite = halfHeart;
+        }
+        else if (PlayerBehaviour.instancePB.playerLife == 4)
+        {
+            firstHeart.sprite = emptyHeart;
+        }
+        else if (PlayerBehaviour.instancePB.playerLife == 3)
+        {
+            secondHeart.sprite = halfHeart;
+        }
+        else if (PlayerBehaviour.instancePB.playerLife == 2)
+        {
+            secondHeart.sprite = emptyHeart;
+        }
+        else if (PlayerBehaviour.instancePB.playerLife == 1)
+        {
+            thirdHeart.sprite = halfHeart;
+        }
+        else if (PlayerBehaviour.instancePB.playerLife == 0)
+        {
+            thirdHeart.sprite = emptyHeart;
+        }
     }
 }

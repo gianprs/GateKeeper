@@ -4,7 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class PlayerBehaviour : MonoBehaviour
-{   
+{
+    public static PlayerBehaviour instancePB;
 
     public Image slot_01;
     public Image slot_02;
@@ -14,7 +15,19 @@ public class PlayerBehaviour : MonoBehaviour
     public Sprite zombieSprite;
     public Sprite armaturaSprite;
 
-    int playerLife;
+    public int playerLife;
+
+    void Awake()
+    {
+        if(instancePB == null)
+        {
+            instancePB = this;
+        } 
+        else if (instancePB != null)
+        {
+            Destroy(this);
+        }
+    }
 
     void Start()
     {
@@ -30,6 +43,7 @@ public class PlayerBehaviour : MonoBehaviour
     public void PlayerDamaged()
     {
         playerLife--;
+        GameManager.instanceGM.UpdateHeart();
     }
     
 
