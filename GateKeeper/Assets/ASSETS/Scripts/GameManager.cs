@@ -53,35 +53,36 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         instanceGM.scoreText.text = "Score: " + score;
+
         // se uccido tre nemici uguali di fila sblocco il powerUp
         if (enemiesCount == 3 && !powerUptaken)
-        {            
-            print("powerup");            
+        {           
             powerUptaken = true;
-            UpdateText();
-        } 
+            PowerUpText();            
+        }
+
+        // se uccido tre nemici uguali di fila sblocco il powerUp
         if (enemiesCountSprite == 3 && !powerUptaken)
         {
-            print("cancella");
-            ResetSlotSprite();
+            ResetSlotSprite();           
         }
-        
+
+
+        print("enemiesCount = " + enemiesCount);
+        print("enemiesCountSprite = " + enemiesCountSprite);
+    }
+
+    void PowerUpText()
+    {
+        instanceGM.enemiesKilledCount.text = ("POWER UP ATTIVO");
+        enemiesCountSprite = 0;
+        instanceGM.StartCoroutine(instanceGM.powerUpCountdown());
     }
 
     public static void UpdateText()
     {
-        
-        // in base al nemico che colpisco azzero il count degli altri
-
-        if (powerUptaken)
+        if (!powerUptaken)
         {
-            instanceGM.enemiesKilledCount.text = ("POWER UP ATTIVO");
-            instanceGM.StartCoroutine(instanceGM.powerUpCountdown());
-        } 
-        else
-        {
-            instanceGM.enemiesCountSprite++;
-
             if (zombie_count == 0 && armatura_count == 0)
             {
                 enemiesCount = fantasma_count;
@@ -95,15 +96,53 @@ public class GameManager : MonoBehaviour
                 enemiesCount = armatura_count;
             }
 
-            // aggiorno la UI
-            //instanceGM.enemiesKilledCount.text = ("Nemici uccisi: " + enemiesCount);
+            
+
+            if(enemiesCount != 0)            
+            instanceGM.enemiesCountSprite++;
         }
+
+
+
+
+
+        //// in base al nemico che colpisco azzero il count degli altri
+
+        //if (powerUptaken)
+        //{
+        //    instanceGM.enemiesKilledCount.text = ("POWER UP ATTIVO");
+        //    instanceGM.StartCoroutine(instanceGM.powerUpCountdown());            
+        //} 
+        //else
+        //{
+        //    if (zombie_count == 0 && armatura_count == 0)
+        //    {
+        //        enemiesCount = fantasma_count;
+        //    }
+        //    else if (fantasma_count == 0 && armatura_count == 0)
+        //    {
+        //        enemiesCount = zombie_count;
+        //    }
+        //    else if (fantasma_count == 0 && zombie_count == 0)
+        //    {
+        //        enemiesCount = armatura_count;
+        //    }           
+
+        //    ////////////////////////////////
+        //    instanceGM.enemiesCountSprite++;
+        //    ////////////////////////////////
+        //}
 
     }
 
     void ResetSlotSprite()
     {
         enemiesCountSprite = 0;
+
+        // riporto il counter dei nemici a zero
+        fantasma_count = 0;
+        zombie_count = 0;
+        armatura_count = 0;
 
         // resetto le sprite nella slot
         _playerBehaviour.slot_01.sprite = null;
@@ -136,13 +175,12 @@ public class GameManager : MonoBehaviour
         // annullo il powerUp
         powerUptaken = false;
 
-        // riporto il counter dei nemici a zero
-        fantasma_count = 0;
-        zombie_count = 0;
-        armatura_count = 0;
-
         // aggiorno la UI
         enemiesKilledCount.text = ("no power");
         UpdateText();
+
+        
+
+        
     }
 }

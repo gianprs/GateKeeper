@@ -4,7 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class PlayerBehaviour : MonoBehaviour
-{
+{   
+
     public Image slot_01;
     public Image slot_02;
     public Image slot_03;
@@ -13,9 +14,11 @@ public class PlayerBehaviour : MonoBehaviour
     public Sprite zombieSprite;
     public Sprite armaturaSprite;
 
+    int playerLife;
+
     void Start()
     {
-        
+        playerLife = 6;
     }
 
     
@@ -24,7 +27,10 @@ public class PlayerBehaviour : MonoBehaviour
         
     }
 
-
+    public void PlayerDamaged()
+    {
+        playerLife--;
+    }
     
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -50,7 +56,7 @@ public class PlayerBehaviour : MonoBehaviour
 
                 // modifico la sprite della slot
                 // se la prima è libera occupo quella se no a discesa
-                if(slot_01.sprite == null)
+                if (slot_01.sprite == null)
                 {
                     slot_01.sprite = fantasmaSprite;
                 } 
