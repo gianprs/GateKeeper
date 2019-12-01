@@ -7561,7 +7561,7 @@ Animator:
   m_GameObject: {fileID: 2016576453}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7f2c3fa2df0bb8e4cbed6ad3667229bc, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -7604,8 +7604,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRB: {fileID: 2016576455}
-  playerAC: {fileID: 0}
-  playerSpeed: 3
+  playerAC: {fileID: 2016576454}
+  playerSpeed: 2
 --- !u!212 &2016576457
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7644,7 +7644,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 87f69948a7fa4ea47a79c100367f2406, type: 3}
+  m_Sprite: {fileID: -4647643217027163637, guid: 5ec2be06d8ab73f43bd827019d7a2f0d,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
