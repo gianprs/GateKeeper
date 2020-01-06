@@ -5,6 +5,10 @@ using UnityEngine.UI;
 
 public class PlayerBehaviour : MonoBehaviour
 {
+    SpriteRenderer playerSprite;
+    AudioSource myAudio;
+    public AudioClip[] attackSound;
+
     public static PlayerBehaviour instancePB;
     public Animator playerAC;
 
@@ -18,6 +22,11 @@ public class PlayerBehaviour : MonoBehaviour
     public Sprite batSprite;
 
     public int playerLife;
+    public Color flashColor;
+    public Color normalColor;
+    public float flashDuration;
+    public int numberOfFlashes;
+    private Collider2D myCollider;
 
     public float attackRate = 2; 
     
@@ -50,9 +59,14 @@ public class PlayerBehaviour : MonoBehaviour
     void Start()
     {
         playerLife = 6;
+        myCollider = GetComponent<Collider2D>();
+
+        playerSprite = GetComponent<SpriteRenderer>();
 
         playerMovement = GetComponent<PlayerMovement>();
         tempPlayerSpeed = playerMovement.playerSpeed;
+
+        myAudio = GetComponent<AudioSource>();
     }
 
     
@@ -93,12 +107,22 @@ public class PlayerBehaviour : MonoBehaviour
     public void PlayerDamaged()
     {
         playerLife--;
+
+        playerAC.SetTrigger("takeDamage");
+
+        StartCoroutine(FlashPlayerDamaged());
+
         GameManager.instanceGM.UpdateHeart();
     }
 
     void Attack()
     {
-        playerAC.SetTrigger("attack");        
+        playerAC.SetTrigger("attack");
+
+        myAudio.clip = attackSound[Random.Range(0, attackSound.Length)];
+        myAudio.Play();
+
+        //suono
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -106,6 +130,9 @@ public class PlayerBehaviour : MonoBehaviour
         if(collision.CompareTag("Fantasma") || collision.CompareTag("Zombie") || collision.CompareTag("Armatura") || collision.CompareTag("Bat"))
         {
             EnemyHit(collision);
+
+            EnemyBehaviour enemyBehaviour = collision.GetComponent<EnemyBehaviour>();
+            enemyBehaviour.activeAI = false;
         }
 
         if (collision.CompareTag("FakeWall"))
@@ -336,6 +363,7 @@ public class PlayerBehaviour : MonoBehaviour
 
             EnemyBehaviour enemyBehaviour = enemyRB.gameObject.GetComponent<EnemyBehaviour>();
             enemyBehaviour.enemyLife -= playerHitDamage;
+            enemyBehaviour.activeAI = true;
 
             if (enemyBehaviour.enemyLife <= 0)
             {
@@ -592,6 +620,21 @@ public class PlayerBehaviour : MonoBehaviour
                 enemyBehaviour.EnemyDeath();
             }
         }
+    }
+
+    IEnumerator FlashPlayerDamaged()
+    {
+        int temp = 0;
+        myCollider.enabled = false;
+        while(temp < numberOfFlashes)
+        {
+            playerSprite.color = flashColor;
+            yield return new WaitForSeconds(flashDuration);
+            playerSprite.color = normalColor;
+            yield return new WaitForSeconds(flashDuration);
+            temp++;
+        }
+        myCollider.enabled = true;
     }
 
     public void ResetPlayerPower()

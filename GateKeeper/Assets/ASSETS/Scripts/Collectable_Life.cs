@@ -4,6 +4,16 @@ using UnityEngine;
 
 public class Collectable_Life : MonoBehaviour
 {
+    private CircleCollider2D myCollider2D;
+    private AudioSource myAudio;
+    private SpriteRenderer childrenSprite;
+
+    void Start()
+    {
+        myCollider2D = GetComponent<CircleCollider2D>();
+        myAudio = GetComponent<AudioSource>();
+        childrenSprite = GetComponentInChildren<SpriteRenderer>();
+    }
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -20,7 +30,16 @@ public class Collectable_Life : MonoBehaviour
                 GameManager.score += 100;
             }
 
-            Destroy(gameObject);
+            myCollider2D.enabled = false;
+            childrenSprite.enabled = false;
+            StartCoroutine(SoundAndDestroy());
         }
+    }
+
+    IEnumerator SoundAndDestroy()
+    {
+        myAudio.Play();
+        yield return new WaitForSeconds(2);
+        Destroy(gameObject);
     }
 }

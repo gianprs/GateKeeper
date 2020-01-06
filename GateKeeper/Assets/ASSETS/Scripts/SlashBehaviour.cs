@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class SlashBehaviour : MonoBehaviour
 {
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        
-    }
+    
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Finish"))
+        if (collision.CompareTag("Fantasma") 
+            || collision.CompareTag("Zombie") 
+            || collision.CompareTag("Armatura") 
+            || collision.CompareTag("Bat") 
+            || collision.CompareTag("WallCollider"))
         {
             Destroy(gameObject);
         }

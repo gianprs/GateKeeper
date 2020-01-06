@@ -14,7 +14,7 @@ public class MainMenu_UI : MonoBehaviour
         playButton.SetActive(true);
         scoreButton.SetActive(true);
 
-        scoreTable.SetActive(false);
+        //scoreTable.SetActive(false);
         backButton.SetActive(false);
     }
 
@@ -35,7 +35,7 @@ public class MainMenu_UI : MonoBehaviour
         scoreButton.SetActive(false);
 
         backButton.SetActive(true);
-        scoreTable.SetActive(true);
+        //scoreTable.SetActive(true);
     }
 
     public void BackToMain()
@@ -44,6 +44,6 @@ public class MainMenu_UI : MonoBehaviour
         scoreButton.SetActive(true);
 
         backButton.SetActive(false);
-        scoreTable.SetActive(false);
+        //scoreTable.SetActive(false);
     }
 }
