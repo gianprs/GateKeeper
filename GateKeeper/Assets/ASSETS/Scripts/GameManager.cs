@@ -9,7 +9,8 @@ public class GameManager : MonoBehaviour
 
     public static int fantasma_count = 0;
     public static int zombie_count = 0;
-    public static int armatura_count = 0;    
+    public static int armatura_count = 0;
+    public static int bat_count = 0;
 
     public static int enemiesCount;
     public static bool powerUptaken;
@@ -45,6 +46,7 @@ public class GameManager : MonoBehaviour
         fantasma_count = 0;
         zombie_count = 0;
         armatura_count = 0;
+        bat_count = 0;
         enemiesCount = 0;
         score = 0;
         powerUptaken = false;
@@ -66,17 +68,17 @@ public class GameManager : MonoBehaviour
         if (enemiesCount == 3 && !powerUptaken)
         {           
             powerUptaken = true;
-            PowerUpText();            
+            PowerUp();            
         }
 
-        // se uccido tre nemici uguali di fila sblocco il powerUp
+        // se uccido tre nemici diversi di fila sblocco il powerUp
         if (enemiesCountSprite == 3 && !powerUptaken)
         {
-            ResetSlotSprite();           
+            StartCoroutine(wrongEnemiesCombination());
         }
     }
 
-    void PowerUpText()
+    void PowerUp()
     {
         instanceGM.enemiesKilledCount.text = ("POWER UP ATTIVO");
         enemiesCountSprite = 0;
@@ -87,17 +89,21 @@ public class GameManager : MonoBehaviour
     {
         if (!powerUptaken)
         {
-            if (zombie_count == 0 && armatura_count == 0)
+            if (zombie_count == 0 && armatura_count == 0 && bat_count == 0)
             {
                 enemiesCount = fantasma_count;
             }
-            else if (fantasma_count == 0 && armatura_count == 0)
+            else if (fantasma_count == 0 && armatura_count == 0 && bat_count == 0)
             {
                 enemiesCount = zombie_count;
             }
-            else if (fantasma_count == 0 && zombie_count == 0)
+            else if (fantasma_count == 0 && zombie_count == 0 && bat_count == 0)
             {
                 enemiesCount = armatura_count;
+            }
+            else if (fantasma_count == 0 && zombie_count == 0 && armatura_count == 0)
+            {
+                enemiesCount = bat_count;
             }
             
 
@@ -114,6 +120,7 @@ public class GameManager : MonoBehaviour
         fantasma_count = 0;
         zombie_count = 0;
         armatura_count = 0;
+        bat_count = 0;
 
         // resetto le sprite nella slot
         _playerBehaviour.slot_01.sprite = null;
@@ -127,16 +134,28 @@ public class GameManager : MonoBehaviour
         {
             // power up del fantasma
             print("fantasma");
+            _playerBehaviour.powerUpFantasma = true;
         }
         else if (zombie_count == 3)
         {
             // power up zombie
             print("zombie");
+
+            _playerBehaviour.powerUpZombie = true;
         }
         else if (armatura_count == 3)
         {
             // power up armatura
             print("armatura");
+
+            _playerBehaviour.powerUpArmatura = true;
+        } 
+        else if (bat_count == 3)
+        {
+            // power up pipistrello
+            print("pipistrello");
+
+            _playerBehaviour.powerUpBat = true;
         }
 
         yield return new WaitForSeconds(powerUpTime);
@@ -146,11 +165,30 @@ public class GameManager : MonoBehaviour
         // annullo il powerUp
         powerUptaken = false;
 
+        _playerBehaviour.powerUpFantasma = false;
+        _playerBehaviour.powerUpZombie = false;
+        _playerBehaviour.powerUpArmatura = false;
+        _playerBehaviour.powerUpBat = false;
+
+        _playerBehaviour.ResetPlayerPower();
+
+
+
         // aggiorno la UI
         enemiesKilledCount.text = ("no power");
         UpdateText();
     }
 
+    IEnumerator wrongEnemiesCombination()
+    {
+        instanceGM.enemiesKilledCount.text = ("WRONG COMBINATION");
+        yield return new WaitForSeconds(1);
+        ResetSlotSprite();
+        instanceGM.enemiesKilledCount.text = ("no power");
+
+    }
+
+    // VITA PLAYER
     public void UpdateHeart()
     {
         if (PlayerBehaviour.instancePB.playerLife == 6)

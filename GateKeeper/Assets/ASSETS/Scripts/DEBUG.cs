@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class DEBUG : MonoBehaviour
 {
-    
-    
-    
+    public HighscoreTable hst;
+
+    public bool debug;
+
+    public bool addScore;
+
+    public int scoreDebug;
 
     // Start is called before the first frame update
     void Start()
@@ -17,15 +21,26 @@ public class DEBUG : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space) && PlayerBehaviour.instancePB.playerLife >= 1)
+
+        if (debug)
         {
-            PlayerBehaviour.instancePB.PlayerDamaged();
-            print(PlayerBehaviour.instancePB.playerLife);
+            if (Input.GetKeyDown(KeyCode.Space) && PlayerBehaviour.instancePB.playerLife >= 1)
+            {
+                PlayerBehaviour.instancePB.PlayerDamaged();
+                print(PlayerBehaviour.instancePB.playerLife);
+            }
+
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                PlayerBehaviour.instancePB.playerLife = 6;
+            }
+        }
+        
+        if (addScore)
+        {
+            hst.AddHighscoreEntry(scoreDebug, "caso");
+            addScore = false;
         }
 
-        if(Input.GetKeyDown(KeyCode.R))
-        {
-            PlayerBehaviour.instancePB.playerLife = 6;
-        }
     }
 }

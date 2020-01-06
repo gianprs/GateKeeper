@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
-{
-    
+{    
     public Rigidbody2D playerRB;
     public Animator playerAC;
 
@@ -12,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
 
     Vector2 movement;
 
-    float assignedSpeed;
+    private float assignedSpeed;    
 
     void Start()
     {
@@ -23,7 +22,6 @@ public class PlayerMovement : MonoBehaviour
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
-
         
         if (Input.GetButton("Horizontal") && Input.GetButton("Vertical"))
         {
@@ -34,27 +32,29 @@ public class PlayerMovement : MonoBehaviour
             playerSpeed = assignedSpeed;
         }
 
-
         // GESTIONE ANIMATOR CONTROLLER
         if(playerAC != null)
         {
-            playerAC.SetBool("move", (Input.GetButton("Horizontal") || Input.GetButton("Vertical")));
-
-            if (movement.magnitude != 0)
-            {
-                playerAC.SetFloat("Hor", movement.x);
-                playerAC.SetFloat("Ver", movement.y);
-            }
+            Movement();
         }        
     }
-
 
     void FixedUpdate()
     {
         if (PlayerBehaviour.instancePB.playerLife >= 1)
         {
             playerRB.MovePosition(playerRB.position + movement * playerSpeed * Time.fixedDeltaTime);
-        }
-        
+        }        
     }
+
+    void Movement()
+    {
+        playerAC.SetBool("move", (Input.GetButton("Horizontal") || Input.GetButton("Vertical")));
+
+        if (movement.magnitude != 0)
+        {
+            playerAC.SetFloat("Hor", movement.x);
+            playerAC.SetFloat("Ver", movement.y);
+        }
+    }    
 }
