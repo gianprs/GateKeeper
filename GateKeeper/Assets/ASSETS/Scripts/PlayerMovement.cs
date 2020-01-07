@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {    
     public Rigidbody2D playerRB;
-    public Animator playerAC;
+    public Animator playerAC;    
 
     public float playerSpeed;
 
@@ -20,8 +20,11 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
+        if(!PlayerBehaviour.instancePB.playerDead)
+        {
+            movement.x = Input.GetAxisRaw("Horizontal");
+            movement.y = Input.GetAxisRaw("Vertical");
+        }        
         
         if (Input.GetButton("Horizontal") && Input.GetButton("Vertical"))
         {
@@ -41,7 +44,7 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (PlayerBehaviour.instancePB.playerLife >= 1)
+        if (!PlayerBehaviour.instancePB.playerDead)
         {
             playerRB.MovePosition(playerRB.position + movement * playerSpeed * Time.fixedDeltaTime);
         }        

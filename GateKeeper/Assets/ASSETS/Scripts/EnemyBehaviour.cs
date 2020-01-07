@@ -18,7 +18,9 @@ public class EnemyBehaviour : MonoBehaviour
 
     AIPath enemyAI;
     Animator enemyAC;
-
+    AudioSource enemyAS;
+    Patrol enemyPatrol;
+    Rigidbody2D enemyRB;
 
     Vector3 initPos;
     public bool followPlayer;
@@ -33,6 +35,10 @@ public class EnemyBehaviour : MonoBehaviour
     {
         enemyAI = GetComponent<AIPath>();
         enemyAC = GetComponent<Animator>();
+        enemyAS = GetComponent<AudioSource>();
+        enemyPatrol = GetComponent<Patrol>();
+        enemyRB = GetComponent<Rigidbody2D>();
+
         activeAI = true;
         if (DEBUG)
         {
@@ -40,10 +46,14 @@ public class EnemyBehaviour : MonoBehaviour
         }        
     }
 
-    
+    float xValue, yValue;
+
     void Update()
     {
-        enemyAI.enabled = activeAI;        
+        enemyAI.enabled = activeAI;
+
+        xValue = (enemyRB.velocity.normalized.x);
+
 
         if (DEBUG) 
         {
@@ -56,10 +66,10 @@ public class EnemyBehaviour : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            PlaySound(); // TEMP -> va utilizzata nell'animazione
             PlayerMovement _playerMovement = collision.GetComponent<PlayerMovement>();
             _playerMovement.enabled = false;
             Rigidbody2D _playerRB = collision.GetComponent<Rigidbody2D>();
-            _playerRB.isKinematic = false;
             PlayerBehaviour.instancePB.PlayerDamaged();
             Vector2 difference = (_playerRB.transform.position - transform.position);
             difference = difference.normalized * enemyImpulseForce;
@@ -71,8 +81,10 @@ public class EnemyBehaviour : MonoBehaviour
 
     void CheckDistance()
     {
-        if (Vector3.Distance(playerPosition.position,transform.position) <= chaseRadius)
-        {            
+        if (Vector3.Distance(playerPosition.position,transform.position) <= chaseRadius && !PlayerBehaviour.instancePB.playerDead)
+        {           
+            enemyPatrol.enabled = false;
+
             if(Vector3.Distance(playerPosition.position, transform.position) > attackRadius)
             {
                 if (enemyAI.destination != null)
@@ -89,14 +101,9 @@ public class EnemyBehaviour : MonoBehaviour
                 }
             }
         }        
-        else if (Vector3.Distance(playerPosition.position, transform.position) > chaseRadius)
+        else if (Vector3.Distance(playerPosition.position, transform.position) > chaseRadius || PlayerBehaviour.instancePB.playerDead)
         {
-            if (enemyAI.destination != null)
-            {
-                // patrolling
-                
-                enemyAI.destination = initPos;
-            }            
+            enemyPatrol.enabled = true;
         }
     }
 
@@ -107,6 +114,11 @@ public class EnemyBehaviour : MonoBehaviour
         Destroy(gameObject);
     }
 
+    // chiamo questa funzione da evento nell'animazione
+    public void PlaySound()
+    {        
+        enemyAS.Play();
+    }
 
     IEnumerator EnemyAttack()
     {
@@ -120,6 +132,5 @@ public class EnemyBehaviour : MonoBehaviour
         yield return new WaitForSeconds(1f);
         playerMove.enabled = true;
         playerRB.velocity = Vector2.zero;
-        playerRB.isKinematic = true;
     }
 }

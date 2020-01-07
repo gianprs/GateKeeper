@@ -34,7 +34,7 @@ public class PlayerBehaviour : MonoBehaviour
     public float playerImpulseForce;
 
     [HideInInspector]
-    public bool powerUpFantasma, powerUpZombie, powerUpArmatura, powerUpBat;
+    public bool powerUpFantasma, powerUpZombie, powerUpArmatura, powerUpBat, playerDead;
 
     private PlayerMovement playerMovement;
     private float tempPlayerSpeed;
@@ -58,6 +58,7 @@ public class PlayerBehaviour : MonoBehaviour
 
     void Start()
     {
+        playerDead = false;
         playerLife = 6;
         myCollider = GetComponent<Collider2D>();
 
@@ -74,7 +75,7 @@ public class PlayerBehaviour : MonoBehaviour
     {
         if (Time.time >= nextAttackTime)
         {
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.Space) && !playerDead)
             {
                 Attack();
                 nextAttackTime = Time.time + 1 / attackRate;
@@ -108,9 +109,22 @@ public class PlayerBehaviour : MonoBehaviour
     {
         playerLife--;
 
-        playerAC.SetTrigger("takeDamage");
+        if(playerLife > 0)
+        {
+            playerAC.SetTrigger("takeDamage");
+            StartCoroutine(FlashPlayerDamaged());
+        } 
+        if (playerLife == 0 && !playerDead)
+        {
+            playerAC.SetTrigger("death");
+            playerDead = true;
 
-        StartCoroutine(FlashPlayerDamaged());
+            slot_01.enabled = false;
+            slot_02.enabled = false;
+            slot_03.enabled = false;
+        }        
+
+        
 
         GameManager.instanceGM.UpdateHeart();
     }

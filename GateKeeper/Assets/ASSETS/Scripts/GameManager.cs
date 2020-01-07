@@ -19,8 +19,8 @@ public class GameManager : MonoBehaviour
 
     public PlayerBehaviour _playerBehaviour;
 
-    public Text enemiesKilledCount;
-    public Text scoreText;
+    public Text enemiesKilledCount, scoreText, gameOverText, finalScoreText;
+
     public float powerUpTime = 5f;
 
     int enemiesCountSprite;
@@ -28,6 +28,7 @@ public class GameManager : MonoBehaviour
     public Image firstHeart, secondHeart, thirdHeart;
     public Sprite fullheart, halfHeart, emptyHeart;
 
+    bool addScore;
 
     void Awake()
     {
@@ -55,8 +56,10 @@ public class GameManager : MonoBehaviour
         secondHeart.sprite = fullheart;
         thirdHeart.sprite = fullheart;
 
-        instanceGM.enemiesKilledCount.text = ("no power");
-        instanceGM.scoreText.text = ("Score: " + score);        
+        enemiesKilledCount.text = ("no power");
+        scoreText.text = ("Score: " + score);
+        gameOverText.enabled = false;
+        finalScoreText.enabled = false;
     }
 
     
@@ -64,18 +67,37 @@ public class GameManager : MonoBehaviour
     {
         instanceGM.scoreText.text = "Score: " + score;
 
-        // se uccido tre nemici uguali di fila sblocco il powerUp
-        if (enemiesCount == 3 && !powerUptaken)
-        {           
-            powerUptaken = true;
-            PowerUp();            
-        }
-
-        // se uccido tre nemici diversi di fila sblocco il powerUp
-        if (enemiesCountSprite == 3 && !powerUptaken)
+        if(!PlayerBehaviour.instancePB.playerDead)
         {
-            StartCoroutine(wrongEnemiesCombination());
+            // se uccido tre nemici uguali di fila sblocco il powerUp
+            if (enemiesCount == 3 && !powerUptaken)
+            {
+                powerUptaken = true;
+                PowerUp();
+            }
+
+            // se uccido tre nemici diversi di fila sblocco il powerUp
+            if (enemiesCountSprite == 3 && !powerUptaken)
+            {
+                StartCoroutine(wrongEnemiesCombination());
+            }
+        } 
+        else
+        {
+            enemiesKilledCount.enabled = false;
+            scoreText.enabled = false;
+            gameOverText.enabled = true;
+            finalScoreText.enabled = true;
+            finalScoreText.text = ("Your score is " + score);
+            if(!addScore)
+            {
+                // QUI AGGIUNGO IL PUNTEGGIO
+                // scelta nome 3 lettere
+
+                addScore = true;
+            }
         }
+        
     }
 
     void PowerUp()
