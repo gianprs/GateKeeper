@@ -5,8 +5,7 @@ using UnityEngine.UI;
 
 public class PlayerBehaviour : MonoBehaviour
 {
-    SpriteRenderer playerSprite;
-    AudioSource myAudio;
+    
     public AudioClip[] attackSound;
 
     public static PlayerBehaviour instancePB;
@@ -23,26 +22,33 @@ public class PlayerBehaviour : MonoBehaviour
 
     public int playerLife;
     public Color flashColor;
+    public Color ghostColor;
     public Color normalColor;
     public float flashDuration;
-    public int numberOfFlashes;
-    private Collider2D myCollider;
+    public int numberOfFlashesDamaged = 4;
 
     public float attackRate = 2; 
     
     public float knockTime;
     public float playerImpulseForce;
 
-    [HideInInspector]
+    //[HideInInspector]
     public bool powerUpFantasma, powerUpZombie, powerUpArmatura, powerUpBat, playerDead;
 
-    private PlayerMovement playerMovement;
+
+    SpriteRenderer playerSprite;
+    AudioSource myAudio;
+    Collider2D myCollider;
+    PlayerMovement playerMovement;
     private float tempPlayerSpeed;
     private int playerHitDamage = 1;
     private float nextAttackTime = 0;
 
+
     public GameObject slashPrefab;
 
+
+    
     //singleton
     void Awake()
     {
@@ -85,7 +91,8 @@ public class PlayerBehaviour : MonoBehaviour
         if (powerUpFantasma)
         {
             // invisibilità
-
+            //StartCoroutine(PowerUpGhost());
+            playerSprite.color = Color.Lerp(normalColor, ghostColor, Mathf.PingPong(Time.time, 1));
         }
         if(powerUpZombie)
         {
@@ -640,7 +647,7 @@ public class PlayerBehaviour : MonoBehaviour
     {
         int temp = 0;
         myCollider.enabled = false;
-        while(temp < numberOfFlashes)
+        while(temp < numberOfFlashesDamaged)
         {
             playerSprite.color = flashColor;
             yield return new WaitForSeconds(flashDuration);
@@ -706,4 +713,20 @@ public class PlayerBehaviour : MonoBehaviour
     }
     #endregion
 
+    IEnumerator PowerUpGhost()
+    {
+
+        print("ghost");
+        int temp = 0;
+        //myCollider.enabled = false;
+        while (temp < numberOfFlashesDamaged)
+        {
+            playerSprite.color = ghostColor;
+            yield return new WaitForSeconds(flashDuration);
+            playerSprite.color = normalColor;
+            yield return new WaitForSeconds(flashDuration);
+            temp++;
+        }
+        //myCollider.enabled = true;
+    }
 }

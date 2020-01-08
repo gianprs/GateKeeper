@@ -51,9 +51,13 @@ public class EnemyBehaviour : MonoBehaviour
     void Update()
     {
         enemyAI.enabled = activeAI;
-
-        xValue = (enemyRB.velocity.normalized.x);
-
+        
+        xValue = enemyAI.velocity.normalized.x;
+        yValue = enemyAI.velocity.normalized.y;
+        print(xValue);
+        
+        enemyAC.SetFloat("hor", xValue);
+        enemyAC.SetFloat("ver", yValue);
 
         if (DEBUG) 
         {
