@@ -1,0 +1,1567 @@
+fileFormatVersion: 2
+guid: 809c348a088c1e74893f0c4a012bf95a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -932233769118642861
+    second: 02_CursedArmor_SPRITESHEET_02_0
+  - first:
+      213: 1134234077785823328
+    second: 02_CursedArmor_SPRITESHEET_02_1
+  - first:
+      213: -4710610433716121033
+    second: 02_CursedArmor_SPRITESHEET_02_2
+  - first:
+      213: 5930163156398166153
+    second: 02_CursedArmor_SPRITESHEET_02_3
+  - first:
+      213: 5174947523327326911
+    second: 02_CursedArmor_SPRITESHEET_02_4
+  - first:
+      213: -2129584718511117246
+    second: 02_CursedArmor_SPRITESHEET_02_5
+  - first:
+      213: -7297518391463508191
+    second: 02_CursedArmor_SPRITESHEET_02_6
+  - first:
+      213: -8998826834021751410
+    second: 02_CursedArmor_SPRITESHEET_02_7
+  - first:
+      213: 433193231331355659
+    second: 02_CursedArmor_SPRITESHEET_02_8
+  - first:
+      213: 534113538707877229
+    second: 02_CursedArmor_SPRITESHEET_02_9
+  - first:
+      213: -5390055050960158191
+    second: 02_CursedArmor_SPRITESHEET_02_10
+  - first:
+      213: -1546225275472878148
+    second: 02_CursedArmor_SPRITESHEET_02_11
+  - first:
+      213: 360601704605910791
+    second: 02_CursedArmor_SPRITESHEET_02_12
+  - first:
+      213: 6558201963514531942
+    second: 02_CursedArmor_SPRITESHEET_02_13
+  - first:
+      213: 3077797281554658377
+    second: 02_CursedArmor_SPRITESHEET_02_14
+  - first:
+      213: 4430947189650833852
+    second: 02_CursedArmor_SPRITESHEET_02_15
+  - first:
+      213: -543184993407579797
+    second: 02_CursedArmor_SPRITESHEET_02_16
+  - first:
+      213: 6456004175115657622
+    second: 02_CursedArmor_SPRITESHEET_02_17
+  - first:
+      213: -221999204718765550
+    second: 02_CursedArmor_SPRITESHEET_02_18
+  - first:
+      213: 1047394947547732207
+    second: 02_CursedArmor_SPRITESHEET_02_19
+  - first:
+      213: -3698417969868549410
+    second: 02_CursedArmor_SPRITESHEET_02_20
+  - first:
+      213: -2463483492262042041
+    second: 02_CursedArmor_SPRITESHEET_02_21
+  - first:
+      213: 8915390872212661440
+    second: 02_CursedArmor_SPRITESHEET_02_22
+  - first:
+      213: -3533411032688294009
+    second: 02_CursedArmor_SPRITESHEET_02_23
+  - first:
+      213: 1605041483697650788
+    second: 02_CursedArmor_SPRITESHEET_02_24
+  - first:
+      213: -6329311774369479840
+    second: 02_CursedArmor_SPRITESHEET_02_25
+  - first:
+      213: -7250845165628404448
+    second: 02_CursedArmor_SPRITESHEET_02_26
+  - first:
+      213: 8321683679728629210
+    second: 02_CursedArmor_SPRITESHEET_02_27
+  - first:
+      213: 8484935569061000484
+    second: 02_CursedArmor_SPRITESHEET_02_28
+  - first:
+      213: -6491069980601851106
+    second: 02_CursedArmor_SPRITESHEET_02_29
+  - first:
+      213: -5095842664177723005
+    second: 02_CursedArmor_SPRITESHEET_02_30
+  - first:
+      213: 2853896816086164136
+    second: 02_CursedArmor_SPRITESHEET_02_31
+  - first:
+      213: 4795190087861534192
+    second: 02_CursedArmor_SPRITESHEET_02_32
+  - first:
+      213: -344191648577809732
+    second: 02_CursedArmor_SPRITESHEET_02_33
+  - first:
+      213: -8898218933043258845
+    second: 02_CursedArmor_SPRITESHEET_02_34
+  - first:
+      213: -1872389673953793305
+    second: 02_CursedArmor_SPRITESHEET_02_35
+  - first:
+      213: 7021408443159368277
+    second: 02_CursedArmor_SPRITESHEET_02_36
+  - first:
+      213: -6000726182268952996
+    second: 02_CursedArmor_SPRITESHEET_02_37
+  - first:
+      213: 3425659410227821600
+    second: 02_CursedArmor_SPRITESHEET_02_38
+  - first:
+      213: 1702664117376406563
+    second: 02_CursedArmor_SPRITESHEET_02_39
+  - first:
+      213: -8132465442453893305
+    second: 02_CursedArmor_SPRITESHEET_02_40
+  - first:
+      213: -8012731006971278173
+    second: 02_CursedArmor_SPRITESHEET_02_41
+  - first:
+      213: -2608288430316772024
+    second: 02_CursedArmor_SPRITESHEET_02_42
+  - first:
+      213: -2836758610697236890
+    second: 02_CursedArmor_SPRITESHEET_02_43
+  - first:
+      213: 2692930762188842268
+    second: 02_CursedArmor_SPRITESHEET_02_44
+  - first:
+      213: 7858797274832758958
+    second: 02_CursedArmor_SPRITESHEET_02_45
+  - first:
+      213: 1904596397837514124
+    second: 02_CursedArmor_SPRITESHEET_02_46
+  - first:
+      213: -6443769676380145942
+    second: 02_CursedArmor_SPRITESHEET_02_47
+  - first:
+      213: 2748485531771569680
+    second: 02_CursedArmor_SPRITESHEET_02_48
+  - first:
+      213: -2961825196764379725
+    second: 02_CursedArmor_SPRITESHEET_02_49
+  - first:
+      213: -5569463605755161787
+    second: 02_CursedArmor_SPRITESHEET_02_50
+  - first:
+      213: -3721938245652300995
+    second: 02_CursedArmor_SPRITESHEET_02_51
+  - first:
+      213: -296271406449060490
+    second: 02_CursedArmor_SPRITESHEET_02_52
+  - first:
+      213: 1197206639123565956
+    second: 02_CursedArmor_SPRITESHEET_02_53
+  - first:
+      213: -6251801219409055914
+    second: 02_CursedArmor_SPRITESHEET_02_54
+  - first:
+      213: 4449456807653040444
+    second: 02_CursedArmor_SPRITESHEET_02_55
+  - first:
+      213: 8193172145969499204
+    second: 02_CursedArmor_SPRITESHEET_02_56
+  - first:
+      213: 1779695746506266329
+    second: 02_CursedArmor_SPRITESHEET_02_57
+  - first:
+      213: 8884286013995068453
+    second: 02_CursedArmor_SPRITESHEET_02_58
+  - first:
+      213: -6533546439757107903
+    second: 02_CursedArmor_SPRITESHEET_02_59
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 350
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6380
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259666e8839803747bdc13cb0990291d
+      internalID: -932233769118642861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_1
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 6380
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fda29e15459ad409b27c478508d324
+      internalID: 1134234077785823328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_2
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 6380
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7acfe101879792241a45d4b9f416fa79
+      internalID: -4710610433716121033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_3
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 6380
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438c52a4fe4786042b3003a6e83a2767
+      internalID: 5930163156398166153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_4
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 6380
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd3c2ce24e5b6f4a97f4c8c8c99ba30
+      internalID: 5174947523327326911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_5
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 6380
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e25113238d3c0d41b9b9df9d9cbc792
+      internalID: -2129584718511117246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_6
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 6380
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa147586b664234b8b5b994de3ce82c
+      internalID: -7297518391463508191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5800
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8897cda03d8144fb619d5efa723a7c
+      internalID: -8998826834021751410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_8
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 5800
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a20f6647f27814ea0d8f007b8cb3ba
+      internalID: 433193231331355659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_9
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 5800
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9200463427e339945b65fcbaa695f9c3
+      internalID: 534113538707877229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_10
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 5800
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c142484cf54a1d428f5ba7b069692cb
+      internalID: -5390055050960158191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_11
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 5800
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6b947d51e727d4ea36fd6a465c8918
+      internalID: -1546225275472878148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_12
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 5800
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34eb3c24605af446980120794897dc9
+      internalID: 360601704605910791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_13
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 5800
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392f65791385fba498ba306a19e5f434
+      internalID: 6558201963514531942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_14
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 5220
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd2ff6f192a1e647b7af273f1d5fb14
+      internalID: 3077797281554658377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_15
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 5220
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f72856f2c999b541be72e6c3e7b4002
+      internalID: 4430947189650833852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_16
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 5220
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79c9b33265b0e848884fd23f5c6b2bb
+      internalID: -543184993407579797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_17
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 5220
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3ff128ac5a7704c8234bc0f576769e
+      internalID: 6456004175115657622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_18
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 5220
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f604af17626834098f33b5ce31e48c
+      internalID: -221999204718765550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_19
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 5220
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810f30c13d332d84483971da3027c8d2
+      internalID: 1047394947547732207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_20
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 4640
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b41c86a54483b4abc0d926d2f285ef
+      internalID: -3698417969868549410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_21
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 4640
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c349838e1690943874b381cafc0877
+      internalID: -2463483492262042041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_22
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 4640
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a23d3bdf88444a40a7f58c6ebc72817
+      internalID: 8915390872212661440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_23
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 4640
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20b9d948c58780409da7d7a7f5d3394
+      internalID: -3533411032688294009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_24
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 4640
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b615a4fbd0ac04a49a9d01c6cbf1bdd8
+      internalID: 1605041483697650788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_25
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 4640
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85558abffe8cc2b4d9975b02b2301502
+      internalID: -6329311774369479840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4060
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe4696de87b4f2409fa642fec587756
+      internalID: -7250845165628404448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_27
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 4060
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cdcfd925afa54e40a1993413bb9e28d
+      internalID: 8321683679728629210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_28
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 4060
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefaa9704d85e2246b7a6f61efb00ca9
+      internalID: 8484935569061000484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_29
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 4060
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590829526b8b1e04b9aafab5899dc398
+      internalID: -6491069980601851106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_30
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 4060
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbd154740c4cf7458a3e7b0521a1b62
+      internalID: -5095842664177723005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_31
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 3480
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1878b7047fbe849ae5bea6fba4f131
+      internalID: 2853896816086164136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_32
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 3480
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f249f4a65fae0429a8ad1d567a74a4
+      internalID: 4795190087861534192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_33
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 3480
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282d74554a662e2499f2af2a2615ff39
+      internalID: -344191648577809732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_34
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 3480
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca1fb7e894c5ac4abb00ff12856c896
+      internalID: -8898218933043258845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_35
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 2900
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce23ddedb5db4684c9c00be9aff3fe31
+      internalID: -1872389673953793305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_36
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 2900
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ee9f64482586143ac883363cce2c4e
+      internalID: 7021408443159368277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_37
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 2900
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8947078951f9ef847a8b963950f00315
+      internalID: -6000726182268952996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_38
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 2900
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db406a913e1fccd46b61b5886c02d9f7
+      internalID: 3425659410227821600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_39
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 2320
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9106f0eb34fd74a985e6c7585f81a4
+      internalID: 1702664117376406563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_40
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 2320
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e21c6ec834d9d442b0a8900ec844f31
+      internalID: -8132465442453893305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_41
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 2320
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85663cc0230dc2344a984bf9a7b09dbf
+      internalID: -8012731006971278173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_42
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 2320
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663f8ff9dc3a1cc469e062f075cc3aa3
+      internalID: -2608288430316772024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1740
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955657777508fe040b8b24f845454868
+      internalID: -2836758610697236890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_44
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1740
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3412051733594c43bb12344ef8e9aa7
+      internalID: 2692930762188842268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_45
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1740
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33c1751519d2ba4c8ddbaabaef6618d
+      internalID: 7858797274832758958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_46
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 1740
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e292d006fb28c48b84fe0439c2b6d3
+      internalID: 1904596397837514124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_47
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 1740
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedd08dfa47d2c747877e47c7801380c
+      internalID: -6443769676380145942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_48
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1160
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490b287341907a3409217a5bbe7d8065
+      internalID: 2748485531771569680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_49
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1160
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8deb9f68844f507459ae3df9ce3e9a20
+      internalID: -2961825196764379725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_50
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 1160
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf80dc37c897a04997ef37730f5b12c
+      internalID: -5569463605755161787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_51
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 1160
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf50c4a544296de4d947ad49849c7355
+      internalID: -3721938245652300995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_52
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 580
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ef604882ace0c4f84248d3fdc4642a
+      internalID: -296271406449060490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_53
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 580
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ceab422fefc094ea0792ffc158c831
+      internalID: 1197206639123565956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_54
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 580
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85649595ad2fc94197f5ff3be46cbdf
+      internalID: -6251801219409055914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_55
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 580
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcdeb692f887c1419168e70a7cf1e6e
+      internalID: 4449456807653040444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_56
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 0
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef00f17eeac3e7469097355d421e952
+      internalID: 8193172145969499204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_57
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 0
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2d2cea88a8b4b41907b2394e3fcb71
+      internalID: 1779695746506266329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_58
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 0
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08efec0e3a166234dba54deced6f7373
+      internalID: 8884286013995068453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_CursedArmor_SPRITESHEET_02_59
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 0
+        width: 580
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f6f0aa0c2b8d04baabdae4b5a266f2
+      internalID: -6533546439757107903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

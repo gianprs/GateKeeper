@@ -10,6 +10,8 @@ TagManager:
   - FakeWall
   - Bat
   - WallCollider
+  - PlayerBody
+  - GhostTrigger
   layers:
   - Default
   - TransparentFX
@@ -22,8 +24,8 @@ TagManager:
   - PixelRenderCamera
   - Enemy
   - Level_Collider
-  - 
-  - 
+  - Player
+  - Ghost
   - 
   - 
   - 

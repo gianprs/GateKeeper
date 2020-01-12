@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using Pathfinding;
 
+public enum enemyType {Ghost, Vampire, Zombie, Armor}
+
 public class EnemyBehaviour : MonoBehaviour
 {
     [Header("Player reference")]
@@ -11,6 +13,7 @@ public class EnemyBehaviour : MonoBehaviour
     public float attackRadius;
 
     [Header("Enemy stats")]
+    public enemyType enemyClass;
     public int enemyLife = 2;
     public int enemyScore = 100;
     public float enemyAttackRatio;
@@ -22,49 +25,73 @@ public class EnemyBehaviour : MonoBehaviour
     Patrol enemyPatrol;
     Rigidbody2D enemyRB;
 
-    Vector3 initPos;
-    public bool followPlayer;
-
-    public bool DEBUG;
-    
+    [HideInInspector]
     public bool attacking;
     [HideInInspector]
     public bool activeAI = true;
 
+    private float tempAIspeed;
+
     void Start()
     {
-        enemyAI = GetComponent<AIPath>();
+        if(enemyClass != enemyType.Ghost)
+        {
+            enemyAI = GetComponent<AIPath>();
+            enemyPatrol = GetComponent<Patrol>();
+
+            tempAIspeed = enemyAI.maxSpeed;
+        }        
+
         enemyAC = GetComponent<Animator>();
-        enemyAS = GetComponent<AudioSource>();
-        enemyPatrol = GetComponent<Patrol>();
+        enemyAS = GetComponent<AudioSource>();        
         enemyRB = GetComponent<Rigidbody2D>();
 
-        activeAI = true;
-        if (DEBUG)
-        {
-            initPos = transform.position;
-        }        
+        activeAI = true;       
     }
 
     float xValue, yValue;
 
     void Update()
     {
-        enemyAI.enabled = activeAI;
-        
-        xValue = enemyAI.velocity.normalized.x;
-        yValue = enemyAI.velocity.normalized.y;
-        print(xValue);
-        
-        enemyAC.SetFloat("hor", xValue);
-        enemyAC.SetFloat("ver", yValue);
-
-        if (DEBUG) 
+        if (enemyClass != enemyType.Ghost)
         {
-            CheckDistance();
+            enemyAI.enabled = activeAI;
+
+            xValue = enemyAI.velocity.normalized.x;
+            yValue = enemyAI.velocity.normalized.y;
+
+            if(xValue == 0 && yValue == 0)
+            {
+                enemyAC.SetBool("walk", false);
+            } 
+            else
+            {
+                enemyAC.SetBool("walk", true);
+                enemyAC.SetFloat("hor", xValue);
+                enemyAC.SetFloat("ver", yValue);
+            }
         }
+            
     }
 
+    void FixedUpdate()
+    {
+        if (enemyClass != enemyType.Ghost)
+        {
+            CheckDistance();
+        }            
+    }
+
+    //void OnCollisionEnter2D(Collision2D collision)
+    //{
+    //    if(enemyClass == enemyType.Ghost)
+    //    {
+    //        if (collision.gameObject.CompareTag("PlayerBody"))
+    //        {
+    //            print("playerColpito");
+    //        }
+    //    }
+    //}
 
     void OnTriggerEnter2D(Collider2D collision)
     {
@@ -77,8 +104,7 @@ public class EnemyBehaviour : MonoBehaviour
             PlayerBehaviour.instancePB.PlayerDamaged();
             Vector2 difference = (_playerRB.transform.position - transform.position);
             difference = difference.normalized * enemyImpulseForce;
-            _playerRB.AddForce(difference, ForceMode2D.Impulse);
-            StartCoroutine(StopPlayer(_playerRB, _playerMovement));
+            _playerRB.AddForce(difference, ForceMode2D.Impulse);            
         }
     }
 
@@ -111,6 +137,8 @@ public class EnemyBehaviour : MonoBehaviour
         }
     }
 
+    
+
     public void EnemyDeath()
     {
         // TODO animazione morte
@@ -126,15 +154,10 @@ public class EnemyBehaviour : MonoBehaviour
 
     IEnumerator EnemyAttack()
     {
+        enemyAI.maxSpeed = 0;
         attacking = true;        
         yield return new WaitForSeconds(enemyAttackRatio);
-        attacking = false;        
-    }
-
-    IEnumerator StopPlayer(Rigidbody2D playerRB, PlayerMovement playerMove)
-    {
-        yield return new WaitForSeconds(1f);
-        playerMove.enabled = true;
-        playerRB.velocity = Vector2.zero;
+        attacking = false;
+        enemyAI.maxSpeed = tempAIspeed;
     }
 }

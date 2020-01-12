@@ -35,7 +35,7 @@ public class PlayerBehaviour : MonoBehaviour
     //[HideInInspector]
     public bool powerUpFantasma, powerUpZombie, powerUpArmatura, powerUpBat, playerDead;
 
-
+    Rigidbody2D myRB;
     SpriteRenderer playerSprite;
     AudioSource myAudio;
     Collider2D myCollider;
@@ -67,7 +67,7 @@ public class PlayerBehaviour : MonoBehaviour
         playerDead = false;
         playerLife = 6;
         myCollider = GetComponent<Collider2D>();
-
+        myRB = GetComponent<Rigidbody2D>();
         playerSprite = GetComponent<SpriteRenderer>();
 
         playerMovement = GetComponent<PlayerMovement>();
@@ -656,7 +656,12 @@ public class PlayerBehaviour : MonoBehaviour
             temp++;
         }
         myCollider.enabled = true;
+
+        playerMovement.enabled = true;
+        myRB.velocity = Vector2.zero;
     }
+
+    
 
     public void ResetPlayerPower()
     {
