@@ -19,6 +19,10 @@ public class EnemyBehaviour : MonoBehaviour
     public float enemyAttackRatio;
     public float enemyImpulseForce;
 
+    [Header("Vampire attack")]
+    public GameObject vampireSlash;
+    public float slashSpeed;
+
     AIPath enemyAI;
     Animator enemyAC;
     AudioSource enemyAS;
@@ -31,6 +35,8 @@ public class EnemyBehaviour : MonoBehaviour
     public bool activeAI = true;
 
     private float tempAIspeed;
+
+    
 
     void Start()
     {
@@ -62,11 +68,18 @@ public class EnemyBehaviour : MonoBehaviour
 
             if(xValue == 0 && yValue == 0)
             {
-                enemyAC.SetBool("walk", false);
+                if (enemyClass != enemyType.Vampire)
+                {
+                    enemyAC.SetBool("walk", true);
+                }
             } 
             else
             {
-                enemyAC.SetBool("walk", true);
+                if(enemyClass != enemyType.Vampire)
+                {
+                    enemyAC.SetBool("walk", true);
+                }
+                
                 enemyAC.SetFloat("hor", xValue);
                 enemyAC.SetFloat("ver", yValue);
             }
@@ -97,17 +110,21 @@ public class EnemyBehaviour : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            PlaySound(); // TEMP -> va utilizzata nell'animazione
-            PlayerMovement _playerMovement = collision.GetComponent<PlayerMovement>();
-            _playerMovement.enabled = false;
-            Rigidbody2D _playerRB = collision.GetComponent<Rigidbody2D>();
-            PlayerBehaviour.instancePB.PlayerDamaged();
-            Vector2 difference = (_playerRB.transform.position - transform.position);
-            difference = difference.normalized * enemyImpulseForce;
-            _playerRB.AddForce(difference, ForceMode2D.Impulse);            
+            PlayerHit(collision);
         }
     }
 
+    public void PlayerHit(Collider2D collision)
+    {
+        PlaySound(); // TEMP -> va utilizzata nell'animazione
+        PlayerMovement _playerMovement = collision.GetComponent<PlayerMovement>();
+        _playerMovement.enabled = false;
+        Rigidbody2D _playerRB = collision.GetComponent<Rigidbody2D>();
+        PlayerBehaviour.instancePB.PlayerDamaged();
+        Vector2 difference = (_playerRB.transform.position - transform.position);
+        difference = difference.normalized * enemyImpulseForce;
+        _playerRB.AddForce(difference, ForceMode2D.Impulse);
+    }
 
     void CheckDistance()
     {
@@ -128,6 +145,28 @@ public class EnemyBehaviour : MonoBehaviour
                 {
                     enemyAC.SetTrigger("attack");
                     StartCoroutine(EnemyAttack());
+
+                    if(enemyClass == enemyType.Vampire)
+                    {
+                        if(vampireSlash != null)
+                        {
+                            GameObject cloneSlash = Instantiate(vampireSlash, transform.position, transform.rotation);
+                            SlashBehaviour cloneSlashBehaviour = cloneSlash.GetComponent<SlashBehaviour>();
+                            cloneSlashBehaviour.vampireSlash = true;
+                            Rigidbody2D cloneRB = cloneSlash.GetComponent<Rigidbody2D>();
+                            Vector2 direction = playerPosition.position - transform.position;
+                            cloneRB.AddForce(direction * slashSpeed, ForceMode2D.Impulse);
+                            Animator slashAnim = cloneSlash.GetComponent<Animator>();
+                            if(direction.y > 0)
+                            {
+                                slashAnim.SetBool("dx_front", true);
+                            } else if (direction.y < 0)
+                            {
+                                slashAnim.SetBool("sx_back", true);
+                            }
+                            
+                        }                        
+                    }
                 }
             }
         }        
@@ -135,9 +174,7 @@ public class EnemyBehaviour : MonoBehaviour
         {
             enemyPatrol.enabled = true;
         }
-    }
-
-    
+    }    
 
     public void EnemyDeath()
     {

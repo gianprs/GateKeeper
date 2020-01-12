@@ -46,9 +46,10 @@ public class PlayerBehaviour : MonoBehaviour
 
 
     public GameObject slashPrefab;
+    public float slashSpeed = 5;
 
+    public Transform attackPos_Front, attackPos_Dx, attackPos_Back, attackPos_Sx;
 
-    
     //singleton
     void Awake()
     {
@@ -75,7 +76,6 @@ public class PlayerBehaviour : MonoBehaviour
 
         myAudio = GetComponent<AudioSource>();
     }
-
     
     void Update()
     {
@@ -160,208 +160,10 @@ public class PlayerBehaviour : MonoBehaviour
         {
             FakeWallBehaviour fakeWB = collision.GetComponentInChildren<FakeWallBehaviour>();
             fakeWB.wallLife -= 1;
-        }
-
-        #region OLD
-
-        //if (collision.CompareTag("Fantasma"))
-        //{
-        //    #region oldSystem
-        //    //GameManager.zombie_count = 0;
-        //    //GameManager.armatura_count = 0;
-
-        //    //if (!GameManager.powerUptaken)
-        //    //{
-        //    //    GameManager.fantasma_count++;
-        //    //}
-
-        //    //int scoreToAdd = collision.GetComponent<EnemyBehaviour>().enemyScore;
-
-        //    //if (GameManager.fantasma_count == 1)
-        //    //{
-        //    //    // aggiungo il punteggio del nemico
-        //    //    GameManager.score += scoreToAdd;
-
-        //    //    // modifico la sprite della slot
-        //    //    // se la prima è libera occupo quella se no a discesa
-        //    //    if (slot_01.sprite == null)
-        //    //    {
-        //    //        slot_01.sprite = fantasmaSprite;
-        //    //    }
-        //    //    else if (slot_02.sprite == null)
-        //    //    {
-        //    //        slot_02.sprite = fantasmaSprite;
-        //    //    }
-        //    //    else if (slot_03.sprite == null)
-        //    //    {
-        //    //        slot_03.sprite = fantasmaSprite;
-        //    //    }
-
-        //    //}
-        //    //else if (GameManager.fantasma_count == 2)
-        //    //{
-        //    //    // aggiungo il punteggio del nemico
-        //    //    GameManager.score += scoreToAdd * 2;
-
-        //    //    // modifico la sprite della slot
-        //    //    // se la seconda è libera occupo quella se no vado sulla terza
-        //    //    if (slot_02.sprite == null)
-        //    //    {
-        //    //        slot_02.sprite = fantasmaSprite;
-        //    //    }
-        //    //    else if (slot_03.sprite == null)
-        //    //    {
-        //    //        slot_03.sprite = fantasmaSprite;
-        //    //    }
-
-        //    //}
-        //    //else if (GameManager.fantasma_count > 2)
-        //    //{
-        //    //    // aggiungo il punteggio del nemico
-        //    //    GameManager.score += scoreToAdd * 5;
-
-        //    //    // modifico la sprite della slot
-        //    //    // solo la terza perchè se arrivo qui vuol dire che le altre 2 sono full
-        //    //    slot_03.sprite = fantasmaSprite;
-        //    //}
-
-        //    //GameManager.UpdateText();
-
-        //    //EnemyHit(collision);
-        //    #endregion
-        //}
-
-        //if (collision.CompareTag("Zombie"))
-        //{
-        //    #region oldSystem
-        //    //GameManager.fantasma_count = 0;
-        //    //GameManager.armatura_count = 0;
-
-        //    //if (!GameManager.powerUptaken)
-        //    //{
-        //    //    GameManager.zombie_count++;
-        //    //}
-
-        //    //int scoreToAdd = collision.GetComponent<EnemyBehaviour>().enemyScore;
-
-        //    //if (GameManager.zombie_count == 1)
-        //    //{
-        //    //    // aggiungo il punteggio del nemico
-        //    //    GameManager.score += scoreToAdd;
-
-        //    //    // modifico la sprite della slot
-        //    //    // se la prima è libera occupo quella se no a discesa
-        //    //    if (slot_01.sprite == null)
-        //    //    {
-        //    //        slot_01.sprite = zombieSprite;
-        //    //    }
-        //    //    else if (slot_02.sprite == null)
-        //    //    {
-        //    //        slot_02.sprite = zombieSprite;
-        //    //    }
-        //    //    else if (slot_03.sprite == null)
-        //    //    {
-        //    //        slot_03.sprite = zombieSprite;
-        //    //    }
-        //    //}
-        //    //else if (GameManager.zombie_count == 2)
-        //    //{
-        //    //    // aggiungo il punteggio del nemico
-        //    //    GameManager.score += scoreToAdd * 2;
-
-        //    //    // modifico la sprite della slot
-        //    //    // se la seconda è libera occupo quella se no vado sulla terza
-        //    //    if (slot_02.sprite == null)
-        //    //    {
-        //    //        slot_02.sprite = zombieSprite;
-        //    //    }
-        //    //    else if (slot_03.sprite == null)
-        //    //    {
-        //    //        slot_03.sprite = zombieSprite;
-        //    //    }
-        //    //}
-        //    //else if (GameManager.zombie_count > 2)
-        //    //{
-        //    //    // aggiungo il punteggio del nemico
-        //    //    GameManager.score += scoreToAdd * 5;
-
-        //    //    // modifico la sprite della slot
-        //    //    // solo la terza perchè se arrivo qui vuol dire che le altre 2 sono full
-        //    //    slot_03.sprite = zombieSprite;
-        //    //}
-
-        //    //GameManager.UpdateText();
-        //    //EnemyHit(collision);
-        //    #endregion
-        //}
-
-        //if (collision.CompareTag("Armatura"))
-        //{
-        //    #region oldSystem
-        //    //GameManager.fantasma_count = 0;
-        //    //GameManager.zombie_count = 0;
-
-        //    //if (!GameManager.powerUptaken)
-        //    //{
-        //    //    GameManager.armatura_count++;
-        //    //}
-
-        //    //int scoreToAdd = collision.GetComponent<EnemyBehaviour>().enemyScore;
-
-        //    //if (GameManager.armatura_count == 1)
-        //    //{
-        //    //    // aggiungo il punteggio del nemico
-        //    //    GameManager.score += scoreToAdd;
-
-        //    //    // modifico la sprite della slot
-        //    //    // se la prima è libera occupo quella se no a discesa
-        //    //    if (slot_01.sprite == null)
-        //    //    {
-        //    //        slot_01.sprite = armaturaSprite;
-        //    //    }
-        //    //    else if (slot_02.sprite == null)
-        //    //    {
-        //    //        slot_02.sprite = armaturaSprite;
-        //    //    }
-        //    //    else if (slot_03.sprite == null)
-        //    //    {
-        //    //        slot_03.sprite = armaturaSprite;
-        //    //    }
-        //    //}
-        //    //else if (GameManager.armatura_count == 2)
-        //    //{
-        //    //    // aggiungo il punteggio del nemico
-        //    //    GameManager.score += scoreToAdd * 2;
-
-        //    //    // modifico la sprite della slot
-        //    //    // se la seconda è libera occupo quella se no vado sulla terza
-        //    //    if (slot_02.sprite == null)
-        //    //    {
-        //    //        slot_02.sprite = armaturaSprite;
-        //    //    }
-        //    //    else if (slot_03.sprite == null)
-        //    //    {
-        //    //        slot_03.sprite = armaturaSprite;
-        //    //    }
-        //    //}
-        //    //else if (GameManager.armatura_count > 2)
-        //    //{
-        //    //    // aggiungo il punteggio del nemico
-        //    //    GameManager.score += scoreToAdd * 5;
-
-        //    //    // modifico la sprite della slot
-        //    //    // solo la terza perchè se arrivo qui vuol dire che le altre 2 sono full
-        //    //    slot_03.sprite = armaturaSprite;
-        //    //}
-
-        //    //GameManager.UpdateText();
-        //    //EnemyHit(collision);
-        //    #endregion
-        //}
-        #endregion
+        }       
     }
 
-    void EnemyHit(Collider2D collision)
+    public void EnemyHit(Collider2D collision)
     {
         Rigidbody2D enemyRB = collision.GetComponent<Rigidbody2D>();
         if (enemyRB != null)
@@ -661,8 +463,6 @@ public class PlayerBehaviour : MonoBehaviour
         myRB.velocity = Vector2.zero;
     }
 
-    
-
     public void ResetPlayerPower()
     {
         // reset poteri
@@ -672,48 +472,60 @@ public class PlayerBehaviour : MonoBehaviour
         attackRate = 2;
     }
 
-
     #region Bat power up attack direction
     public void AttackBat_DX()
     {
         if (powerUpBat)
         {
-            //sostituire il punto si spawn con lo spawn point (DA CREARE)
-            GameObject cloneSlash = Instantiate(slashPrefab, transform.position, transform.rotation);
+            GameObject cloneSlash = Instantiate(slashPrefab, attackPos_Dx.position, transform.rotation);
+            SlashBehaviour cloneSlashBehaviour = cloneSlash.GetComponent<SlashBehaviour>();
+            cloneSlashBehaviour.vampireSlash = true;
             Rigidbody2D slashRB = cloneSlash.GetComponent<Rigidbody2D>();
-            slashRB.AddForce(Vector2.right * 5, ForceMode2D.Impulse);
+            Animator slashAnim = cloneSlash.GetComponent<Animator>();
+            slashAnim.SetBool("dx_front", true);
+            slashRB.AddForce(Vector2.right * slashSpeed, ForceMode2D.Impulse);
         }
     }
+
     public void AttackBat_SX()
     {
         if (powerUpBat)
         {
-            //sostituire il punto si spawn con lo spawn point (DA CREARE)
-            GameObject cloneSlash = Instantiate(slashPrefab, transform.position, transform.rotation);
+            GameObject cloneSlash = Instantiate(slashPrefab, attackPos_Sx.position, transform.rotation);
+            SlashBehaviour cloneSlashBehaviour = cloneSlash.GetComponent<SlashBehaviour>();
+            cloneSlashBehaviour.vampireSlash = true;
             Rigidbody2D slashRB = cloneSlash.GetComponent<Rigidbody2D>();
-            // VALORI TEMPORANEI - SOSTITUIRE QUANDO SPRITE DEFINITIVA
-            cloneSlash.transform.localScale = new Vector3(-0.035739f, 0.035739f, 0.035739f);
-            slashRB.AddForce(-Vector2.right * 5, ForceMode2D.Impulse);
+            Animator slashAnim = cloneSlash.GetComponent<Animator>();
+            slashAnim.SetBool("sx_back", true);
+            slashRB.AddForce(-Vector2.right * slashSpeed, ForceMode2D.Impulse);
         }
     }
+
     public void AttackBat_UP()
     {
         if (powerUpBat)
         {
-            //sostituire il punto si spawn con lo spawn point (DA CREARE)
-            GameObject cloneSlash = Instantiate(slashPrefab, transform.position, transform.rotation);
+            GameObject cloneSlash = Instantiate(slashPrefab, attackPos_Back.position, transform.rotation);
+            SlashBehaviour cloneSlashBehaviour = cloneSlash.GetComponent<SlashBehaviour>();
+            cloneSlashBehaviour.vampireSlash = true;
             Rigidbody2D slashRB = cloneSlash.GetComponent<Rigidbody2D>();
-            slashRB.AddForce(Vector2.up * 5, ForceMode2D.Impulse);
+            Animator slashAnim = cloneSlash.GetComponent<Animator>();
+            slashAnim.SetBool("sx_back", true);
+            slashRB.AddForce(Vector2.up * slashSpeed, ForceMode2D.Impulse);
         }
     }
+
     public void AttackBat_DOWN()
     {
         if (powerUpBat)
         {
-            //sostituire il punto si spawn con lo spawn point (DA CREARE)
-            GameObject cloneSlash = Instantiate(slashPrefab, transform.position, transform.rotation);
+            GameObject cloneSlash = Instantiate(slashPrefab, attackPos_Front.position, transform.rotation);
+            SlashBehaviour cloneSlashBehaviour = cloneSlash.GetComponent<SlashBehaviour>();
+            cloneSlashBehaviour.vampireSlash = true;
             Rigidbody2D slashRB = cloneSlash.GetComponent<Rigidbody2D>();
-            slashRB.AddForce(-Vector2.up * 5, ForceMode2D.Impulse);
+            Animator slashAnim = cloneSlash.GetComponent<Animator>();
+            slashAnim.SetBool("dx_front", true);
+            slashRB.AddForce(-Vector2.up * slashSpeed, ForceMode2D.Impulse);
         }
     }
     #endregion

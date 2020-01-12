@@ -26,9 +26,9 @@ TagManager:
   - Level_Collider
   - Player
   - Ghost
-  - 
-  - 
-  - 
+  - Vampire
+  - Slash_Player
+  - Slash_Vampire
   - 
   - 
   - 
