@@ -13,6 +13,7 @@ public class HighScoreManager : MonoBehaviour
 
     public string path = "C:/Users/matte/Desktop/MyPath.json";
 
+    
 
     [ContextMenu("Sort")]
     public void Sort()

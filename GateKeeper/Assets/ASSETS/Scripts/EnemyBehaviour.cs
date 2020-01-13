@@ -36,8 +36,6 @@ public class EnemyBehaviour : MonoBehaviour
 
     private float tempAIspeed;
 
-    
-
     void Start()
     {
         if(enemyClass != enemyType.Ghost)
@@ -70,7 +68,7 @@ public class EnemyBehaviour : MonoBehaviour
             {
                 if (enemyClass != enemyType.Vampire)
                 {
-                    enemyAC.SetBool("walk", true);
+                    enemyAC.SetBool("walk", false);
                 }
             } 
             else
@@ -83,8 +81,7 @@ public class EnemyBehaviour : MonoBehaviour
                 enemyAC.SetFloat("hor", xValue);
                 enemyAC.SetFloat("ver", yValue);
             }
-        }
-            
+        }            
     }
 
     void FixedUpdate()
@@ -94,17 +91,6 @@ public class EnemyBehaviour : MonoBehaviour
             CheckDistance();
         }            
     }
-
-    //void OnCollisionEnter2D(Collision2D collision)
-    //{
-    //    if(enemyClass == enemyType.Ghost)
-    //    {
-    //        if (collision.gameObject.CompareTag("PlayerBody"))
-    //        {
-    //            print("playerColpito");
-    //        }
-    //    }
-    //}
 
     void OnTriggerEnter2D(Collider2D collision)
     {
@@ -157,14 +143,15 @@ public class EnemyBehaviour : MonoBehaviour
                             Vector2 direction = playerPosition.position - transform.position;
                             cloneRB.AddForce(direction * slashSpeed, ForceMode2D.Impulse);
                             Animator slashAnim = cloneSlash.GetComponent<Animator>();
+                            
                             if(direction.y > 0)
                             {
                                 slashAnim.SetBool("dx_front", true);
-                            } else if (direction.y < 0)
+                            } 
+                            else if (direction.y < 0)
                             {
                                 slashAnim.SetBool("sx_back", true);
-                            }
-                            
+                            }                            
                         }                        
                     }
                 }

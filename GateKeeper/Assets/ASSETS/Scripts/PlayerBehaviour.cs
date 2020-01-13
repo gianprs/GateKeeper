@@ -125,6 +125,7 @@ public class PlayerBehaviour : MonoBehaviour
         {
             playerAC.SetTrigger("death");
             playerDead = true;
+            myRB.velocity = Vector2.zero;
 
             slot_01.enabled = false;
             slot_02.enabled = false;
@@ -532,7 +533,6 @@ public class PlayerBehaviour : MonoBehaviour
 
     IEnumerator PowerUpGhost()
     {
-
         print("ghost");
         int temp = 0;
         //myCollider.enabled = false;
