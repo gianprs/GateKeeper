@@ -34,7 +34,7 @@ public class EnemyBehaviour : MonoBehaviour
     [HideInInspector]
     public bool activeAI = true;
 
-    private float tempAIspeed;
+    private float tempAIspeed, tempAttackRadius;
 
     void Start()
     {
@@ -50,7 +50,8 @@ public class EnemyBehaviour : MonoBehaviour
         enemyAS = GetComponent<AudioSource>();        
         enemyRB = GetComponent<Rigidbody2D>();
 
-        activeAI = true;       
+        activeAI = true;
+        tempAttackRadius = attackRadius;
     }
 
     float xValue, yValue;
@@ -86,7 +87,7 @@ public class EnemyBehaviour : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (enemyClass != enemyType.Ghost)
+        if (enemyClass != enemyType.Ghost && enemyClass != enemyType.Vampire)
         {
             CheckDistance();
         }            
@@ -94,10 +95,53 @@ public class EnemyBehaviour : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.CompareTag("Player") )
+        {
+            if(enemyClass == enemyType.Ghost)
+            {
+                PlayerHit(collision);
+            }
+            
+            
+        }
+    }
+
+    public void OnTriggerStay2D(Collider2D collision)
+    {
         if (collision.CompareTag("Player"))
         {
-            PlayerHit(collision);
-        }
+            if (enemyClass == enemyType.Vampire)
+            {
+                if (!attacking)
+                {
+                    enemyAC.SetTrigger("attack");
+                    StartCoroutine(EnemyAttack());
+
+                    enemyAI.maxSpeed = 0;
+                    attackRadius = 0;
+
+                    if (vampireSlash != null)
+                    {
+                        GameObject cloneSlash = Instantiate(vampireSlash, transform.position, transform.rotation);
+                        SlashBehaviour cloneSlashBehaviour = cloneSlash.GetComponent<SlashBehaviour>();
+                        cloneSlashBehaviour.vampireSlash = true;
+                        Rigidbody2D cloneRB = cloneSlash.GetComponent<Rigidbody2D>();
+                        Vector2 direction = playerPosition.position - transform.position;
+                        cloneRB.AddForce(direction * slashSpeed, ForceMode2D.Impulse);
+                        Animator slashAnim = cloneSlash.GetComponent<Animator>();
+
+                        if (direction.y > 0)
+                        {
+                            slashAnim.SetBool("dx_front", true);
+                        }
+                        else if (direction.y < 0)
+                        {
+                            slashAnim.SetBool("sx_back", true);
+                        }
+                    }
+                }
+            }
+        }            
     }
 
     public void PlayerHit(Collider2D collision)
@@ -124,6 +168,10 @@ public class EnemyBehaviour : MonoBehaviour
                 {
                     enemyAI.destination = playerPosition.position;
                 }
+                if (enemyClass == enemyType.Vampire)
+                {                    
+                    attackRadius = tempAttackRadius;
+                }
             }
             else if (Vector3.Distance(playerPosition.position, transform.position) <= attackRadius)
             {
@@ -132,28 +180,35 @@ public class EnemyBehaviour : MonoBehaviour
                     enemyAC.SetTrigger("attack");
                     StartCoroutine(EnemyAttack());
 
-                    if(enemyClass == enemyType.Vampire)
-                    {
-                        if(vampireSlash != null)
-                        {
-                            GameObject cloneSlash = Instantiate(vampireSlash, transform.position, transform.rotation);
-                            SlashBehaviour cloneSlashBehaviour = cloneSlash.GetComponent<SlashBehaviour>();
-                            cloneSlashBehaviour.vampireSlash = true;
-                            Rigidbody2D cloneRB = cloneSlash.GetComponent<Rigidbody2D>();
-                            Vector2 direction = playerPosition.position - transform.position;
-                            cloneRB.AddForce(direction * slashSpeed, ForceMode2D.Impulse);
-                            Animator slashAnim = cloneSlash.GetComponent<Animator>();
+                    //if (enemyClass == enemyType.Vampire)
+                    //{
+                    //    enemyAI.maxSpeed = 0;
+                    //    attackRadius = 0;
+
+                    //    if (vampireSlash != null)
+                    //    {
+                    //        GameObject cloneSlash = Instantiate(vampireSlash, transform.position, transform.rotation);
+                    //        SlashBehaviour cloneSlashBehaviour = cloneSlash.GetComponent<SlashBehaviour>();
+                    //        cloneSlashBehaviour.vampireSlash = true;
+                    //        Rigidbody2D cloneRB = cloneSlash.GetComponent<Rigidbody2D>();
+                    //        Vector2 direction = playerPosition.position - transform.position;
+                    //        cloneRB.AddForce(direction * slashSpeed, ForceMode2D.Impulse);
+                    //        Animator slashAnim = cloneSlash.GetComponent<Animator>();
                             
-                            if(direction.y > 0)
-                            {
-                                slashAnim.SetBool("dx_front", true);
-                            } 
-                            else if (direction.y < 0)
-                            {
-                                slashAnim.SetBool("sx_back", true);
-                            }                            
-                        }                        
-                    }
+
+                    //        if (direction.y > 0)
+                    //        {
+                    //            slashAnim.SetBool("dx_front", true);
+                    //        } 
+                    //        else if (direction.y < 0)
+                    //        {
+                    //            slashAnim.SetBool("sx_back", true);
+                    //        }
+                            
+                    //    }                        
+                    //}
+
+                    
                 }
             }
         }        
@@ -170,18 +225,34 @@ public class EnemyBehaviour : MonoBehaviour
         Destroy(gameObject);
     }
 
+    #region Eventi da animazione
     // chiamo questa funzione da evento nell'animazione
     public void PlaySound()
     {        
         enemyAS.Play();
     }
-
-    IEnumerator EnemyAttack()
+    public void StopAI_Attack()
     {
         enemyAI.maxSpeed = 0;
-        attacking = true;        
+    }
+    public void MoveAI_Attack()
+    {
+        enemyAI.maxSpeed = tempAIspeed;
+    }
+    #endregion
+
+
+    IEnumerator EnemyAttack()
+    {        
+        attacking = true;
+        
         yield return new WaitForSeconds(enemyAttackRatio);
         attacking = false;
-        enemyAI.maxSpeed = tempAIspeed;
+        if (enemyClass == enemyType.Vampire)
+        {
+            enemyAI.maxSpeed = tempAIspeed;
+            //attackRadius = tempAttackRadius;
+        }
+
     }
 }

@@ -20,14 +20,17 @@ public class GameManager : MonoBehaviour
     public PlayerBehaviour _playerBehaviour;
 
     public Text enemiesKilledCount, scoreText, gameOverText, finalScoreText;
-
-    public float powerUpTime = 5f;
-
-    int enemiesCountSprite;
-
     public Image firstHeart, secondHeart, thirdHeart;
     public Sprite fullheart, halfHeart, emptyHeart;
 
+    [Header("Power Up Time")]
+    public float powerUpTimeGhost;
+    public float powerUpTimeArmor;
+    public float powerUpTimeVampire;
+    public float powerUpTimeZombie;
+
+    float powerUpTime;
+    int enemiesCountSprite;
     bool addScore;
 
     void Awake()
@@ -154,30 +157,23 @@ public class GameManager : MonoBehaviour
     {
         if (fantasma_count == 3)
         {
-            // power up del fantasma
-            print("fantasma");
             _playerBehaviour.powerUpFantasma = true;
+            powerUpTime = powerUpTimeGhost;
         }
         else if (zombie_count == 3)
         {
-            // power up zombie
-            print("zombie");
-
             _playerBehaviour.powerUpZombie = true;
+            powerUpTime = powerUpTimeZombie;
         }
         else if (armatura_count == 3)
         {
-            // power up armatura
-            print("armatura");
-
             _playerBehaviour.powerUpArmatura = true;
+            powerUpTime = powerUpTimeArmor;
         } 
         else if (bat_count == 3)
         {
-            // power up pipistrello
-            print("pipistrello");
-
             _playerBehaviour.powerUpBat = true;
+            powerUpTime = powerUpTimeVampire;
         }
 
         yield return new WaitForSeconds(powerUpTime);

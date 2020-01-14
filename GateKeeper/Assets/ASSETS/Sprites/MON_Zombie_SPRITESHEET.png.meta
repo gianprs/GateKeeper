@@ -1,0 +1,1585 @@
+fileFormatVersion: 2
+guid: 3d5d71b35abe1124696b717144442300
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7583077246621896510
+    second: MON_Zombie_SPRITESHEET_0
+  - first:
+      213: 351476851756422875
+    second: MON_Zombie_SPRITESHEET_1
+  - first:
+      213: 714363733366190925
+    second: MON_Zombie_SPRITESHEET_2
+  - first:
+      213: -5904900433947457983
+    second: MON_Zombie_SPRITESHEET_3
+  - first:
+      213: -3978173246913113231
+    second: MON_Zombie_SPRITESHEET_4
+  - first:
+      213: -3653740007043140339
+    second: MON_Zombie_SPRITESHEET_5
+  - first:
+      213: -3667449640940526242
+    second: MON_Zombie_SPRITESHEET_6
+  - first:
+      213: 8782922670034473408
+    second: MON_Zombie_SPRITESHEET_7
+  - first:
+      213: -3001948070109395322
+    second: MON_Zombie_SPRITESHEET_8
+  - first:
+      213: 3683227309827855396
+    second: MON_Zombie_SPRITESHEET_9
+  - first:
+      213: -3067275706666064445
+    second: MON_Zombie_SPRITESHEET_10
+  - first:
+      213: 5584087680928850751
+    second: MON_Zombie_SPRITESHEET_11
+  - first:
+      213: -1563856081080596048
+    second: MON_Zombie_SPRITESHEET_12
+  - first:
+      213: -5257915482811765041
+    second: MON_Zombie_SPRITESHEET_13
+  - first:
+      213: -97975022278997366
+    second: MON_Zombie_SPRITESHEET_14
+  - first:
+      213: -4958672951923850742
+    second: MON_Zombie_SPRITESHEET_15
+  - first:
+      213: -6845478043369179555
+    second: MON_Zombie_SPRITESHEET_16
+  - first:
+      213: -4383897172067460308
+    second: MON_Zombie_SPRITESHEET_17
+  - first:
+      213: 4667610865904209211
+    second: MON_Zombie_SPRITESHEET_18
+  - first:
+      213: 4018485907440364391
+    second: MON_Zombie_SPRITESHEET_19
+  - first:
+      213: 5745924532926014833
+    second: MON_Zombie_SPRITESHEET_20
+  - first:
+      213: 8614745354023415481
+    second: MON_Zombie_SPRITESHEET_21
+  - first:
+      213: 1476186018553773305
+    second: MON_Zombie_SPRITESHEET_22
+  - first:
+      213: 548636872579306905
+    second: MON_Zombie_SPRITESHEET_23
+  - first:
+      213: -5160855586264815872
+    second: MON_Zombie_SPRITESHEET_24
+  - first:
+      213: -6541702880627354068
+    second: MON_Zombie_SPRITESHEET_25
+  - first:
+      213: 6481230229761616158
+    second: MON_Zombie_SPRITESHEET_26
+  - first:
+      213: -3195649436276124737
+    second: MON_Zombie_SPRITESHEET_27
+  - first:
+      213: 7888214211998355894
+    second: MON_Zombie_SPRITESHEET_28
+  - first:
+      213: 1400737154161021456
+    second: MON_Zombie_SPRITESHEET_29
+  - first:
+      213: -5476874014658989108
+    second: MON_Zombie_SPRITESHEET_30
+  - first:
+      213: 3822227631647507714
+    second: MON_Zombie_SPRITESHEET_31
+  - first:
+      213: 8278214155132675635
+    second: MON_Zombie_SPRITESHEET_32
+  - first:
+      213: -532481530490585524
+    second: MON_Zombie_SPRITESHEET_33
+  - first:
+      213: -2189982268187989690
+    second: MON_Zombie_SPRITESHEET_34
+  - first:
+      213: -8120144764529248163
+    second: MON_Zombie_SPRITESHEET_35
+  - first:
+      213: 975228196099006339
+    second: MON_Zombie_SPRITESHEET_36
+  - first:
+      213: -4673228205951657387
+    second: MON_Zombie_SPRITESHEET_37
+  - first:
+      213: 7923846555148459289
+    second: MON_Zombie_SPRITESHEET_38
+  - first:
+      213: 4117881720485776088
+    second: MON_Zombie_SPRITESHEET_39
+  - first:
+      213: -3827626874251817437
+    second: MON_Zombie_SPRITESHEET_40
+  - first:
+      213: 8201807173126110736
+    second: MON_Zombie_SPRITESHEET_41
+  - first:
+      213: -8619567206673960413
+    second: MON_Zombie_SPRITESHEET_42
+  - first:
+      213: 154531374943327315
+    second: MON_Zombie_SPRITESHEET_43
+  - first:
+      213: 4412871209567409721
+    second: MON_Zombie_SPRITESHEET_44
+  - first:
+      213: 445494351506885210
+    second: MON_Zombie_SPRITESHEET_45
+  - first:
+      213: 2796582205948248223
+    second: MON_Zombie_SPRITESHEET_46
+  - first:
+      213: 9026322445542769792
+    second: MON_Zombie_SPRITESHEET_47
+  - first:
+      213: -5433518952872289297
+    second: MON_Zombie_SPRITESHEET_48
+  - first:
+      213: 4415743349189742503
+    second: MON_Zombie_SPRITESHEET_49
+  - first:
+      213: 6847857216032240455
+    second: MON_Zombie_SPRITESHEET_50
+  - first:
+      213: 4338022596804961962
+    second: MON_Zombie_SPRITESHEET_51
+  - first:
+      213: 1488272417749375944
+    second: MON_Zombie_SPRITESHEET_52
+  - first:
+      213: -3633893340500105670
+    second: MON_Zombie_SPRITESHEET_53
+  - first:
+      213: 6005620931164287524
+    second: MON_Zombie_SPRITESHEET_54
+  - first:
+      213: 1967180101512423780
+    second: MON_Zombie_SPRITESHEET_55
+  - first:
+      213: -4070265023596573524
+    second: MON_Zombie_SPRITESHEET_56
+  - first:
+      213: -33530993189239549
+    second: MON_Zombie_SPRITESHEET_57
+  - first:
+      213: -3652049118951725313
+    second: MON_Zombie_SPRITESHEET_58
+  - first:
+      213: 1105915758525075145
+    second: MON_Zombie_SPRITESHEET_59
+  - first:
+      213: 8833967787759162008
+    second: MON_Zombie_SPRITESHEET_60
+  - first:
+      213: 8962817892832500875
+    second: MON_Zombie_SPRITESHEET_61
+  - first:
+      213: -5008810817732731108
+    second: MON_Zombie_SPRITESHEET_62
+  - first:
+      213: -3764464542158819763
+    second: MON_Zombie_SPRITESHEET_63
+  - first:
+      213: 462202611462991472
+    second: MON_Zombie_SPRITESHEET_64
+  - first:
+      213: 20941600525339071
+    second: MON_Zombie_SPRITESHEET_65
+  - first:
+      213: 6464894332341317385
+    second: MON_Zombie_SPRITESHEET_66
+  - first:
+      213: -2305569773093319170
+    second: MON_Zombie_SPRITESHEET_67
+  - first:
+      213: -1355470119455098849
+    second: MON_Zombie_SPRITESHEET_68
+  - first:
+      213: -703201322388678818
+    second: MON_Zombie_SPRITESHEET_69
+  - first:
+      213: 8627879509589237165
+    second: MON_Zombie_SPRITESHEET_70
+  - first:
+      213: -8234460735558637616
+    second: MON_Zombie_SPRITESHEET_71
+  - first:
+      213: 3297317535438253477
+    second: MON_Zombie_SPRITESHEET_72
+  - first:
+      213: 8082826706340594162
+    second: MON_Zombie_SPRITESHEET_73
+  - first:
+      213: 5511043739207548048
+    second: MON_Zombie_SPRITESHEET_74
+  - first:
+      213: 142768379072018143
+    second: MON_Zombie_SPRITESHEET_75
+  - first:
+      213: -8286809985920701162
+    second: MON_Zombie_SPRITESHEET_76
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 350
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4045e1fcb5c942438a4457df475d65a
+      internalID: -7583077246621896510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_1
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63da5d1d50b1aa341b75a7373ebb7830
+      internalID: 351476851756422875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_2
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942056d26afcd7b418b3295e4b9698f2
+      internalID: 714363733366190925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_3
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f45044b8dea394f86827d3037448ad
+      internalID: -5904900433947457983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_4
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218436e7157b8a0478024838a5eaff2b
+      internalID: -3978173246913113231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_5
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6b6ebfce90c264ca00bfd59375b451
+      internalID: -3653740007043140339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_6
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050ea09aeee24a343bfd796133956409
+      internalID: -3667449640940526242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_7
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847b9958e74dadc4b90fd39c536a6263
+      internalID: 8782922670034473408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_8
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3986d7a50e41de44ab7fea038fcd009c
+      internalID: -3001948070109395322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_9
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c568af7864bedf948bd314f013f2633a
+      internalID: 3683227309827855396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_10
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8fdddd192e0084ba51fa637898566a
+      internalID: -3067275706666064445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_11
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7679aadcbc087449b5cc7629eb4095
+      internalID: 5584087680928850751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_12
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa796b6fdf28af439070d9528fb0909
+      internalID: -1563856081080596048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_13
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64165c257ee84c742b32fff3258fba03
+      internalID: -5257915482811765041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_14
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f98fa96896386429e51da63ca9b9c1
+      internalID: -97975022278997366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_15
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545b76f011bf6984c80286c49dea5dd8
+      internalID: -4958672951923850742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_16
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f193b3969153bab4da181384ebe43ecf
+      internalID: -6845478043369179555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_17
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b99c8006bca0a84681e2293deef68c8
+      internalID: -4383897172067460308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_18
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18fa8ca377201af4dbaa55975bbc2e4c
+      internalID: 4667610865904209211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_19
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd9a466f4790ec4490295e8c28338ab
+      internalID: 4018485907440364391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_20
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f058b83c6e5a04093e1b7b49d15ecd
+      internalID: 5745924532926014833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_21
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a097ab8a02308774a908b1293eae66d5
+      internalID: 8614745354023415481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_22
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e11dd4c54633041b434b0072da67d5
+      internalID: 1476186018553773305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_23
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae441e356f414c547a6729314f0e23b2
+      internalID: 548636872579306905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_24
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f201e0b756468b44aaa37b318f2308e
+      internalID: -5160855586264815872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_25
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ff0a7e0068dd7439239d10819df6a2
+      internalID: -6541702880627354068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_26
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe3eca7b13b88f41a3cc252e89d7d4d
+      internalID: 6481230229761616158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_27
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531316eded222ea4eb389ce35752250e
+      internalID: -3195649436276124737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_28
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672bce3c4a186b3479770ac8de680fa3
+      internalID: 7888214211998355894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_29
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e67acd63813d5458f2b8c5ac779b9f
+      internalID: 1400737154161021456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_30
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a2ebef4f2c2254a90d3ba377637a58
+      internalID: -5476874014658989108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_31
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd45d5011bdfc3468442dbcf7f7338c
+      internalID: 3822227631647507714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_32
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07b25702e875794ea7418943dff0182
+      internalID: 8278214155132675635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_33
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572ab9cd7bb08b249b9192b81d2a1370
+      internalID: -532481530490585524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e4f267641853348b2ae48a1e470442
+      internalID: -2189982268187989690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_35
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573166c3fe491694ba2ebe0a3b345563
+      internalID: -8120144764529248163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_36
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a096d890ee41781418460735710d338d
+      internalID: 975228196099006339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_37
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2999e9dd6ce2f4989d6ea8cdc03bd3
+      internalID: -4673228205951657387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_38
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f511fe3a48d232d4c98447bf93373e31
+      internalID: 7923846555148459289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_39
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1ad1c670e2dd8468a2d71f6199865d
+      internalID: 4117881720485776088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_40
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3423a04db5c7cff4db8191c512c031f0
+      internalID: -3827626874251817437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_41
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49672f51412f0e14c82604ad6632372b
+      internalID: 8201807173126110736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_42
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f702e4357e06f914484ab2ce151409dc
+      internalID: -8619567206673960413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_43
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225cee79d6a0c5e4cab474d50e179d6a
+      internalID: 154531374943327315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_44
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e673995b06cf4e42a6f3a9ce04c4264
+      internalID: 4412871209567409721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_45
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d751e7e07ab7bf43ae06059c37c66c4
+      internalID: 445494351506885210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_46
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c1846c8c0ef624c80d743a6241c8ae
+      internalID: 2796582205948248223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_47
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b25618cb30c98c44b598250a43a441a
+      internalID: 9026322445542769792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_48
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519585696ca67114987b3909988d9a1b
+      internalID: -5433518952872289297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_49
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d2eba28af93ad4690570e16cf6a44b
+      internalID: 4415743349189742503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_50
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a041e9cee12876040b484799deb02d2c
+      internalID: 6847857216032240455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_51
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1070b164bf672ed419eb7bcb633e920a
+      internalID: 4338022596804961962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_52
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f226d3488b1f156479d4f81cc0b12a87
+      internalID: 1488272417749375944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_53
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574f93c1f698ca84bb5971d04afd2d38
+      internalID: -3633893340500105670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_54
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee3099f22f2e5c47bc86d3382d16c58
+      internalID: 6005620931164287524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_55
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b87d11e9d9b95d4aa8d2856948a0f84
+      internalID: 1967180101512423780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_56
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c83a4063741294590367902ff4a949
+      internalID: -4070265023596573524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_57
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1ddd1f554c2e2449170a5807df36bd
+      internalID: -33530993189239549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MON_Zombie_SPRITESHEET_58
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ec41cd8ea60f04c9d0d0f2036b810d
+      internalID: -3652049118951725313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

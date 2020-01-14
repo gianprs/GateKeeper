@@ -480,7 +480,7 @@ public class PlayerBehaviour : MonoBehaviour
         {
             GameObject cloneSlash = Instantiate(slashPrefab, attackPos_Dx.position, transform.rotation);
             SlashBehaviour cloneSlashBehaviour = cloneSlash.GetComponent<SlashBehaviour>();
-            cloneSlashBehaviour.vampireSlash = true;
+            cloneSlashBehaviour.playerSlash = true;
             Rigidbody2D slashRB = cloneSlash.GetComponent<Rigidbody2D>();
             Animator slashAnim = cloneSlash.GetComponent<Animator>();
             slashAnim.SetBool("dx_front", true);
@@ -494,7 +494,7 @@ public class PlayerBehaviour : MonoBehaviour
         {
             GameObject cloneSlash = Instantiate(slashPrefab, attackPos_Sx.position, transform.rotation);
             SlashBehaviour cloneSlashBehaviour = cloneSlash.GetComponent<SlashBehaviour>();
-            cloneSlashBehaviour.vampireSlash = true;
+            cloneSlashBehaviour.playerSlash = true;
             Rigidbody2D slashRB = cloneSlash.GetComponent<Rigidbody2D>();
             Animator slashAnim = cloneSlash.GetComponent<Animator>();
             slashAnim.SetBool("sx_back", true);
@@ -508,7 +508,7 @@ public class PlayerBehaviour : MonoBehaviour
         {
             GameObject cloneSlash = Instantiate(slashPrefab, attackPos_Back.position, transform.rotation);
             SlashBehaviour cloneSlashBehaviour = cloneSlash.GetComponent<SlashBehaviour>();
-            cloneSlashBehaviour.vampireSlash = true;
+            cloneSlashBehaviour.playerSlash = true;
             Rigidbody2D slashRB = cloneSlash.GetComponent<Rigidbody2D>();
             Animator slashAnim = cloneSlash.GetComponent<Animator>();
             slashAnim.SetBool("sx_back", true);
@@ -522,7 +522,7 @@ public class PlayerBehaviour : MonoBehaviour
         {
             GameObject cloneSlash = Instantiate(slashPrefab, attackPos_Front.position, transform.rotation);
             SlashBehaviour cloneSlashBehaviour = cloneSlash.GetComponent<SlashBehaviour>();
-            cloneSlashBehaviour.vampireSlash = true;
+            cloneSlashBehaviour.playerSlash = true;
             Rigidbody2D slashRB = cloneSlash.GetComponent<Rigidbody2D>();
             Animator slashAnim = cloneSlash.GetComponent<Animator>();
             slashAnim.SetBool("dx_front", true);
