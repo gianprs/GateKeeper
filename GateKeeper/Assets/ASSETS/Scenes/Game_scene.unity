@@ -521,6 +521,10 @@ MonoBehaviour:
   enemyImpulseForce: 2
   vampireSlash: {fileID: 0}
   slashSpeed: 0
+  front: {fileID: 0}
+  back: {fileID: 0}
+  dx: {fileID: 0}
+  sx: {fileID: 0}
   attacking: 0
   activeAI: 1
 --- !u!114 &223974229
@@ -1176,6 +1180,10 @@ MonoBehaviour:
   enemyImpulseForce: 0
   vampireSlash: {fileID: 0}
   slashSpeed: 0
+  front: {fileID: 0}
+  back: {fileID: 0}
+  dx: {fileID: 0}
+  sx: {fileID: 0}
   attacking: 0
   activeAI: 1
 --- !u!50 &335524711
@@ -1622,6 +1630,10 @@ MonoBehaviour:
   enemyImpulseForce: 0
   vampireSlash: {fileID: 0}
   slashSpeed: 0
+  front: {fileID: 0}
+  back: {fileID: 0}
+  dx: {fileID: 0}
+  sx: {fileID: 0}
   attacking: 0
   activeAI: 1
 --- !u!50 &632898180
@@ -1798,7 +1810,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &640410694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1840,6 +1852,10 @@ MonoBehaviour:
   vampireSlash: {fileID: 4927572381712587338, guid: b52807e4519fe6548895bf2ffc693748,
     type: 3}
   slashSpeed: 0.5
+  front: {fileID: 1497784920}
+  back: {fileID: 1064530527}
+  dx: {fileID: 1764202363}
+  sx: {fileID: 1601435320}
   attacking: 0
   activeAI: 1
 --- !u!114 &640410696
@@ -2255,6 +2271,10 @@ MonoBehaviour:
   enemyImpulseForce: 2
   vampireSlash: {fileID: 0}
   slashSpeed: 0
+  front: {fileID: 0}
+  back: {fileID: 0}
+  dx: {fileID: 0}
+  sx: {fileID: 0}
   attacking: 0
   activeAI: 1
 --- !u!82 &643106683
@@ -6857,7 +6877,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: df36e83e9dc74624db8a0498f036517e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6961,6 +6981,10 @@ MonoBehaviour:
   enemyImpulseForce: 0
   vampireSlash: {fileID: 0}
   slashSpeed: 0
+  front: {fileID: 0}
+  back: {fileID: 0}
+  dx: {fileID: 0}
+  sx: {fileID: 0}
   attacking: 0
   activeAI: 1
 --- !u!50 &948868542
@@ -8463,6 +8487,10 @@ MonoBehaviour:
   enemyImpulseForce: 0
   vampireSlash: {fileID: 0}
   slashSpeed: 0
+  front: {fileID: 0}
+  back: {fileID: 0}
+  dx: {fileID: 0}
+  sx: {fileID: 0}
   attacking: 0
   activeAI: 1
 --- !u!50 &1650269677
@@ -11219,6 +11247,10 @@ MonoBehaviour:
   enemyImpulseForce: 0
   vampireSlash: {fileID: 0}
   slashSpeed: 0
+  front: {fileID: 0}
+  back: {fileID: 0}
+  dx: {fileID: 0}
+  sx: {fileID: 0}
   attacking: 0
   activeAI: 1
 --- !u!114 &1945224919
@@ -11627,7 +11659,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2016576453}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.49, y: -2.89, z: 0}
+  m_LocalPosition: {x: -1.18, y: -0.83, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 287107155}
@@ -12207,6 +12239,10 @@ MonoBehaviour:
   enemyImpulseForce: 2
   vampireSlash: {fileID: 0}
   slashSpeed: 0
+  front: {fileID: 0}
+  back: {fileID: 0}
+  dx: {fileID: 0}
+  sx: {fileID: 0}
   attacking: 0
   activeAI: 1
 --- !u!114 &2082102556

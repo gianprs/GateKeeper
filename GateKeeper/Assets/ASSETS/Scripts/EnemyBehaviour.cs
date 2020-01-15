@@ -22,6 +22,10 @@ public class EnemyBehaviour : MonoBehaviour
     [Header("Vampire attack")]
     public GameObject vampireSlash;
     public float slashSpeed;
+    public Collider2D front;
+    public Collider2D back;
+    public Collider2D dx;
+    public Collider2D sx;
 
     AIPath enemyAI;
     Animator enemyAC;
@@ -35,6 +39,11 @@ public class EnemyBehaviour : MonoBehaviour
     public bool activeAI = true;
 
     private float tempAIspeed, tempAttackRadius;
+    float xValue, yValue;
+
+    Vector2 pos1, pos2;
+    private float thresholdX = 0.55f;
+    private float thresholdY = 0.55f;
 
     void Start()
     {
@@ -52,9 +61,7 @@ public class EnemyBehaviour : MonoBehaviour
 
         activeAI = true;
         tempAttackRadius = attackRadius;
-    }
-
-    float xValue, yValue;
+    }    
 
     void Update()
     {
@@ -82,7 +89,45 @@ public class EnemyBehaviour : MonoBehaviour
                 enemyAC.SetFloat("hor", xValue);
                 enemyAC.SetFloat("ver", yValue);
             }
-        }            
+        }
+
+        if (enemyClass == enemyType.Vampire)
+        {
+            if (front != null && back != null && dx != null && sx != null)
+            {
+                
+                if (xValue > thresholdX)
+                {
+                    front.enabled = false;
+                    back.enabled = false;
+                    dx.enabled = true;
+                    sx.enabled = false;
+
+                } 
+                else if (xValue < -thresholdX)
+                {
+
+                    front.enabled = false;
+                    back.enabled = false;
+                    dx.enabled = false;
+                    sx.enabled = true;
+                }
+                else if (yValue > thresholdY)
+                {
+                    front.enabled = false;
+                    back.enabled = true;
+                    dx.enabled = false;
+                    sx.enabled = false;
+                } 
+                else if (yValue < -thresholdY)
+                {
+                    front.enabled = true;
+                    back.enabled = false;
+                    dx.enabled = false;
+                    sx.enabled = false;
+                }
+            }
+        }
     }
 
     void FixedUpdate()
@@ -96,13 +141,11 @@ public class EnemyBehaviour : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player") )
-        {
-            if(enemyClass == enemyType.Ghost)
+        {            
+            if (enemyClass != enemyType.Vampire)
             {
                 PlayerHit(collision);
             }
-            
-            
         }
     }
 
@@ -140,7 +183,7 @@ public class EnemyBehaviour : MonoBehaviour
                         }
                     }
                 }
-            }
+            }            
         }            
     }
 

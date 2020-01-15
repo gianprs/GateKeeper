@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AC_Player_Green
+  m_Controller: {fileID: 9100000, guid: 7f2c3fa2df0bb8e4cbed6ad3667229bc, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: e8ba2374de268d9428d88625cace1b27, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e8ba2374de268d9428d88625cace1b27, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 237cc6a147de45147b774b3426e610d0, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 237cc6a147de45147b774b3426e610d0, type: 2}
