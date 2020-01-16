@@ -8,7 +8,7 @@ public enum enemyType {Ghost, Vampire, Zombie, Armor}
 public class EnemyBehaviour : MonoBehaviour
 {
     [Header("Player reference")]
-    public Transform playerPosition;
+    Transform playerPosition;
     public float chaseRadius;
     public float attackRadius;
 
@@ -18,6 +18,7 @@ public class EnemyBehaviour : MonoBehaviour
     public int enemyScore = 100;
     public float enemyAttackRatio;
     public float enemyImpulseForce;
+    public float timeForRespawning;
 
     [Header("Vampire attack")]
     public GameObject vampireSlash;
@@ -28,26 +29,35 @@ public class EnemyBehaviour : MonoBehaviour
     public Collider2D sx;
 
     AIPath enemyAI;
-    Animator enemyAC;
-    AudioSource enemyAS;
     Patrol enemyPatrol;
+    Animator enemyAC;
+    AudioSource enemyAS;    
     Rigidbody2D enemyRB;
+    SpriteRenderer enemySprite;
+    Collider2D enemyMainCollider;
 
     [HideInInspector]
     public bool attacking;
     [HideInInspector]
     public bool activeAI = true;
 
+    private bool enemyDead;
     private float tempAIspeed, tempAttackRadius;
-    float xValue, yValue;
-
-    Vector2 pos1, pos2;
+    private float xValue, yValue;    
     private float thresholdX = 0.55f;
     private float thresholdY = 0.55f;
+    private int enemyLifeMemory;
+    private Vector3 enemyStartPosition; 
 
     void Start()
     {
-        if(enemyClass != enemyType.Ghost)
+        playerPosition = GameObject.FindGameObjectWithTag("Player").transform;
+
+        enemyLifeMemory = enemyLife;
+        enemyStartPosition = transform.position;
+        print(enemyStartPosition);
+
+        if (enemyClass != enemyType.Ghost)
         {
             enemyAI = GetComponent<AIPath>();
             enemyPatrol = GetComponent<Patrol>();
@@ -58,6 +68,8 @@ public class EnemyBehaviour : MonoBehaviour
         enemyAC = GetComponent<Animator>();
         enemyAS = GetComponent<AudioSource>();        
         enemyRB = GetComponent<Rigidbody2D>();
+        enemySprite = GetComponent<SpriteRenderer>();
+        enemyMainCollider = GetComponent<Collider2D>();
 
         activeAI = true;
         tempAttackRadius = attackRadius;
@@ -65,74 +77,78 @@ public class EnemyBehaviour : MonoBehaviour
 
     void Update()
     {
-        if (enemyClass != enemyType.Ghost)
+        if (!enemyDead)
         {
-            enemyAI.enabled = activeAI;
-
-            xValue = enemyAI.velocity.normalized.x;
-            yValue = enemyAI.velocity.normalized.y;
-
-            if(xValue == 0 && yValue == 0)
+            if (enemyClass != enemyType.Ghost)
             {
-                if (enemyClass != enemyType.Vampire)
-                {
-                    enemyAC.SetBool("walk", false);
-                }
-            } 
-            else
-            {
-                if(enemyClass != enemyType.Vampire)
-                {
-                    enemyAC.SetBool("walk", true);
-                }
-                
-                enemyAC.SetFloat("hor", xValue);
-                enemyAC.SetFloat("ver", yValue);
-            }
-        }
+                enemyAI.enabled = activeAI;
 
-        if (enemyClass == enemyType.Vampire)
-        {
-            if (front != null && back != null && dx != null && sx != null)
-            {
-                
-                if (xValue > thresholdX)
-                {
-                    front.enabled = false;
-                    back.enabled = false;
-                    dx.enabled = true;
-                    sx.enabled = false;
+                xValue = enemyAI.velocity.normalized.x;
+                yValue = enemyAI.velocity.normalized.y;
 
-                } 
-                else if (xValue < -thresholdX)
+                if (xValue == 0 && yValue == 0)
                 {
-
-                    front.enabled = false;
-                    back.enabled = false;
-                    dx.enabled = false;
-                    sx.enabled = true;
+                    if (enemyClass != enemyType.Vampire)
+                    {
+                        enemyAC.SetBool("walk", false);
+                    }
                 }
-                else if (yValue > thresholdY)
+                else
                 {
-                    front.enabled = false;
-                    back.enabled = true;
-                    dx.enabled = false;
-                    sx.enabled = false;
-                } 
-                else if (yValue < -thresholdY)
-                {
-                    front.enabled = true;
-                    back.enabled = false;
-                    dx.enabled = false;
-                    sx.enabled = false;
+                    if (enemyClass != enemyType.Vampire)
+                    {
+                        enemyAC.SetBool("walk", true);
+                    }
+
+                    enemyAC.SetFloat("hor", xValue);
+                    enemyAC.SetFloat("ver", yValue);
                 }
             }
+
+            if (enemyClass == enemyType.Vampire)
+            {
+                if (front != null && back != null && dx != null && sx != null)
+                {
+
+                    if (xValue > thresholdX)
+                    {
+                        front.enabled = false;
+                        back.enabled = false;
+                        dx.enabled = true;
+                        sx.enabled = false;
+
+                    }
+                    else if (xValue < -thresholdX)
+                    {
+
+                        front.enabled = false;
+                        back.enabled = false;
+                        dx.enabled = false;
+                        sx.enabled = true;
+                    }
+                    else if (yValue > thresholdY)
+                    {
+                        front.enabled = false;
+                        back.enabled = true;
+                        dx.enabled = false;
+                        sx.enabled = false;
+                    }
+                    else if (yValue < -thresholdY)
+                    {
+                        front.enabled = true;
+                        back.enabled = false;
+                        dx.enabled = false;
+                        sx.enabled = false;
+                    }
+                }
+            }
         }
+        
     }
 
     void FixedUpdate()
     {
-        if (enemyClass != enemyType.Ghost && enemyClass != enemyType.Vampire)
+        if (enemyClass != enemyType.Ghost && enemyClass != enemyType.Vampire && !enemyDead)
         {
             CheckDistance();
         }            
@@ -221,37 +237,7 @@ public class EnemyBehaviour : MonoBehaviour
                 if (!attacking)
                 {
                     enemyAC.SetTrigger("attack");
-                    StartCoroutine(EnemyAttack());
-
-                    //if (enemyClass == enemyType.Vampire)
-                    //{
-                    //    enemyAI.maxSpeed = 0;
-                    //    attackRadius = 0;
-
-                    //    if (vampireSlash != null)
-                    //    {
-                    //        GameObject cloneSlash = Instantiate(vampireSlash, transform.position, transform.rotation);
-                    //        SlashBehaviour cloneSlashBehaviour = cloneSlash.GetComponent<SlashBehaviour>();
-                    //        cloneSlashBehaviour.vampireSlash = true;
-                    //        Rigidbody2D cloneRB = cloneSlash.GetComponent<Rigidbody2D>();
-                    //        Vector2 direction = playerPosition.position - transform.position;
-                    //        cloneRB.AddForce(direction * slashSpeed, ForceMode2D.Impulse);
-                    //        Animator slashAnim = cloneSlash.GetComponent<Animator>();
-                            
-
-                    //        if (direction.y > 0)
-                    //        {
-                    //            slashAnim.SetBool("dx_front", true);
-                    //        } 
-                    //        else if (direction.y < 0)
-                    //        {
-                    //            slashAnim.SetBool("sx_back", true);
-                    //        }
-                            
-                    //    }                        
-                    //}
-
-                    
+                    StartCoroutine(EnemyAttack());                    
                 }
             }
         }        
@@ -264,8 +250,8 @@ public class EnemyBehaviour : MonoBehaviour
     public void EnemyDeath()
     {
         // TODO animazione morte
-
-        Destroy(gameObject);
+        enemyDead = true;
+        StartCoroutine(RespawnEnemy());
     }
 
     #region Eventi da animazione
@@ -297,5 +283,40 @@ public class EnemyBehaviour : MonoBehaviour
             //attackRadius = tempAttackRadius;
         }
 
+    }
+
+    IEnumerator RespawnEnemy()
+    {
+        if (enemyClass != enemyType.Ghost)
+        {
+            enemyAI.enabled = false;
+            enemyPatrol.enabled = false;
+
+            enemyAC.SetBool("walk", false);
+        }
+
+        enemyAC.enabled = false;
+        enemyAS.enabled = false;
+        enemySprite.enabled = false;
+        enemyMainCollider.enabled = false;
+
+        yield return new WaitForSeconds(timeForRespawning);
+
+        enemyDead = false;
+
+        enemyAC.enabled = true;
+        enemyAS.enabled = true;
+        enemySprite.enabled = true;
+        enemyMainCollider.enabled = true;
+
+        if (enemyClass != enemyType.Ghost)
+        {
+            enemyAI.enabled = true;
+            enemyPatrol.enabled = true;
+
+            enemyAC.Play("Idle");
+        }
+        enemyLife = enemyLifeMemory;
+        transform.position = enemyStartPosition;
     }
 }
