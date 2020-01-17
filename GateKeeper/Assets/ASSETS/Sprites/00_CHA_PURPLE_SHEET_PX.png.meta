@@ -1,0 +1,1963 @@
+fileFormatVersion: 2
+guid: 88110966d44cb9e42a6f83cae817c824
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5845410319141932883
+    second: 00_CHA_PURPLE_SHEET_PX_0
+  - first:
+      213: -2660018326864182433
+    second: 00_CHA_PURPLE_SHEET_PX_1
+  - first:
+      213: -8324080550302774230
+    second: 00_CHA_PURPLE_SHEET_PX_2
+  - first:
+      213: 9182838338880201510
+    second: 00_CHA_PURPLE_SHEET_PX_3
+  - first:
+      213: 1472977781844714636
+    second: 00_CHA_PURPLE_SHEET_PX_4
+  - first:
+      213: 6700432037033377435
+    second: 00_CHA_PURPLE_SHEET_PX_5
+  - first:
+      213: 6586777612405608788
+    second: 00_CHA_PURPLE_SHEET_PX_6
+  - first:
+      213: 6097667060015414101
+    second: 00_CHA_PURPLE_SHEET_PX_7
+  - first:
+      213: 3835282442124747709
+    second: 00_CHA_PURPLE_SHEET_PX_8
+  - first:
+      213: -2434664441762870666
+    second: 00_CHA_PURPLE_SHEET_PX_9
+  - first:
+      213: 212831278633483107
+    second: 00_CHA_PURPLE_SHEET_PX_10
+  - first:
+      213: 8206492878497034838
+    second: 00_CHA_PURPLE_SHEET_PX_11
+  - first:
+      213: 3872388277755313139
+    second: 00_CHA_PURPLE_SHEET_PX_12
+  - first:
+      213: 9161824531198586136
+    second: 00_CHA_PURPLE_SHEET_PX_13
+  - first:
+      213: 518498795795778093
+    second: 00_CHA_PURPLE_SHEET_PX_14
+  - first:
+      213: 5119748729375671668
+    second: 00_CHA_PURPLE_SHEET_PX_15
+  - first:
+      213: -6702198969020444983
+    second: 00_CHA_PURPLE_SHEET_PX_16
+  - first:
+      213: 3790174229667151440
+    second: 00_CHA_PURPLE_SHEET_PX_17
+  - first:
+      213: 5896249010197138432
+    second: 00_CHA_PURPLE_SHEET_PX_18
+  - first:
+      213: -2894786120043141045
+    second: 00_CHA_PURPLE_SHEET_PX_19
+  - first:
+      213: -4463138777649010076
+    second: 00_CHA_PURPLE_SHEET_PX_20
+  - first:
+      213: -2919274412138700942
+    second: 00_CHA_PURPLE_SHEET_PX_21
+  - first:
+      213: 4915505010259096998
+    second: 00_CHA_PURPLE_SHEET_PX_22
+  - first:
+      213: 5998091135802786939
+    second: 00_CHA_PURPLE_SHEET_PX_23
+  - first:
+      213: -2784467857265129139
+    second: 00_CHA_PURPLE_SHEET_PX_24
+  - first:
+      213: -3561678849722561713
+    second: 00_CHA_PURPLE_SHEET_PX_25
+  - first:
+      213: -2232343853434832036
+    second: 00_CHA_PURPLE_SHEET_PX_26
+  - first:
+      213: 7621337373452289680
+    second: 00_CHA_PURPLE_SHEET_PX_27
+  - first:
+      213: -1583077632858609826
+    second: 00_CHA_PURPLE_SHEET_PX_28
+  - first:
+      213: -5252879578032012362
+    second: 00_CHA_PURPLE_SHEET_PX_29
+  - first:
+      213: -4603521417854666764
+    second: 00_CHA_PURPLE_SHEET_PX_30
+  - first:
+      213: -5224494301410328174
+    second: 00_CHA_PURPLE_SHEET_PX_31
+  - first:
+      213: 4745899001166481377
+    second: 00_CHA_PURPLE_SHEET_PX_32
+  - first:
+      213: 5854693909233057384
+    second: 00_CHA_PURPLE_SHEET_PX_33
+  - first:
+      213: 3612402698127670318
+    second: 00_CHA_PURPLE_SHEET_PX_34
+  - first:
+      213: 6761712644300967036
+    second: 00_CHA_PURPLE_SHEET_PX_35
+  - first:
+      213: -7702828632139985960
+    second: 00_CHA_PURPLE_SHEET_PX_36
+  - first:
+      213: 8373565744360407
+    second: 00_CHA_PURPLE_SHEET_PX_37
+  - first:
+      213: 2067667244305639432
+    second: 00_CHA_PURPLE_SHEET_PX_38
+  - first:
+      213: -1527783698370733714
+    second: 00_CHA_PURPLE_SHEET_PX_39
+  - first:
+      213: 4581017789600984627
+    second: 00_CHA_PURPLE_SHEET_PX_40
+  - first:
+      213: 3069160119979672071
+    second: 00_CHA_PURPLE_SHEET_PX_41
+  - first:
+      213: 7837083360600456937
+    second: 00_CHA_PURPLE_SHEET_PX_42
+  - first:
+      213: 2473739757298207934
+    second: 00_CHA_PURPLE_SHEET_PX_43
+  - first:
+      213: -7483289358712885208
+    second: 00_CHA_PURPLE_SHEET_PX_44
+  - first:
+      213: -3257516575498700213
+    second: 00_CHA_PURPLE_SHEET_PX_45
+  - first:
+      213: 3573722286635331799
+    second: 00_CHA_PURPLE_SHEET_PX_46
+  - first:
+      213: -2481197156915061458
+    second: 00_CHA_PURPLE_SHEET_PX_47
+  - first:
+      213: 2120906877870562744
+    second: 00_CHA_PURPLE_SHEET_PX_48
+  - first:
+      213: 7229814741737208741
+    second: 00_CHA_PURPLE_SHEET_PX_49
+  - first:
+      213: 3155542306583058122
+    second: 00_CHA_PURPLE_SHEET_PX_50
+  - first:
+      213: 1962120236607881287
+    second: 00_CHA_PURPLE_SHEET_PX_51
+  - first:
+      213: 4439327692407007936
+    second: 00_CHA_PURPLE_SHEET_PX_52
+  - first:
+      213: 8058901690156951853
+    second: 00_CHA_PURPLE_SHEET_PX_53
+  - first:
+      213: 4016211075359788568
+    second: 00_CHA_PURPLE_SHEET_PX_54
+  - first:
+      213: 94740909877375754
+    second: 00_CHA_PURPLE_SHEET_PX_55
+  - first:
+      213: 3536595036295757673
+    second: 00_CHA_PURPLE_SHEET_PX_56
+  - first:
+      213: -9018926607150569639
+    second: 00_CHA_PURPLE_SHEET_PX_57
+  - first:
+      213: 6849731377207003102
+    second: 00_CHA_PURPLE_SHEET_PX_58
+  - first:
+      213: 7075269279527472524
+    second: 00_CHA_PURPLE_SHEET_PX_59
+  - first:
+      213: -5634546754089579633
+    second: 00_CHA_PURPLE_SHEET_PX_60
+  - first:
+      213: 8231552810619824267
+    second: 00_CHA_PURPLE_SHEET_PX_61
+  - first:
+      213: 5938385051610225285
+    second: 00_CHA_PURPLE_SHEET_PX_62
+  - first:
+      213: -410036767535267681
+    second: 00_CHA_PURPLE_SHEET_PX_63
+  - first:
+      213: -2811819381054166970
+    second: 00_CHA_PURPLE_SHEET_PX_64
+  - first:
+      213: 8801250818049103251
+    second: 00_CHA_PURPLE_SHEET_PX_65
+  - first:
+      213: -7893078950924445385
+    second: 00_CHA_PURPLE_SHEET_PX_66
+  - first:
+      213: -3213975737848181590
+    second: 00_CHA_PURPLE_SHEET_PX_67
+  - first:
+      213: -4856561382462440567
+    second: 00_CHA_PURPLE_SHEET_PX_68
+  - first:
+      213: 8902831873505099658
+    second: 00_CHA_PURPLE_SHEET_PX_69
+  - first:
+      213: -7758710663893007390
+    second: 00_CHA_PURPLE_SHEET_PX_70
+  - first:
+      213: 7747183821895778630
+    second: 00_CHA_PURPLE_SHEET_PX_71
+  - first:
+      213: 5308222652287748047
+    second: 00_CHA_PURPLE_SHEET_PX_72
+  - first:
+      213: -5175046179927499142
+    second: 00_CHA_PURPLE_SHEET_PX_73
+  - first:
+      213: 5773558089792053685
+    second: 00_CHA_PURPLE_SHEET_PX_74
+  - first:
+      213: 2202895332134044732
+    second: 00_CHA_PURPLE_SHEET_PX_75
+  - first:
+      213: 7633620368591705115
+    second: 00_CHA_PURPLE_SHEET_PX_76
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 350
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3150
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576d713e4c1fe0f469f1d4d4a34f3637
+      internalID: -5845410319141932883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 3150
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d4396f32c490c4f871a1af2dc0c5ec
+      internalID: -2660018326864182433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 3150
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259fd79c48d38704c92d595cbdc31605
+      internalID: -8324080550302774230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 3150
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b2fb986a7e96b4d9b40a9dd2bc5eb5
+      internalID: 9182838338880201510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_4
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 3150
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35ac7b47a16aa944b06d03ce9cd563f
+      internalID: 1472977781844714636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_5
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 3150
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c2862609d12b44e8e99d40d30575a3
+      internalID: 6700432037033377435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_6
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 3150
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e92725d15ea4f4b9c4f46740676336
+      internalID: 6586777612405608788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_7
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 3150
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a503e292f125aa42abd061003553c97
+      internalID: 6097667060015414101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_8
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 3150
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9798797d7bb10e142a798d1908f956c2
+      internalID: 3835282442124747709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_9
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 2800
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09735960c5e5da342894ff82129689e4
+      internalID: -2434664441762870666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_10
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2800
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8692acb450d77f944aad374bc6f5e88b
+      internalID: 212831278633483107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_11
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 2800
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3627e2b92de074bab83e2d2da9ad3d
+      internalID: 8206492878497034838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_12
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2800
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7849339e222a1434dae0d61007a84d59
+      internalID: 3872388277755313139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_13
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 2800
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e41e102834ab6147b5349e46162457a
+      internalID: 9161824531198586136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_14
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 2800
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439934d3001ff3247aab59f35f6000eb
+      internalID: 518498795795778093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_15
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 2800
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0434fd2e34c8595439ec34fe1f11f3b9
+      internalID: 5119748729375671668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_16
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2800
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c68d06e0efb1b9409f0c87b2fc3a666
+      internalID: -6702198969020444983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2450
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db650b93475df964fbf17d62749e6c7b
+      internalID: 3790174229667151440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_18
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 2450
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cf56eb6a51dfa49bf3d567a00e0f2d
+      internalID: 5896249010197138432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_19
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2450
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630616fb3a489a94194762afcbebe7e3
+      internalID: -2894786120043141045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_20
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 2450
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc9da3369b012245a293fe00aeb2eaa
+      internalID: -4463138777649010076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_21
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2450
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77abc4644b0412a4796346017aa89687
+      internalID: -2919274412138700942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_22
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 2450
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07aa5c2e82133364f9394b361ed96106
+      internalID: 4915505010259096998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_23
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 2450
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e30f3732bbf4945a0c1a2461d7640a
+      internalID: 5998091135802786939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_24
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 2450
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699b4e691da84fa4f9ccd32d291eaa8b
+      internalID: -2784467857265129139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_25
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2450
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f2ea916424e89419845c1f91f1eabb
+      internalID: -3561678849722561713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_26
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 2450
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1253840ec93ff9c47b9857b655bcd817
+      internalID: -2232343853434832036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_27
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2450
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a546c58d3712245a1eebf1bf9c4c3c
+      internalID: 7621337373452289680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_28
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 2450
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a159b4956d217194b856db11df05b026
+      internalID: -1583077632858609826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_29
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 2450
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae9e8dd584ac684d93ac1f344d51dd1
+      internalID: -5252879578032012362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_30
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 2100
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c1698d574ba464783e8d863a4ce843
+      internalID: -4603521417854666764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_31
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2100
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65acf653c9b481940a4b2e08db231d4d
+      internalID: -5224494301410328174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_32
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 2100
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c889bf4bbd6c8b4488dd4da172837bd
+      internalID: 4745899001166481377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_33
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2100
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c93d6d08d6f5c64b98931e4953ae6c7
+      internalID: 5854693909233057384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_34
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 2100
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b3bf2086e274a469c350e7a0ac9ffe
+      internalID: 3612402698127670318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_35
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 2100
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca1d487182a3f944a014833c762a064
+      internalID: 6761712644300967036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_36
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2100
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8114035878e89ce4999af5927611c7cc
+      internalID: -7702828632139985960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_37
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 2100
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28765cf215098a9449d7f1065d1665ff
+      internalID: 8373565744360407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_38
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 2100
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9904872cb0103b54d801c3a01c33fe2f
+      internalID: 2067667244305639432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_39
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 2100
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7876e34f33770f4458f5140387e10cd9
+      internalID: -1527783698370733714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_40
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1750
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01b0ed0f85927141ba4df557543f54f
+      internalID: 4581017789600984627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_41
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1750
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269f36378f85efa499d77bb3c01481d7
+      internalID: 3069160119979672071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_42
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1750
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1dcbc8c4d0ebf4298d56c801b3b8d6
+      internalID: 7837083360600456937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_43
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1750
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac937a64eb40394997a909d6ebc5447
+      internalID: 2473739757298207934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_44
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1750
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc761e098474d5d4a98a4e7d4570a4ce
+      internalID: -7483289358712885208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_45
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 1750
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d6189d380a19045a6031030a42946e
+      internalID: -3257516575498700213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_46
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1750
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865e0fd5e808015469cc134a6dcce302
+      internalID: 3573722286635331799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_47
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 1750
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9ac294b32e1af43ad1d3dca40c3947
+      internalID: -2481197156915061458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_48
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1400
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99813b4a86b409e479965c659fc3ad92
+      internalID: 2120906877870562744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_49
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1400
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f5892b16b407543878070cae46f754
+      internalID: 7229814741737208741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_50
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1400
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4724eea2a8e84214b8c36a5cf45917dd
+      internalID: 3155542306583058122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_51
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1400
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf0e289b33e0564285cc25bafa62134
+      internalID: 1962120236607881287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_52
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1400
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1807c96ec6005eb40b81fff6af80d018
+      internalID: 4439327692407007936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_53
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 1400
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dac2abd312ddb944bab0ddeb4eb9e20
+      internalID: 8058901690156951853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_54
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1400
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a942df7b085aae4ebc7edd137cf73b5
+      internalID: 4016211075359788568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_55
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 1400
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f4bae5e3d341545a84a4419f4fe096
+      internalID: 94740909877375754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1050
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae94eb9b79fc7144a1e2d2ef78b0c09
+      internalID: 3536595036295757673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_57
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1050
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3de05c9d6550794886652fc443b18cb
+      internalID: -9018926607150569639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_58
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1050
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d209b790800f5429dce711b64acfb2
+      internalID: 6849731377207003102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_59
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1050
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c149ff2cb8227046a7aaaadc2b34e60
+      internalID: 7075269279527472524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_60
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1050
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2120e761274c6e4a9c961ce901f5b69
+      internalID: -5634546754089579633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_61
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 700
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59eff0b1b5512604e8ba33dbd1bdd057
+      internalID: 8231552810619824267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_62
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 700
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166a1ac49eff444438f5505fb5f9152a
+      internalID: 5938385051610225285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_63
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 700
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a383bf3f697246c4b871c9e77cc3f878
+      internalID: -410036767535267681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_64
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 700
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045844cbf2938a24baaab45c10275590
+      internalID: -2811819381054166970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_65
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 700
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3d5565a135e01409c4f2a78692f376
+      internalID: 8801250818049103251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_66
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 700
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8beb583c27f231e4db2aa924e2427095
+      internalID: -7893078950924445385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_67
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 700
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd91dc5ff329c54ab2a02cf3d7aae28
+      internalID: -3213975737848181590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_68
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 700
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f40f895ed4efc4cb3dcfaca0258673
+      internalID: -4856561382462440567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_69
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 350
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e5de4db1387e4488a84c083295e867
+      internalID: 8902831873505099658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_70
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 350
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2555ae1845a8a4f8456df436ed991c
+      internalID: -7758710663893007390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_71
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 350
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a87a074d77c9642b08c40963253026
+      internalID: 7747183821895778630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_72
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293aa0aa72828a2418221432c5cb8b91
+      internalID: 5308222652287748047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_73
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59928a7145a354144be07c07846b02c7
+      internalID: -5175046179927499142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_74
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 0
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960b1a256f7b2c54b922895eb3a03164
+      internalID: 5773558089792053685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_75
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 0
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94b28311bd8f6e4196f3cd30e5080ff
+      internalID: 2202895332134044732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_PURPLE_SHEET_PX_76
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 0
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa66ab6c5177adc46af37b5b2f9aae33
+      internalID: 7633620368591705115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
