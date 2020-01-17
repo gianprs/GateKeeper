@@ -5,12 +5,17 @@ using UnityEngine.UI;
 
 public class PlayerBehaviour : MonoBehaviour
 {
-    
-    public AudioClip[] attackSound;
-
     public static PlayerBehaviour instancePB;
-    public Animator playerAC;
 
+    [Header("AudioClip")]
+    public AudioClip[] attackSound;
+    
+    [Header("AnimatorControllers")]
+    public Animator playerAC;
+    public RuntimeAnimatorController playerAC_default;
+    public AnimatorOverrideController playerAC_orange;
+
+    [Header("sprites enemies")]
     public Image slot_01;
     public Image slot_02;
     public Image slot_03;
@@ -20,6 +25,10 @@ public class PlayerBehaviour : MonoBehaviour
     public Sprite armaturaSprite;
     public Sprite batSprite;
 
+    public Sprite playerDefault;
+    public Sprite playerOrange;
+
+    [Header("Player info")]
     public int playerLife;
     public Color flashColor;
     public Color ghostColor;
@@ -44,10 +53,9 @@ public class PlayerBehaviour : MonoBehaviour
     private int playerHitDamage = 1;
     private float nextAttackTime = 0;
 
-
+    [Header("Throwable objects")]
     public GameObject slashPrefab;
     public float slashSpeed = 5;
-
     public Transform attackPos_Front, attackPos_Dx, attackPos_Back, attackPos_Sx;
 
     //singleton
@@ -104,11 +112,23 @@ public class PlayerBehaviour : MonoBehaviour
         {
             // super difesa
 
+            playerSprite.sprite = playerOrange;
+            playerAC.runtimeAnimatorController = playerAC_orange;
+
         }
         if(powerUpBat)
         {
             // attacco distanza ma meno frequente
             attackRate = 1;
+        }
+
+        // reset sprite e animator
+        if (!powerUpArmatura && !powerUpBat && !powerUpFantasma && !powerUpZombie)
+        {
+            
+
+            playerSprite.sprite = playerDefault;
+            playerAC.runtimeAnimatorController = playerAC_default;
         }
     }
 

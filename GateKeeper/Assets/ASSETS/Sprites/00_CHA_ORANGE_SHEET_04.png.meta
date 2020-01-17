@@ -1,223 +1,238 @@
 fileFormatVersion: 2
-guid: 27ded892988f4be428b96c0f62b55321
+guid: ddb78aaf67c03d04b882c4303fa116d1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2812399363413194849
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_0
+      213: 1401455748381329976
+    second: 00_CHA_ORANGE_SHEET_04_0
   - first:
-      213: 2135638551175626101
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_1
+      213: -7591570085134818240
+    second: 00_CHA_ORANGE_SHEET_04_1
   - first:
-      213: 2568929213381247974
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_2
+      213: -8149107248588457915
+    second: 00_CHA_ORANGE_SHEET_04_2
   - first:
-      213: -4295092235947406232
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_3
+      213: -36647801670574582
+    second: 00_CHA_ORANGE_SHEET_04_3
   - first:
-      213: 7403572160097328020
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_4
+      213: 2013856155252988830
+    second: 00_CHA_ORANGE_SHEET_04_4
   - first:
-      213: 4106187825896903982
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_5
+      213: 323477220660521384
+    second: 00_CHA_ORANGE_SHEET_04_5
   - first:
-      213: -9162870127551769329
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_6
+      213: 7584112385190832923
+    second: 00_CHA_ORANGE_SHEET_04_6
   - first:
-      213: -796039047867451309
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_7
+      213: 2242914302786149387
+    second: 00_CHA_ORANGE_SHEET_04_7
   - first:
-      213: 6128264185648870462
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_8
+      213: -4602131928487428564
+    second: 00_CHA_ORANGE_SHEET_04_8
   - first:
-      213: -2198748866049617560
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_9
+      213: 4091286391900180845
+    second: 00_CHA_ORANGE_SHEET_04_9
   - first:
-      213: -3144481279536339585
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_10
+      213: -4118266211539336377
+    second: 00_CHA_ORANGE_SHEET_04_10
   - first:
-      213: 2655227882440578331
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_11
+      213: 7039292233610789352
+    second: 00_CHA_ORANGE_SHEET_04_11
   - first:
-      213: 7888716047062325291
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_12
+      213: 8510658902564774362
+    second: 00_CHA_ORANGE_SHEET_04_12
   - first:
-      213: 8735752103075833447
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_13
+      213: -1230789443186479385
+    second: 00_CHA_ORANGE_SHEET_04_13
   - first:
-      213: -2401286030238597171
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_14
+      213: -1679957527831284707
+    second: 00_CHA_ORANGE_SHEET_04_14
   - first:
-      213: -4135734438026174603
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_15
+      213: 4047211282621271568
+    second: 00_CHA_ORANGE_SHEET_04_15
   - first:
-      213: 1856901870509490096
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_16
+      213: 7677649810901973088
+    second: 00_CHA_ORANGE_SHEET_04_16
   - first:
-      213: -5261061645402253957
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_17
+      213: 3893974566273484804
+    second: 00_CHA_ORANGE_SHEET_04_17
   - first:
-      213: -8526608705485959132
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_18
+      213: 23761740629948123
+    second: 00_CHA_ORANGE_SHEET_04_18
   - first:
-      213: 445397600360503887
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_19
+      213: 3824633691449062327
+    second: 00_CHA_ORANGE_SHEET_04_19
   - first:
-      213: -4009671506191587422
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_20
+      213: 2833248773501877713
+    second: 00_CHA_ORANGE_SHEET_04_20
   - first:
-      213: 8792105401407659063
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_21
+      213: -605123299476758625
+    second: 00_CHA_ORANGE_SHEET_04_21
   - first:
-      213: -4637421195488236258
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_22
+      213: 2205862026309577238
+    second: 00_CHA_ORANGE_SHEET_04_22
   - first:
-      213: 6055661588013496697
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_23
+      213: -6929245449061231217
+    second: 00_CHA_ORANGE_SHEET_04_23
   - first:
-      213: 5693487806325451205
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_24
+      213: -4250492841206362258
+    second: 00_CHA_ORANGE_SHEET_04_24
   - first:
-      213: -1398738228108237348
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_25
+      213: 2614168021957275551
+    second: 00_CHA_ORANGE_SHEET_04_25
   - first:
-      213: -8732054299907979959
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_26
+      213: -3281938230868900562
+    second: 00_CHA_ORANGE_SHEET_04_26
   - first:
-      213: 2141724291409179898
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_27
+      213: 6330364846606039463
+    second: 00_CHA_ORANGE_SHEET_04_27
   - first:
-      213: -4875987823063818153
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_28
+      213: -8137514088286408679
+    second: 00_CHA_ORANGE_SHEET_04_28
   - first:
-      213: -6073424189586923531
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_29
+      213: -260940912107457137
+    second: 00_CHA_ORANGE_SHEET_04_29
   - first:
-      213: 1300546621562096773
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_30
+      213: -7447238363557049381
+    second: 00_CHA_ORANGE_SHEET_04_30
   - first:
-      213: 4787589864539623527
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_31
+      213: -5365600282240339045
+    second: 00_CHA_ORANGE_SHEET_04_31
   - first:
-      213: -7122645019278865312
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_32
+      213: -7781062923430609257
+    second: 00_CHA_ORANGE_SHEET_04_32
   - first:
-      213: 6513926167974344518
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_33
+      213: 6635732064383028922
+    second: 00_CHA_ORANGE_SHEET_04_33
   - first:
-      213: 3202139239585908824
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_34
+      213: -1458856770466224457
+    second: 00_CHA_ORANGE_SHEET_04_34
   - first:
-      213: -4241935885041634101
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_35
+      213: 2547144057599715108
+    second: 00_CHA_ORANGE_SHEET_04_35
   - first:
-      213: 2973163916479104714
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_36
+      213: 1680041840990392572
+    second: 00_CHA_ORANGE_SHEET_04_36
   - first:
-      213: -4741228526422110452
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_37
+      213: -2507249754897881057
+    second: 00_CHA_ORANGE_SHEET_04_37
   - first:
-      213: -4225802774834141066
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_38
+      213: -7225941211070396970
+    second: 00_CHA_ORANGE_SHEET_04_38
   - first:
-      213: 6472167273164400413
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_39
+      213: 2115012527125338951
+    second: 00_CHA_ORANGE_SHEET_04_39
   - first:
-      213: 810256413554378546
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_40
+      213: 7331075757898411282
+    second: 00_CHA_ORANGE_SHEET_04_40
   - first:
-      213: -7401221261701531522
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_41
+      213: 5444030946510062979
+    second: 00_CHA_ORANGE_SHEET_04_41
   - first:
-      213: -2046084557445328533
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_42
+      213: -1185583548126738098
+    second: 00_CHA_ORANGE_SHEET_04_42
   - first:
-      213: -222789687329294263
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_43
+      213: 8086891027669427433
+    second: 00_CHA_ORANGE_SHEET_04_43
   - first:
-      213: 2902093910582956079
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_44
+      213: -6683366775809764271
+    second: 00_CHA_ORANGE_SHEET_04_44
   - first:
-      213: -3848431984271994444
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_45
+      213: 8605662987858150252
+    second: 00_CHA_ORANGE_SHEET_04_45
   - first:
-      213: -5722757433496383699
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_46
+      213: 2618631439751002126
+    second: 00_CHA_ORANGE_SHEET_04_46
   - first:
-      213: 4711425006315208830
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_47
+      213: 3422142509849355944
+    second: 00_CHA_ORANGE_SHEET_04_47
   - first:
-      213: 3274402180437040339
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_48
+      213: -9174041941681014038
+    second: 00_CHA_ORANGE_SHEET_04_48
   - first:
-      213: 4489692879325029135
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_49
+      213: 398320303882567580
+    second: 00_CHA_ORANGE_SHEET_04_49
   - first:
-      213: -4650948317354015246
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_50
+      213: -4997351356683122975
+    second: 00_CHA_ORANGE_SHEET_04_50
   - first:
-      213: -6453769266993700979
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_51
+      213: 864657065153822696
+    second: 00_CHA_ORANGE_SHEET_04_51
   - first:
-      213: 2925962675001244288
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_52
+      213: -2609220084962752970
+    second: 00_CHA_ORANGE_SHEET_04_52
   - first:
-      213: 124699150907023424
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_53
+      213: -5387145010214553715
+    second: 00_CHA_ORANGE_SHEET_04_53
   - first:
-      213: 1152020079281632043
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_54
+      213: -3133221581477389429
+    second: 00_CHA_ORANGE_SHEET_04_54
   - first:
-      213: -7688640990126176631
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_55
+      213: 7517010532512655738
+    second: 00_CHA_ORANGE_SHEET_04_55
   - first:
-      213: -1353022919462887523
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_56
+      213: 2839747084419211052
+    second: 00_CHA_ORANGE_SHEET_04_56
   - first:
-      213: -5820294682642942588
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_57
+      213: 1127072455126371808
+    second: 00_CHA_ORANGE_SHEET_04_57
   - first:
-      213: -5887217465415981662
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_58
+      213: -3711485885009824937
+    second: 00_CHA_ORANGE_SHEET_04_58
   - first:
-      213: 7281841268555911262
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_59
+      213: 2950889067921015921
+    second: 00_CHA_ORANGE_SHEET_04_59
   - first:
-      213: 4167009413536822408
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_60
+      213: -5545092867616940397
+    second: 00_CHA_ORANGE_SHEET_04_60
   - first:
-      213: 5483569419471964119
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_61
+      213: -8561893103865976651
+    second: 00_CHA_ORANGE_SHEET_04_61
   - first:
-      213: -995841291349302425
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_62
+      213: 226964702163254622
+    second: 00_CHA_ORANGE_SHEET_04_62
   - first:
-      213: -7888057926639770847
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_63
+      213: 1296099935883914836
+    second: 00_CHA_ORANGE_SHEET_04_63
   - first:
-      213: 1499891367839685506
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_64
+      213: 2842063484141522903
+    second: 00_CHA_ORANGE_SHEET_04_64
   - first:
-      213: -5523069288060916545
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_65
+      213: 4637641794455828895
+    second: 00_CHA_ORANGE_SHEET_04_65
   - first:
-      213: -2049174760846399660
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_66
+      213: -4237390492523891023
+    second: 00_CHA_ORANGE_SHEET_04_66
   - first:
-      213: -7255238254461283662
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_67
+      213: 8171567802000646381
+    second: 00_CHA_ORANGE_SHEET_04_67
   - first:
-      213: 5011081328918075766
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_68
+      213: 8021356848727640329
+    second: 00_CHA_ORANGE_SHEET_04_68
   - first:
-      213: -685349609560541147
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_69
+      213: -2684503018713141498
+    second: 00_CHA_ORANGE_SHEET_04_69
   - first:
-      213: -1680703357184364956
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_70
+      213: 3268083098648280132
+    second: 00_CHA_ORANGE_SHEET_04_70
   - first:
-      213: -6872212303896480553
-    second: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_71
+      213: -1769649345572544192
+    second: 00_CHA_ORANGE_SHEET_04_71
+  - first:
+      213: -6279505877470045849
+    second: 00_CHA_ORANGE_SHEET_04_72
+  - first:
+      213: 1673422845673343600
+    second: 00_CHA_ORANGE_SHEET_04_73
+  - first:
+      213: 8251217744204177202
+    second: 00_CHA_ORANGE_SHEET_04_74
+  - first:
+      213: 2900348300944465044
+    second: 00_CHA_ORANGE_SHEET_04_75
+  - first:
+      213: -7433298204012411855
+    second: 00_CHA_ORANGE_SHEET_04_76
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -314,7 +329,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_0
+      name: 00_CHA_ORANGE_SHEET_04_0
       rect:
         serializedVersion: 2
         x: 0
@@ -328,14 +343,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 119cd9253a28b8842ba7256833233bae
-      internalID: -2812399363413194849
+      spriteID: 18cb276d26e781a4cab97662382c59ec
+      internalID: 1401455748381329976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_1
+      name: 00_CHA_ORANGE_SHEET_04_1
       rect:
         serializedVersion: 2
         x: 350
@@ -349,14 +364,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 616ed0cb29bfe04448462782d5eea7a1
-      internalID: 2135638551175626101
+      spriteID: 27a744e815fefc847a83af489434368a
+      internalID: -7591570085134818240
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_2
+      name: 00_CHA_ORANGE_SHEET_04_2
       rect:
         serializedVersion: 2
         x: 700
@@ -370,14 +385,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c68325178eba02d43a5e9f9f2db596e3
-      internalID: 2568929213381247974
+      spriteID: 201578b605ade0e47a3f6c239cae51e8
+      internalID: -8149107248588457915
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_3
+      name: 00_CHA_ORANGE_SHEET_04_3
       rect:
         serializedVersion: 2
         x: 1050
@@ -391,14 +406,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 376bc97a356735d40b2cba493141b933
-      internalID: -4295092235947406232
+      spriteID: cf18da5e974ad0647bcb34b9c7c12707
+      internalID: -36647801670574582
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_4
+      name: 00_CHA_ORANGE_SHEET_04_4
       rect:
         serializedVersion: 2
         x: 1400
@@ -412,14 +427,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41fceeaba24130942a535377fd8554df
-      internalID: 7403572160097328020
+      spriteID: e9c46f8c088c808469b683dd0a35a6ec
+      internalID: 2013856155252988830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_5
+      name: 00_CHA_ORANGE_SHEET_04_5
       rect:
         serializedVersion: 2
         x: 1750
@@ -433,14 +448,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b37462129b1338646bb745edef7bc455
-      internalID: 4106187825896903982
+      spriteID: 6e3048f1abfed644db8dca8bc2aad756
+      internalID: 323477220660521384
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_6
+      name: 00_CHA_ORANGE_SHEET_04_6
       rect:
         serializedVersion: 2
         x: 2100
@@ -454,14 +469,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb1dade27f797af49903fad80361c262
-      internalID: -9162870127551769329
+      spriteID: d1ed5447d23b0d74d84013de626f6230
+      internalID: 7584112385190832923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_7
+      name: 00_CHA_ORANGE_SHEET_04_7
       rect:
         serializedVersion: 2
         x: 2450
@@ -475,14 +490,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70bac63e0128a21468ddf3bb292eaa6d
-      internalID: -796039047867451309
+      spriteID: 528f696ad307734469be2fbe30e2d0c2
+      internalID: 2242914302786149387
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_8
+      name: 00_CHA_ORANGE_SHEET_04_8
       rect:
         serializedVersion: 2
         x: 2800
@@ -496,14 +511,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df29ace109500a34586c677025a65af3
-      internalID: 6128264185648870462
+      spriteID: b4dc039bd66a3464390e86a5055acf1d
+      internalID: -4602131928487428564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_9
+      name: 00_CHA_ORANGE_SHEET_04_9
       rect:
         serializedVersion: 2
         x: 350
@@ -517,14 +532,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be0789cb0b447754080e549549baadfd
-      internalID: -2198748866049617560
+      spriteID: d7efa7fcce944124c8244ec02fd7166d
+      internalID: 4091286391900180845
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_10
+      name: 00_CHA_ORANGE_SHEET_04_10
       rect:
         serializedVersion: 2
         x: 700
@@ -538,14 +553,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c7353fc531f2084ba5517f059a88577
-      internalID: -3144481279536339585
+      spriteID: f47ae8c79f24b734abe63f1456cbf5a4
+      internalID: -4118266211539336377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_11
+      name: 00_CHA_ORANGE_SHEET_04_11
       rect:
         serializedVersion: 2
         x: 1050
@@ -559,14 +574,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83a21258fcf5ed246afb3153b185ee32
-      internalID: 2655227882440578331
+      spriteID: 6cfb6e1b4f2da5c4383a0a3de5c7818c
+      internalID: 7039292233610789352
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_12
+      name: 00_CHA_ORANGE_SHEET_04_12
       rect:
         serializedVersion: 2
         x: 1400
@@ -580,14 +595,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97b8745c130a2ae4798e34eb23e84cf5
-      internalID: 7888716047062325291
+      spriteID: d1ad8bec84a013b40afb656f630917bd
+      internalID: 8510658902564774362
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_13
+      name: 00_CHA_ORANGE_SHEET_04_13
       rect:
         serializedVersion: 2
         x: 1750
@@ -601,14 +616,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe5f47aec51b018438936878f584168f
-      internalID: 8735752103075833447
+      spriteID: a6b12394cd9bcb64a9ddf8b86c4a96ca
+      internalID: -1230789443186479385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_14
+      name: 00_CHA_ORANGE_SHEET_04_14
       rect:
         serializedVersion: 2
         x: 2100
@@ -622,14 +637,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18b91993b5fd9384b84911e29e9c8acc
-      internalID: -2401286030238597171
+      spriteID: b0d1397d5b8636041a9ad8d916465bed
+      internalID: -1679957527831284707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_15
+      name: 00_CHA_ORANGE_SHEET_04_15
       rect:
         serializedVersion: 2
         x: 2450
@@ -643,14 +658,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 511c2e18881a7824795e259e3038d59f
-      internalID: -4135734438026174603
+      spriteID: c482e643bbf6573458c5dcd818a1707e
+      internalID: 4047211282621271568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_16
+      name: 00_CHA_ORANGE_SHEET_04_16
       rect:
         serializedVersion: 2
         x: 2800
@@ -664,14 +679,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60eb6a226ec46b241a810b058118a3cb
-      internalID: 1856901870509490096
+      spriteID: 7a8ed88ee9df0c04088fdc08c342c1ee
+      internalID: 7677649810901973088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_17
+      name: 00_CHA_ORANGE_SHEET_04_17
       rect:
         serializedVersion: 2
         x: 0
@@ -685,14 +700,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7f92f319f62883419a378c0e5b70181
-      internalID: -5261061645402253957
+      spriteID: 6df9c3a554658e34e805f3cb45f7c7f9
+      internalID: 3893974566273484804
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_18
+      name: 00_CHA_ORANGE_SHEET_04_18
       rect:
         serializedVersion: 2
         x: 350
@@ -706,14 +721,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c284b99ef76ced48aa7895af624b7d6
-      internalID: -8526608705485959132
+      spriteID: a8e1dea7c165a454b8f5b700a99f43b6
+      internalID: 23761740629948123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_19
+      name: 00_CHA_ORANGE_SHEET_04_19
       rect:
         serializedVersion: 2
         x: 700
@@ -727,14 +742,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3747f20d5fc9b342ab3357966eea005
-      internalID: 445397600360503887
+      spriteID: 49a4e35046270f54599be280dd7bb176
+      internalID: 3824633691449062327
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_20
+      name: 00_CHA_ORANGE_SHEET_04_20
       rect:
         serializedVersion: 2
         x: 1050
@@ -748,14 +763,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f227880b170d64f4892df08c7a59071c
-      internalID: -4009671506191587422
+      spriteID: 4facee2800d2f6849a6e56f468a513c6
+      internalID: 2833248773501877713
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_21
+      name: 00_CHA_ORANGE_SHEET_04_21
       rect:
         serializedVersion: 2
         x: 1400
@@ -769,14 +784,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0894a69df69923c4d83fd14be62ed05c
-      internalID: 8792105401407659063
+      spriteID: fd67a69b5721a49479c98c8f4dd02db2
+      internalID: -605123299476758625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_22
+      name: 00_CHA_ORANGE_SHEET_04_22
       rect:
         serializedVersion: 2
         x: 1750
@@ -790,14 +805,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7714002dbc29e94abed65f1da7389bf
-      internalID: -4637421195488236258
+      spriteID: db6fb21f073d5da40a0119ef9d24d5e9
+      internalID: 2205862026309577238
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_23
+      name: 00_CHA_ORANGE_SHEET_04_23
       rect:
         serializedVersion: 2
         x: 2100
@@ -811,14 +826,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56638dbd3b3f70242b28bd39c3e5cd6e
-      internalID: 6055661588013496697
+      spriteID: 1869ff2e6c5a44e46a4d7eabacaf1910
+      internalID: -6929245449061231217
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_24
+      name: 00_CHA_ORANGE_SHEET_04_24
       rect:
         serializedVersion: 2
         x: 2450
@@ -832,14 +847,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ad330cb63771984b82b9ed1ba4b3f64
-      internalID: 5693487806325451205
+      spriteID: fbe95cc68e9bca543a6ef12a234230a7
+      internalID: -4250492841206362258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_25
+      name: 00_CHA_ORANGE_SHEET_04_25
       rect:
         serializedVersion: 2
         x: 2800
@@ -853,14 +868,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9769ea9e696dad4b980afd76f884084
-      internalID: -1398738228108237348
+      spriteID: c2928835d3c245249a398190982be54a
+      internalID: 2614168021957275551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_26
+      name: 00_CHA_ORANGE_SHEET_04_26
       rect:
         serializedVersion: 2
         x: 3150
@@ -874,14 +889,77 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28313ee82988ca44b9a88eb64820d9f0
-      internalID: -8732054299907979959
+      spriteID: 2a80cc6c120237c45b6bc299a6ef86b0
+      internalID: -3281938230868900562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_27
+      name: 00_CHA_ORANGE_SHEET_04_27
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2450
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137de7dc5d39dd74dafe5fcc0bda7b8b
+      internalID: 6330364846606039463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_ORANGE_SHEET_04_28
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 2450
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f871af8993b53844fbef5eb97ccef983
+      internalID: -8137514088286408679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_ORANGE_SHEET_04_29
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 2450
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff86517547fb034ea8f3389fb4a07c8
+      internalID: -260940912107457137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_ORANGE_SHEET_04_30
       rect:
         serializedVersion: 2
         x: 350
@@ -895,14 +973,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e3bf6e63c4486749b9795c36546f32c
-      internalID: 2141724291409179898
+      spriteID: 659abe4cd0b12ce48a8b315f8a3819a5
+      internalID: -7447238363557049381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_28
+      name: 00_CHA_ORANGE_SHEET_04_31
       rect:
         serializedVersion: 2
         x: 700
@@ -916,14 +994,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5821c2aacf46ac46862c65af8ec251e
-      internalID: -4875987823063818153
+      spriteID: b0a7dd444e4def241aed037addb6271e
+      internalID: -5365600282240339045
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_29
+      name: 00_CHA_ORANGE_SHEET_04_32
       rect:
         serializedVersion: 2
         x: 1050
@@ -937,14 +1015,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cafc3daffc8b6bf4882a85c1da6e0253
-      internalID: -6073424189586923531
+      spriteID: cbf58120c2d3aed4d860923a9595f8fb
+      internalID: -7781062923430609257
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_30
+      name: 00_CHA_ORANGE_SHEET_04_33
       rect:
         serializedVersion: 2
         x: 1400
@@ -958,14 +1036,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae63d209ed646474eb491ae8304bfc4d
-      internalID: 1300546621562096773
+      spriteID: 7c699a0aedb809d4a9127eff41c0f28a
+      internalID: 6635732064383028922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_31
+      name: 00_CHA_ORANGE_SHEET_04_34
       rect:
         serializedVersion: 2
         x: 1750
@@ -979,14 +1057,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ecf496c24122af4ea88c9bca4d1a538
-      internalID: 4787589864539623527
+      spriteID: 7e48a5da88b9e474291de30529ecca15
+      internalID: -1458856770466224457
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_32
+      name: 00_CHA_ORANGE_SHEET_04_35
       rect:
         serializedVersion: 2
         x: 2100
@@ -1000,14 +1078,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b4c4178fb88822458d74a8ea85c4b9e
-      internalID: -7122645019278865312
+      spriteID: 54f48780270b0d0438f867bda292d57a
+      internalID: 2547144057599715108
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_33
+      name: 00_CHA_ORANGE_SHEET_04_36
       rect:
         serializedVersion: 2
         x: 2800
@@ -1021,14 +1099,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2b55a96280b55c42bcfb77a51befc8c
-      internalID: 6513926167974344518
+      spriteID: 7d5d9af590e96b545856cc8f2453499c
+      internalID: 1680041840990392572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_34
+      name: 00_CHA_ORANGE_SHEET_04_37
       rect:
         serializedVersion: 2
         x: 3150
@@ -1042,14 +1120,56 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a453619072d39f04dba5467e094e665b
-      internalID: 3202139239585908824
+      spriteID: 02cd875b844252843ac8036ccfc6033c
+      internalID: -2507249754897881057
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_35
+      name: 00_CHA_ORANGE_SHEET_04_38
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 2100
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817a2848fcad40643853e22950afb5e8
+      internalID: -7225941211070396970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_ORANGE_SHEET_04_39
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 2100
+        width: 350
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654ebff5c45fd0c49820004839302322
+      internalID: 2115012527125338951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_CHA_ORANGE_SHEET_04_40
       rect:
         serializedVersion: 2
         x: 350
@@ -1063,14 +1183,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 420ac9f254a51fd45aab45273baaf4e9
-      internalID: -4241935885041634101
+      spriteID: 7cfd164e54ed25941a4b123b83f0a3c4
+      internalID: 7331075757898411282
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_36
+      name: 00_CHA_ORANGE_SHEET_04_41
       rect:
         serializedVersion: 2
         x: 700
@@ -1084,14 +1204,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b1a071f622667a41bc22d7e158d3070
-      internalID: 2973163916479104714
+      spriteID: 4381126ade00fb041862b011c647ed94
+      internalID: 5444030946510062979
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_37
+      name: 00_CHA_ORANGE_SHEET_04_42
       rect:
         serializedVersion: 2
         x: 1050
@@ -1105,14 +1225,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b00982aa713338498d54f7b0143a483
-      internalID: -4741228526422110452
+      spriteID: 5978f53c4d366254a8d945315e052c3a
+      internalID: -1185583548126738098
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_38
+      name: 00_CHA_ORANGE_SHEET_04_43
       rect:
         serializedVersion: 2
         x: 1400
@@ -1126,14 +1246,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1dea74ff9428b24a86c4ccd8b8b2b7e
-      internalID: -4225802774834141066
+      spriteID: 9f49978dbbd725645b049bf6224ea0ce
+      internalID: 8086891027669427433
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_39
+      name: 00_CHA_ORANGE_SHEET_04_44
       rect:
         serializedVersion: 2
         x: 1750
@@ -1147,14 +1267,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad4a0aecf03c8844480ca03ea4ed6cbe
-      internalID: 6472167273164400413
+      spriteID: a79fa045b207d9b4382fa9e75c3ac55d
+      internalID: -6683366775809764271
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_40
+      name: 00_CHA_ORANGE_SHEET_04_45
       rect:
         serializedVersion: 2
         x: 2100
@@ -1168,14 +1288,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: caf4b77bd8db1fe4e8d4c71c2627f876
-      internalID: 810256413554378546
+      spriteID: 09463c3f52c469b419159106d438fbb1
+      internalID: 8605662987858150252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_41
+      name: 00_CHA_ORANGE_SHEET_04_46
       rect:
         serializedVersion: 2
         x: 2800
@@ -1189,14 +1309,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f67ca715b46c24e44a52dc71e04576b5
-      internalID: -7401221261701531522
+      spriteID: 6f2954b8a9cf62249afbbc6e2c9e7692
+      internalID: 2618631439751002126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_42
+      name: 00_CHA_ORANGE_SHEET_04_47
       rect:
         serializedVersion: 2
         x: 3150
@@ -1210,14 +1330,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01e107aed3240d74c82f297dc4f80e44
-      internalID: -2046084557445328533
+      spriteID: f1c1394451a6ce54ebf40848b3fe1f1a
+      internalID: 3422142509849355944
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_43
+      name: 00_CHA_ORANGE_SHEET_04_48
       rect:
         serializedVersion: 2
         x: 350
@@ -1231,14 +1351,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 090f935e94cfdc041bbad69d1973f50e
-      internalID: -222789687329294263
+      spriteID: 42c3fc42715e1aa4a80c1e1110674566
+      internalID: -9174041941681014038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_44
+      name: 00_CHA_ORANGE_SHEET_04_49
       rect:
         serializedVersion: 2
         x: 700
@@ -1252,14 +1372,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7aecab5d23a282d4289ed95b1c638c60
-      internalID: 2902093910582956079
+      spriteID: ee34472f5ac5f964987e68e99ea8043a
+      internalID: 398320303882567580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_45
+      name: 00_CHA_ORANGE_SHEET_04_50
       rect:
         serializedVersion: 2
         x: 1050
@@ -1273,14 +1393,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44d3a3148ec1db64eb03a81ff09bf610
-      internalID: -3848431984271994444
+      spriteID: 30f6ba2ec97a8164dae4d43af9474c49
+      internalID: -4997351356683122975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_46
+      name: 00_CHA_ORANGE_SHEET_04_51
       rect:
         serializedVersion: 2
         x: 1400
@@ -1294,14 +1414,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11dc068749f00d944a75bbe7d2730993
-      internalID: -5722757433496383699
+      spriteID: 712a714d1e5da1d4ba4fd90e97e94767
+      internalID: 864657065153822696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_47
+      name: 00_CHA_ORANGE_SHEET_04_52
       rect:
         serializedVersion: 2
         x: 1750
@@ -1315,14 +1435,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b179a50e28ed00499115027ed9b762d
-      internalID: 4711425006315208830
+      spriteID: d3067324bf6dbdf4bab6fbe24549ff63
+      internalID: -2609220084962752970
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_48
+      name: 00_CHA_ORANGE_SHEET_04_53
       rect:
         serializedVersion: 2
         x: 2100
@@ -1336,14 +1456,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4aabc0c64e5d0c42b1b4f17c3afe743
-      internalID: 3274402180437040339
+      spriteID: cf0cc977ede5fdd4c9b447f87c05ffd0
+      internalID: -5387145010214553715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_49
+      name: 00_CHA_ORANGE_SHEET_04_54
       rect:
         serializedVersion: 2
         x: 2800
@@ -1357,14 +1477,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00660716c453ce14894c6b34b96e88c3
-      internalID: 4489692879325029135
+      spriteID: b62fefe9c7de3b44dad87ea87036561b
+      internalID: -3133221581477389429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_50
+      name: 00_CHA_ORANGE_SHEET_04_55
       rect:
         serializedVersion: 2
         x: 3150
@@ -1378,14 +1498,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4115118c37cdaf6438519ec8e8175095
-      internalID: -4650948317354015246
+      spriteID: 5d34f77ea64faf848af0ecbbef92eeb8
+      internalID: 7517010532512655738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_51
+      name: 00_CHA_ORANGE_SHEET_04_56
       rect:
         serializedVersion: 2
         x: 0
@@ -1399,14 +1519,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3cc2caa111850e46a451f2ca75f3b6a
-      internalID: -6453769266993700979
+      spriteID: 25c94bccc5362a54c9ce90362290bf5a
+      internalID: 2839747084419211052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_52
+      name: 00_CHA_ORANGE_SHEET_04_57
       rect:
         serializedVersion: 2
         x: 350
@@ -1420,14 +1540,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a1b9877388a4894a90d38536dda5613
-      internalID: 2925962675001244288
+      spriteID: b75482c4f5dc73149afef2ebdf8b4788
+      internalID: 1127072455126371808
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_53
+      name: 00_CHA_ORANGE_SHEET_04_58
       rect:
         serializedVersion: 2
         x: 700
@@ -1441,14 +1561,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4da42a4700c5d142958bf1e65256dac
-      internalID: 124699150907023424
+      spriteID: d06eaadb0691c9d4f9e517bd52ec6f84
+      internalID: -3711485885009824937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_54
+      name: 00_CHA_ORANGE_SHEET_04_59
       rect:
         serializedVersion: 2
         x: 1050
@@ -1462,14 +1582,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3c09c62ef784e74b81568a8e6ab2b2b
-      internalID: 1152020079281632043
+      spriteID: 11edcbe823b664c49897f5706c456b5b
+      internalID: 2950889067921015921
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_55
+      name: 00_CHA_ORANGE_SHEET_04_60
       rect:
         serializedVersion: 2
         x: 1400
@@ -1483,14 +1603,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c1a62ac3a32ff343b3eb31a87417b06
-      internalID: -7688640990126176631
+      spriteID: 5663ad2317eceaa49b7ad631526aeb63
+      internalID: -5545092867616940397
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_56
+      name: 00_CHA_ORANGE_SHEET_04_61
       rect:
         serializedVersion: 2
         x: 350
@@ -1504,14 +1624,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9145a9f7606ff9e43a3d44c306e62959
-      internalID: -1353022919462887523
+      spriteID: c01fff81da5122c4a87d402bfc7db299
+      internalID: -8561893103865976651
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_57
+      name: 00_CHA_ORANGE_SHEET_04_62
       rect:
         serializedVersion: 2
         x: 700
@@ -1525,14 +1645,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 096fcb8786adc09469f0a73a5ce994fc
-      internalID: -5820294682642942588
+      spriteID: 7c49c7048239c9a4ea6ccf8a0461431e
+      internalID: 226964702163254622
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_58
+      name: 00_CHA_ORANGE_SHEET_04_63
       rect:
         serializedVersion: 2
         x: 1050
@@ -1546,14 +1666,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 513654895abef7f4b8d5509499bbd066
-      internalID: -5887217465415981662
+      spriteID: 47eba48d7aa91db45b2a8e806f481783
+      internalID: 1296099935883914836
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_59
+      name: 00_CHA_ORANGE_SHEET_04_64
       rect:
         serializedVersion: 2
         x: 1400
@@ -1567,14 +1687,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a26c06610de13ca4ab601fcbf5a571d0
-      internalID: 7281841268555911262
+      spriteID: 7d00d172241d4c940876bd91c3602909
+      internalID: 2842063484141522903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_60
+      name: 00_CHA_ORANGE_SHEET_04_65
       rect:
         serializedVersion: 2
         x: 2100
@@ -1588,14 +1708,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cacacfcd47dd84f4dbdb3194fc7f2887
-      internalID: 4167009413536822408
+      spriteID: 21e5dd145c519bf4b96c203d877c59c9
+      internalID: 4637641794455828895
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_61
+      name: 00_CHA_ORANGE_SHEET_04_66
       rect:
         serializedVersion: 2
         x: 2450
@@ -1609,14 +1729,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f667d468865dad4c8c232c7e7a3949e
-      internalID: 5483569419471964119
+      spriteID: f90f6f0ca1a257040b0bbcc8ef5f130a
+      internalID: -4237390492523891023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_62
+      name: 00_CHA_ORANGE_SHEET_04_67
       rect:
         serializedVersion: 2
         x: 2800
@@ -1630,14 +1750,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0cdd59d0a22f7f74b9ca25da8fce9c9a
-      internalID: -995841291349302425
+      spriteID: 0cd855e93d8e31a4b9d3842789a1e1c9
+      internalID: 8171567802000646381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_63
+      name: 00_CHA_ORANGE_SHEET_04_68
       rect:
         serializedVersion: 2
         x: 3150
@@ -1651,14 +1771,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f2aeb771168ce740898433f4d366f8e
-      internalID: -7888057926639770847
+      spriteID: 865da9caadebdc14d8ecb1308cd7cd0d
+      internalID: 8021356848727640329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_64
+      name: 00_CHA_ORANGE_SHEET_04_69
       rect:
         serializedVersion: 2
         x: 350
@@ -1672,14 +1792,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c9935a9cea408649967384ca47172f8
-      internalID: 1499891367839685506
+      spriteID: 402260787ce01194a81cf897312f3c0c
+      internalID: -2684503018713141498
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_65
+      name: 00_CHA_ORANGE_SHEET_04_70
       rect:
         serializedVersion: 2
         x: 700
@@ -1693,14 +1813,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3b904978f2819c4ea0ed6d1f418b1ed
-      internalID: -5523069288060916545
+      spriteID: 7afe3949742852841b487e2185bb1f8a
+      internalID: 3268083098648280132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_66
+      name: 00_CHA_ORANGE_SHEET_04_71
       rect:
         serializedVersion: 2
         x: 1050
@@ -1714,14 +1834,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b28c6941f722bb14dab3de47f64c5b76
-      internalID: -2049174760846399660
+      spriteID: bee911a6d06e30f4ca0970d8f7cb0afd
+      internalID: -1769649345572544192
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_67
+      name: 00_CHA_ORANGE_SHEET_04_72
       rect:
         serializedVersion: 2
         x: 350
@@ -1735,14 +1855,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccad0a78329bdd44c9d78d47b2f15d4c
-      internalID: -7255238254461283662
+      spriteID: e8b59434157ce1b4f911003a4e0bc079
+      internalID: -6279505877470045849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_68
+      name: 00_CHA_ORANGE_SHEET_04_73
       rect:
         serializedVersion: 2
         x: 700
@@ -1756,14 +1876,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a36fe652713dd1e46859747aa9a307aa
-      internalID: 5011081328918075766
+      spriteID: d7e0270435838484fbd8674409f75a9d
+      internalID: 1673422845673343600
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_69
+      name: 00_CHA_ORANGE_SHEET_04_74
       rect:
         serializedVersion: 2
         x: 1050
@@ -1777,14 +1897,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6d1fb95a0395324fad7bfeef9496db9
-      internalID: -685349609560541147
+      spriteID: 92a8463441af85f4bb0182890bdb8cf7
+      internalID: 8251217744204177202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_70
+      name: 00_CHA_ORANGE_SHEET_04_75
       rect:
         serializedVersion: 2
         x: 2800
@@ -1798,14 +1918,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c30aa456997044f44b84782e1a310075
-      internalID: -1680703357184364956
+      spriteID: 5fcb5a84a88efb64f9b5ee0bcf66199a
+      internalID: 2900348300944465044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 00_CHA_MAIN_SHEET_PIXELATE_GREEN_71
+      name: 00_CHA_ORANGE_SHEET_04_76
       rect:
         serializedVersion: 2
         x: 3150
@@ -1819,8 +1939,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5238564910850dd49b7320b26544513a
-      internalID: -6872212303896480553
+      spriteID: 8cc32083c25924d4cb02122a6b0504df
+      internalID: -7433298204012411855
       vertices: []
       indices: 
       edges: []
