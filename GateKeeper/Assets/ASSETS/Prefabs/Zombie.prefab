@@ -13,10 +13,10 @@ GameObject:
   m_Layer: 0
   m_Name: AttackPoint_BACK
   m_TagString: Untagged
-  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2963060021712058844
 Transform:
   m_ObjectHideFlags: 0
@@ -38,7 +38,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2963060021712058843}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -70,10 +70,10 @@ GameObject:
   m_Layer: 0
   m_Name: AttackPoint_DX
   m_TagString: Untagged
-  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2963060021910478245
 Transform:
   m_ObjectHideFlags: 0
@@ -95,7 +95,7 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2963060021910478244}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -136,10 +136,10 @@ GameObject:
   m_Layer: 0
   m_Name: AttackPoint_SX
   m_TagString: Untagged
-  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2963060022985365151
 Transform:
   m_ObjectHideFlags: 0
@@ -161,7 +161,7 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2963060022985365150}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -509,7 +509,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbffebf476eb7eb45afd0a8f6abd96f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerPosition: {fileID: 0}
   chaseRadius: 4
   attackRadius: 0.7
   enemyClass: 2
@@ -517,12 +516,13 @@ MonoBehaviour:
   enemyScore: 100
   enemyAttackRatio: 1
   enemyImpulseForce: 2
+  timeForRespawning: 0
   vampireSlash: {fileID: 0}
   slashSpeed: 0
-  front: {fileID: 0}
-  back: {fileID: 0}
-  dx: {fileID: 0}
-  sx: {fileID: 0}
+  frontCollider: {fileID: 2963060023109539343}
+  backCollider: {fileID: 2963060021712058843}
+  dxCollider: {fileID: 2963060021910478244}
+  sxCollider: {fileID: 2963060022985365150}
   attacking: 0
   activeAI: 1
 --- !u!114 &2963060023034243059
@@ -553,10 +553,10 @@ GameObject:
   m_Layer: 0
   m_Name: AttackPoint_FRONT
   m_TagString: Untagged
-  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2963060023109539344
 Transform:
   m_ObjectHideFlags: 0
@@ -578,7 +578,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2963060023109539343}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1

@@ -16,6 +16,7 @@ public class EnemyBehaviour : MonoBehaviour
     public enemyType enemyClass;
     public int enemyLife = 2;
     public int enemyScore = 100;
+    public int enemyDamage = 1;
     public float enemyAttackRatio;
     public float enemyImpulseForce;
     public float timeForRespawning;
@@ -23,10 +24,12 @@ public class EnemyBehaviour : MonoBehaviour
     [Header("Vampire attack")]
     public GameObject vampireSlash;
     public float slashSpeed;
-    public Collider2D front;
-    public Collider2D back;
-    public Collider2D dx;
-    public Collider2D sx;
+
+    [Header("Colliders")]
+    public GameObject frontCollider;
+    public GameObject backCollider;
+    public GameObject dxCollider;
+    public GameObject sxCollider;
 
     AIPath enemyAI;
     Patrol enemyPatrol;
@@ -55,7 +58,6 @@ public class EnemyBehaviour : MonoBehaviour
 
         enemyLifeMemory = enemyLife;
         enemyStartPosition = transform.position;
-        print(enemyStartPosition);
 
         if (enemyClass != enemyType.Ghost)
         {
@@ -103,44 +105,47 @@ public class EnemyBehaviour : MonoBehaviour
                     enemyAC.SetFloat("hor", xValue);
                     enemyAC.SetFloat("ver", yValue);
                 }
+
+                if (frontCollider != null && backCollider != null && dxCollider != null && sxCollider != null)
+                {
+                    if (xValue > thresholdX)
+                    {
+                        // DX
+                        frontCollider.SetActive(false);
+                        backCollider.SetActive(false);
+                        dxCollider.SetActive(true);
+                        sxCollider.SetActive(false);
+                    }
+                    else if (xValue < -thresholdX)
+                    {
+                        // SX
+                        frontCollider.SetActive(false);
+                        backCollider.SetActive(false);
+                        dxCollider.SetActive(false);
+                        sxCollider.SetActive(true);
+                    }
+                    else if (yValue > thresholdY)
+                    {
+                        // BACK
+                        frontCollider.SetActive(false);
+                        backCollider.SetActive(true);
+                        dxCollider.SetActive(false);
+                        sxCollider.SetActive(false);
+                    }
+                    else if (yValue < -thresholdY)
+                    {
+                        // FRONT
+                        frontCollider.SetActive(true);
+                        backCollider.SetActive(false);
+                        dxCollider.SetActive(false);
+                        sxCollider.SetActive(false);
+                    }
+                }
             }
 
             if (enemyClass == enemyType.Vampire)
             {
-                if (front != null && back != null && dx != null && sx != null)
-                {
-
-                    if (xValue > thresholdX)
-                    {
-                        front.enabled = false;
-                        back.enabled = false;
-                        dx.enabled = true;
-                        sx.enabled = false;
-
-                    }
-                    else if (xValue < -thresholdX)
-                    {
-
-                        front.enabled = false;
-                        back.enabled = false;
-                        dx.enabled = false;
-                        sx.enabled = true;
-                    }
-                    else if (yValue > thresholdY)
-                    {
-                        front.enabled = false;
-                        back.enabled = true;
-                        dx.enabled = false;
-                        sx.enabled = false;
-                    }
-                    else if (yValue < -thresholdY)
-                    {
-                        front.enabled = true;
-                        back.enabled = false;
-                        dx.enabled = false;
-                        sx.enabled = false;
-                    }
-                }
+                
             }
         }
         
@@ -209,7 +214,7 @@ public class EnemyBehaviour : MonoBehaviour
         PlayerMovement _playerMovement = collision.GetComponent<PlayerMovement>();
         _playerMovement.enabled = false;
         Rigidbody2D _playerRB = collision.GetComponent<Rigidbody2D>();
-        PlayerBehaviour.instancePB.PlayerDamaged();
+        PlayerBehaviour.instancePB.PlayerDamaged(enemyDamage);
         Vector2 difference = (_playerRB.transform.position - transform.position);
         difference = difference.normalized * enemyImpulseForce;
         _playerRB.AddForce(difference, ForceMode2D.Impulse);

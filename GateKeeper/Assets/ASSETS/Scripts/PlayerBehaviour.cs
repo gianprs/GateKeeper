@@ -132,9 +132,9 @@ public class PlayerBehaviour : MonoBehaviour
         }
     }
 
-    public void PlayerDamaged()
+    public void PlayerDamaged(int damageAmount)
     {
-        playerLife--;
+        playerLife -= damageAmount;
 
         if(playerLife > 0)
         {

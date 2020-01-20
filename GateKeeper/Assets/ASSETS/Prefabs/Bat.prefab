@@ -13,7 +13,7 @@ GameObject:
   m_Layer: 0
   m_Name: AttackPoint_DX
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -72,7 +72,7 @@ GameObject:
   m_Layer: 0
   m_Name: AttackPoint_SX
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -131,7 +131,7 @@ GameObject:
   m_Layer: 0
   m_Name: AttackPoint_FRONT
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -498,7 +498,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbffebf476eb7eb45afd0a8f6abd96f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerPosition: {fileID: 0}
   chaseRadius: 5
   attackRadius: 3
   enemyClass: 1
@@ -506,13 +505,14 @@ MonoBehaviour:
   enemyScore: 100
   enemyAttackRatio: 3
   enemyImpulseForce: 2
+  timeForRespawning: 0
   vampireSlash: {fileID: 4927572381712587338, guid: b52807e4519fe6548895bf2ffc693748,
     type: 3}
   slashSpeed: 0.5
-  front: {fileID: 5482697671192067061}
-  back: {fileID: 5482697671631612914}
-  dx: {fileID: 5482697670384570070}
-  sx: {fileID: 5482697671094710037}
+  frontCollider: {fileID: 5482697671192067067}
+  backCollider: {fileID: 5482697671631612912}
+  dxCollider: {fileID: 5482697670384570068}
+  sxCollider: {fileID: 5482697671094710043}
   attacking: 0
   activeAI: 1
 --- !u!114 &5482697671240990187
@@ -543,7 +543,7 @@ GameObject:
   m_Layer: 0
   m_Name: AttackPoint_BACK
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1

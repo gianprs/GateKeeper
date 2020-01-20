@@ -5,46 +5,103 @@ using UnityEngine;
 public class testAngle : MonoBehaviour
 {
 
-    public Transform obj;
+    public Transform player, princess;
 
-    public GameObject up, down, dx, sx;
+    public GameObject up, down, dx, dx_up, dx_down, sx, sx_up, sx_down;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    
 
     // Update is called once per frame
     void Update()
     {
-        Vector2 vectorDir = obj.position - transform.position;
+        Vector2 vectorDir = princess.position - player.position;
 
-        float angle = Vector2.SignedAngle(vectorDir, transform.position);
+        float angle = Vector2.SignedAngle(vectorDir, player.position);
+        print(angle);
 
-        if(angle < 45 && angle > -45)
+        if(angle < 22.5f && angle > -22.5f)
         {
             // down
             up.SetActive(false);
             down.SetActive(true);
             dx.SetActive(false);
+            dx_down.SetActive(false);
+            dx_up.SetActive(false);
             sx.SetActive(false);
+            sx_down.SetActive(false);
+            sx_up.SetActive(false);
         } 
-        else if (angle > 45 && angle < 135)
+        else if (angle > 22.5f && angle < 67.5f)
+        {
+            // sx_down
+            up.SetActive(false);
+            down.SetActive(false);
+            dx.SetActive(false);
+            dx_down.SetActive(false);
+            dx_up.SetActive(false);
+            sx.SetActive(false);
+            sx_down.SetActive(true);
+            sx_up.SetActive(false);
+        }
+        else if (angle > 67.5f && angle < 112.5f)
         {
             // sx
             up.SetActive(false);
             down.SetActive(false);
             dx.SetActive(false);
+            dx_down.SetActive(false);
+            dx_up.SetActive(false);
             sx.SetActive(true);
-        }         
-        else if (angle > -135 && angle < -45)
+            sx_down.SetActive(false);
+            sx_up.SetActive(false);
+        }
+        else if (angle > 112.5f && angle < 157.5f)
+        {
+            // sx_up
+            up.SetActive(false);
+            down.SetActive(false);
+            dx.SetActive(false);
+            dx_down.SetActive(false);
+            dx_up.SetActive(false);
+            sx.SetActive(false);
+            sx_down.SetActive(false);
+            sx_up.SetActive(true);
+        }
+        else if (angle > -157.5f && angle < -112.5f)
+        {
+            // dx_up
+            up.SetActive(false);
+            down.SetActive(false);
+            dx.SetActive(false);
+            dx_down.SetActive(false);
+            dx_up.SetActive(true);
+            sx.SetActive(false);
+            sx_down.SetActive(false);
+            sx_up.SetActive(false);
+        }
+        else if (angle > -112.5f && angle < -67.5f)
         {
             // dx
             up.SetActive(false);
             down.SetActive(false);
             dx.SetActive(true);
+            dx_down.SetActive(false);
+            dx_up.SetActive(false);
             sx.SetActive(false);
+            sx_down.SetActive(false);
+            sx_up.SetActive(false);
+        }
+        else if (angle > -67.5f && angle < -22.5f)
+        {
+            // dx_down
+            up.SetActive(false);
+            down.SetActive(false);
+            dx.SetActive(false);
+            dx_down.SetActive(true);
+            dx_up.SetActive(false);
+            sx.SetActive(false);
+            sx_down.SetActive(false);
+            sx_up.SetActive(false);
         }
         else 
         {
@@ -52,7 +109,11 @@ public class testAngle : MonoBehaviour
             up.SetActive(true);
             down.SetActive(false);
             dx.SetActive(false);
+            dx_down.SetActive(false);
+            dx_up.SetActive(false);
             sx.SetActive(false);
+            sx_down.SetActive(false);
+            sx_up.SetActive(false);
         }
     }
 }

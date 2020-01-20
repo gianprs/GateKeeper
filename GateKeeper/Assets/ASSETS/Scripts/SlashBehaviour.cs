@@ -8,6 +8,7 @@ public class SlashBehaviour : MonoBehaviour
     AudioSource slashAudio;
     public Collider2D myCollider;
 
+    public int damageAmount = 1;
     public float slashImpulseForce;
 
     [HideInInspector]
@@ -44,7 +45,7 @@ public class SlashBehaviour : MonoBehaviour
                 PlayerMovement _playerMovement = collision.GetComponent<PlayerMovement>();
                 _playerMovement.enabled = false;
                 Rigidbody2D _playerRB = collision.GetComponent<Rigidbody2D>();
-                PlayerBehaviour.instancePB.PlayerDamaged();
+                PlayerBehaviour.instancePB.PlayerDamaged(damageAmount);
                 Vector2 difference = (_playerRB.transform.position - transform.position);
                 difference = difference.normalized * slashImpulseForce;
                 _playerRB.AddForce(difference, ForceMode2D.Impulse);
