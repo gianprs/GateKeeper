@@ -200,7 +200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9901511, b: 0.6367924, a: 1}
+  m_Color: {r: 1, g: 0.63529414, b: 0.717836, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -208,7 +208,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: c5b7bf10293b38946b64e830eb23c0b8, type: 3}
     m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
@@ -818,7 +818,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9901511, b: 0.6367924, a: 1}
+  m_Color: {r: 1, g: 0.63529414, b: 0.717836, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -826,7 +826,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: c5b7bf10293b38946b64e830eb23c0b8, type: 3}
     m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
@@ -10161,7 +10161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9901511, b: 0.6367924, a: 1}
+  m_Color: {r: 1, g: 0.63529414, b: 0.717836, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -10169,7 +10169,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: c5b7bf10293b38946b64e830eb23c0b8, type: 3}
     m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
@@ -10362,7 +10362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9901511, b: 0.6367924, a: 1}
+  m_Color: {r: 1, g: 0.63529414, b: 0.717836, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -10370,7 +10370,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: c5b7bf10293b38946b64e830eb23c0b8, type: 3}
     m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
@@ -10549,6 +10549,85 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74fe21155973b0c468496c3ddb36100e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &911014855
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 911014856}
+  - component: {fileID: 911014858}
+  - component: {fileID: 911014857}
+  m_Layer: 5
+  m_Name: Letter_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &911014856
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911014855}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1978400877}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 1}
+  m_SizeDelta: {x: 160.66, y: 78.8}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &911014857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911014855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: c5b7bf10293b38946b64e830eb23c0b8, type: 3}
+    m_FontSize: 28
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: A
+--- !u!222 &911014858
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911014855}
+  m_CullTransparentMesh: 0
 --- !u!1 &948868539
 GameObject:
   m_ObjectHideFlags: 0
@@ -10814,7 +10893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9901511, b: 0.6367924, a: 1}
+  m_Color: {r: 1, g: 0.63529414, b: 0.717836, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -10822,7 +10901,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: c5b7bf10293b38946b64e830eb23c0b8, type: 3}
     m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
@@ -11404,7 +11483,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1222275732}
   - component: {fileID: 1222275731}
-  - component: {fileID: 1222275733}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -11425,6 +11503,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerBehaviour: {fileID: 2016576460}
+  player: {fileID: 2016576458}
+  princess: {fileID: 1862638122}
   enemiesKilledCount: {fileID: 1908136462}
   scoreText: {fileID: 1590745171}
   gameOverText: {fileID: 1673268179}
@@ -11438,10 +11518,27 @@ MonoBehaviour:
     type: 3}
   emptyHeart: {fileID: -6974071674910835800, guid: 202e0fb775fe8d04bb7dba07dd9c8a30,
     type: 3}
+  timeMessage: 20
+  up: {fileID: 1479363915}
+  down: {fileID: 875978026}
+  dx: {fileID: 322132210}
+  dx_up: {fileID: 1935009376}
+  dx_down: {fileID: 951980486}
+  sx: {fileID: 2119443389}
+  sx_up: {fileID: 148943884}
+  sx_down: {fileID: 761073779}
   powerUpTimeGhost: 10
   powerUpTimeArmor: 10
   powerUpTimeVampire: 10
   powerUpTimeZombie: 10
+  nameSelection: 1
+  playerLettersText:
+  - {fileID: 1256660331}
+  - {fileID: 911014857}
+  - {fileID: 1747995373}
+  p1_selection: []
+  standardColor: {r: 0, g: 0.5890684, b: 1, a: 1}
+  highlightedColor: {r: 1, g: 0.6024933, b: 0, a: 1}
 --- !u!4 &1222275732
 Transform:
   m_ObjectHideFlags: 0
@@ -11456,28 +11553,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1222275733
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1222275730}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e8a3ece28c608a4094944629956cd00, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 2016576458}
-  princess: {fileID: 1862638122}
-  up: {fileID: 1479363915}
-  down: {fileID: 875978026}
-  dx: {fileID: 322132210}
-  dx_up: {fileID: 1935009376}
-  dx_down: {fileID: 951980486}
-  sx: {fileID: 2119443389}
-  sx_up: {fileID: 148943884}
-  sx_down: {fileID: 761073779}
 --- !u!1 &1237778030
 GameObject:
   m_ObjectHideFlags: 0
@@ -11637,6 +11712,85 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectableScore: 50
+--- !u!1 &1256660329
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1256660330}
+  - component: {fileID: 1256660332}
+  - component: {fileID: 1256660331}
+  m_Layer: 5
+  m_Name: Letter_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1256660330
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256660329}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1978400877}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -77, y: 1}
+  m_SizeDelta: {x: 160.66, y: 78.8}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1256660331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256660329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: c5b7bf10293b38946b64e830eb23c0b8, type: 3}
+    m_FontSize: 28
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: A
+--- !u!222 &1256660332
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256660329}
+  m_CullTransparentMesh: 0
 --- !u!1 &1311758471
 GameObject:
   m_ObjectHideFlags: 0
@@ -12270,7 +12424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9901511, b: 0.6367924, a: 1}
+  m_Color: {r: 1, g: 0.63529414, b: 0.717836, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -12278,7 +12432,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: c5b7bf10293b38946b64e830eb23c0b8, type: 3}
     m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
@@ -17534,6 +17688,85 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1747995371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1747995372}
+  - component: {fileID: 1747995374}
+  - component: {fileID: 1747995373}
+  m_Layer: 5
+  m_Name: Letter_03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1747995372
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747995371}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1978400877}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 77, y: 1}
+  m_SizeDelta: {x: 160.66, y: 78.8}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1747995373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747995371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: c5b7bf10293b38946b64e830eb23c0b8, type: 3}
+    m_FontSize: 28
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: A
+--- !u!222 &1747995374
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747995371}
+  m_CullTransparentMesh: 0
 --- !u!1 &1754713793
 GameObject:
   m_ObjectHideFlags: 0
@@ -17595,7 +17828,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAAAIIexpgzCYWgIAAPwEAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVMty4jAQ/BVK5yVlIAS8t12HkD0kUGG3cvFFWGOsQpZceoRHin/fkWxjh5wQPT2j7pmRPwmXpoLMKr3UnL0oBuTngPgz+THogs9wpDslN/wMLeedM1t4Eg2cN2q5Qnzk04wqwWqe/ZI74ckRgk7yXOlywXaQKGMNwjkVBjCklfXZEqHPATnizzD2KSc8jWf+dMZTHA0ueMxAWtAdtSUOo7tpw6yJTmaClhUwr7rjx3GTMHq4m00DU6KlhhTdjX2VTAnBTSOJ2FMVLCe0Mg4NIYFxihaDDu+4AL4rrJfbT17luQHbaNT09Mg1dqquSn6run0lNfta3QcVzt8zisb3QVdd9eUbYTgK4Vyr8rm9eBT5S2zBs/0bPWXU2F6D+/DjV+VOHqjY062A9wLkq1pq5STDoNXOpzoD48fu79VbUkC27/Ba6g3oqu9jaqfpPVyC/WMieLkNvb+vgY1QoeFhCUDjdP6g4LAipimBqFfxz8BfuuvvUhN44tpYDDUupZe3VU57KlmEnnk3ziZKSwhwI7oCSYU9rbGMvZ3hTax37U3kifpX01zexNrHcJMS4I4fRTehtTpch2UKdXgBU6ycFVxCJ9oHXrFPiZKyXrF+T9q0jdM5zXppO8fZ19Ui95N4SqMJncWz0RS2k+FsPH+I5zmwOJ6Pc5iQsHtcok8q1rXQpj04NdkVl7hn7cdksNS0CuvOND0s+blUvZZzmatNpgHkqq5wFQ4aL8GXyRaMY4M2YC2XYd7kMyVCZXtg6bVQGpwujlbTtKuSkop/KOuRlCTh65GSC7n8B1BLAwQUAAAICAAACCHs4xGqTWwAAAB4AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9IzNNRRUEovSizIKAaKgDmlmSkgdrSSibGlaaKBcaK5pbmhaWqSsa65kYWZpUVaaoqlpYVRWqqxUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAAAIIexpgzCYWgIAAPwEAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAAAIIezjEapNbAAAAHgAAAAJACQAAAAAAAAAAAAAAKcCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAXgMAAAAA
+    dataString: UEsDBBQAAAgIAAAIIezY/OnBaAIAAAoFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1z4jAM/SuMzwuTBCjN3nYDpXug7ZTu9JKLSRTiwbEz/ijQDv99ZSchKXtCSHrS05OcL8KEriEzUq0VyzcyB/JzRJxNfoz64COc6F6KLfuELued5aZ0SdTnvFLDJPpDB9OyAqNY9kvsuUsO0GkFK6SqVvkeEqmNRndBuQYMKWkcWqDra0RO+DOOHeSMVrRw1idacTC6oJmBMKD61HAxmcdREIQtYBxMZtE8DONZi2tgVmScVjXkboYeHcctLLybLOY+U+CAbVIwieaupeSc6ZYgMefaC5DQWlscDxNyRnFgz8rRKIHtS+PID8HPRaHBtGooel4yhbo1Vclv2YhZUX1o2H1Qbl2fMIhmnldTdfNfwjj04ULJ6rFrHAauiSlZdnil54xqM5B76F5+Z27FkfID3XF4L0E8ybWSVuQYNMo6qNUQLfu/19mSErJD72+o3jht3cvebbfbrZvh4sc/JZxVO6/9rHFsufSC+5MAhdv5g4T9wei2BHodi78a3uh+eFlt4IEpbTDUTikcvZ20yqWSldfMTWNNIpUA725J1yAoN+cXLGNud3gTG7S9iTxQ94ba5m2sexo3EO/u84PgJvQij9dl6VIeN6DLZ2s4E9CTdoEn1CmRQjQnNtSkg22tKmg2gO0ty7+fFplN4zkNpnQRL8I57KbjRXR/F98XkMfxfVTAlPjbYwLnpPylIdrKg1sTfXGBd9Z9WkZrRWt/7rmixzX7rORAciYKuc0UgHhuKlyJg8Im+DLzVc5QoC0Yw4TfN/lKCZfZAfL0Wij1k65ORtG0r5KSmn1I4zwpSfy3JCUXcvkHUEsDBBQAAAgIAAAIIezjEapNbAAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM01FFQSi9KLMgoBoqAOaWZKSB2tJKJsaVpooFxormluaFpapKxrrmRhZmlRVpqiqWlhVFaqrFSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAAAgh7Nj86cFoAgAACgUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAAAgh7OMRqk1sAAAAeAAAAAkAJAAAAAAAAAAAAAAAtQIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAABsAwAAAAA=
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -17864,7 +18097,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1862638121}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.03, y: 1.89, z: 0}
+  m_LocalPosition: {x: 0.02, y: 1.51, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -18173,7 +18406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9901511, b: 0.6367924, a: 1}
+  m_Color: {r: 1, g: 0.63529414, b: 0.717836, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -18181,7 +18414,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: c5b7bf10293b38946b64e830eb23c0b8, type: 3}
     m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
@@ -18782,6 +19015,9 @@ RectTransform:
   - {fileID: 1935009377}
   - {fileID: 761073780}
   - {fileID: 951980487}
+  - {fileID: 1256660330}
+  - {fileID: 911014856}
+  - {fileID: 1747995372}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -19919,7 +20155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9901511, b: 0.6367924, a: 1}
+  m_Color: {r: 1, g: 0.63529414, b: 0.717836, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -19927,7 +20163,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: c5b7bf10293b38946b64e830eb23c0b8, type: 3}
     m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
