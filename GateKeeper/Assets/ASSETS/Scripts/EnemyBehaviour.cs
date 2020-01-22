@@ -174,7 +174,7 @@ public class EnemyBehaviour : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            if (enemyClass == enemyType.Vampire)
+            if (enemyClass == enemyType.Vampire && !enemyDead)
             {
                 if (!attacking)
                 {
@@ -292,7 +292,7 @@ public class EnemyBehaviour : MonoBehaviour
 
     IEnumerator RespawnEnemy()
     {
-        if (enemyClass != enemyType.Ghost)
+        if (enemyClass != enemyType.Ghost && enemyClass != enemyType.Vampire)
         {
             enemyAI.enabled = false;
             enemyPatrol.enabled = false;
@@ -324,4 +324,6 @@ public class EnemyBehaviour : MonoBehaviour
         enemyLife = enemyLifeMemory;
         transform.position = enemyStartPosition;
     }
+
+    
 }

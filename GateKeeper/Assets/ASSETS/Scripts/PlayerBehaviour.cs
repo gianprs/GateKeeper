@@ -13,9 +13,14 @@ public class PlayerBehaviour : MonoBehaviour
     [Header("AnimatorControllers")]
     public Animator playerAC;
     public RuntimeAnimatorController playerAC_default;
-    public AnimatorOverrideController playerAC_orange;
+    public AnimatorOverrideController playerAC_orange, playerAC_white, playerAC_purple, playerAC_red;
 
-    [Header("sprites enemies")]
+    [Header("Sprites player")]
+
+    public Sprite playerDefault;
+    public Sprite playerOrange, playerWhite, playerPurple, playerRed;
+
+    [Header("Sprites enemies")]
     public Image slot_01;
     public Image slot_02;
     public Image slot_03;
@@ -23,10 +28,7 @@ public class PlayerBehaviour : MonoBehaviour
     public Sprite fantasmaSprite;
     public Sprite zombieSprite;
     public Sprite armaturaSprite;
-    public Sprite batSprite;
-
-    public Sprite playerDefault;
-    public Sprite playerOrange;
+    public Sprite batSprite;    
 
     [Header("Player info")]
     public int playerLife;
@@ -100,17 +102,25 @@ public class PlayerBehaviour : MonoBehaviour
         {
             // invisibilità
             //StartCoroutine(PowerUpGhost());
-            playerSprite.color = Color.Lerp(normalColor, ghostColor, Mathf.PingPong(Time.time, 1));
+            
+
+            playerSprite.sprite = playerWhite;
+            playerAC.runtimeAnimatorController = playerAC_white;
+
+            //playerSprite.color = Color.Lerp(normalColor, ghostColor, Mathf.PingPong(Time.time, 1));
         }
         if(powerUpZombie)
         {
-            // super forza me più lento
-            playerHitDamage = 2;
-            playerMovement.playerSpeed -= 0.5f;
+            // più veloce ma meno attacco
+
+            playerSprite.sprite = playerPurple;
+            playerAC.runtimeAnimatorController = playerAC_purple;
         }
         if(powerUpArmatura)
         {
-            // super difesa
+            // super attacco ma più lento
+            playerHitDamage = 2;
+            playerMovement.playerSpeed -= 0.5f;
 
             playerSprite.sprite = playerOrange;
             playerAC.runtimeAnimatorController = playerAC_orange;
@@ -120,6 +130,9 @@ public class PlayerBehaviour : MonoBehaviour
         {
             // attacco distanza ma meno frequente
             attackRate = 1;
+
+            playerSprite.sprite = playerRed;
+            playerAC.runtimeAnimatorController = playerAC_red;
         }
 
         // reset sprite e animator
@@ -130,6 +143,7 @@ public class PlayerBehaviour : MonoBehaviour
             playerSprite.sprite = playerDefault;
             playerAC.runtimeAnimatorController = playerAC_default;
         }
+        
     }
 
     public void PlayerDamaged(int damageAmount)
@@ -150,9 +164,7 @@ public class PlayerBehaviour : MonoBehaviour
             slot_01.enabled = false;
             slot_02.enabled = false;
             slot_03.enabled = false;
-        }        
-
-        
+        } 
 
         GameManager.instanceGM.UpdateHeart();
     }
@@ -163,8 +175,6 @@ public class PlayerBehaviour : MonoBehaviour
 
         myAudio.clip = attackSound[Random.Range(0, attackSound.Length)];
         myAudio.Play();
-
-        //suono
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -551,19 +561,21 @@ public class PlayerBehaviour : MonoBehaviour
     }
     #endregion
 
-    IEnumerator PowerUpGhost()
-    {
-        print("ghost");
-        int temp = 0;
-        //myCollider.enabled = false;
-        while (temp < numberOfFlashesDamaged)
-        {
-            playerSprite.color = ghostColor;
-            yield return new WaitForSeconds(flashDuration);
-            playerSprite.color = normalColor;
-            yield return new WaitForSeconds(flashDuration);
-            temp++;
-        }
-        //myCollider.enabled = true;
-    }
+    //IEnumerator PowerUpGhost()
+    //{
+    //    print("ghost");
+    //    int temp = 0;
+    //    //myCollider.enabled = false;
+    //    while (temp < numberOfFlashesDamaged)
+    //    {
+    //        playerSprite.color = ghostColor;
+    //        yield return new WaitForSeconds(flashDuration);
+    //        playerSprite.color = normalColor;
+    //        yield return new WaitForSeconds(flashDuration);
+    //        temp++;
+    //    }
+    //    //myCollider.enabled = true;
+    //}
+
+    
 }
