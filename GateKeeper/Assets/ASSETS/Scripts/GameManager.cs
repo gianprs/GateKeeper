@@ -24,6 +24,7 @@ public class GameManager : MonoBehaviour
     public Text enemiesKilledCount, scoreText, gameOverText, finalScoreText;
     public Image firstHeart, secondHeart, thirdHeart;
     public Sprite fullheart, halfHeart, emptyHeart;
+    public Animator blackScreenFade;
 
     [Header("Help text messages")]
     public float timeMessage;
@@ -90,6 +91,9 @@ public class GameManager : MonoBehaviour
         sx.SetActive(false);
         sx_down.SetActive(false);
         sx_up.SetActive(false);
+
+        blackScreenFade.gameObject.SetActive(true);
+        blackScreenFade.SetBool("Fade", true);
 
         playerLettersText[0].color = highlightedColor;
         playerLettersText[1].color = standardColor;
