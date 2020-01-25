@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Castle_Entrance_Balcony_02_PX
+  m_Name: Dine_Room_Wall_03_PX
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: 7dceba2140527a34ea948aa153811ac0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 588c9381c42f9a34a93eeee3c3206077, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
