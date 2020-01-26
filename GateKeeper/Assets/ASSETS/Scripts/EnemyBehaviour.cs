@@ -20,6 +20,7 @@ public class EnemyBehaviour : MonoBehaviour
     public float enemyAttackRatio;
     public float enemyImpulseForce;
     public float timeForRespawning;
+    public GameObject particleDeath;
 
     [Header("Vampire attack")]
     public GameObject vampireSlash;
@@ -256,6 +257,9 @@ public class EnemyBehaviour : MonoBehaviour
     {
         // TODO animazione morte
         enemyDead = true;
+
+        GameObject cloneParticle = Instantiate(particleDeath, transform.position, transform.rotation);
+
         StartCoroutine(RespawnEnemy());
     }
 
