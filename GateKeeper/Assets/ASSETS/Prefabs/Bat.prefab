@@ -276,7 +276,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 100
+  m_SortingOrder: 0
   m_Sprite: {fileID: -6197570942360555362, guid: 6d71834fabe28df4d8f5df5a505bbc15,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -503,12 +503,9 @@ MonoBehaviour:
   enemyClass: 1
   enemyLife: 2
   enemyScore: 100
-  enemyDamage: 1
   enemyAttackRatio: 3
   enemyImpulseForce: 2
   timeForRespawning: 0
-  particleDeath: {fileID: 4259822224056984600, guid: 15fd86e8d9819ac40a756c9582eeb949,
-    type: 3}
   vampireSlash: {fileID: 4927572381712587338, guid: b52807e4519fe6548895bf2ffc693748,
     type: 3}
   slashSpeed: 0.5
